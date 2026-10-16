@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://aipriceradar.pages.dev/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/"/>
+  </url>
+  <url>
+    <loc>https://aipriceradar.pages.dev/prices.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/prices.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/prices.html"/>
+  </url>
+  <url>
+    <loc>https://aipriceradar.pages.dev/promotions.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/promotions.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/promotions.html"/>
+  </url>
+  <url>
+    <loc>https://aipriceradar.pages.dev/tools.html</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/tools.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/tools.html"/>
+  </url>
+</urlset>
