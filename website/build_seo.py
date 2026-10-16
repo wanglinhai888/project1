@@ -25,7 +25,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 OUT = HERE
 
-SITE_URL = os.environ.get("SITE_URL", "https://aipriceradar.pages.dev").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://www.codenav.cn").rstrip("/")
 SITE_NAME_ZH = "AI 大模型价格雷达"
 SITE_NAME_EN = "AI Model Price Radar"
 
@@ -103,7 +103,7 @@ a{color:var(--blue);text-decoration:none}
 footer{margin-top:30px;padding:20px 0;color:var(--dim);font-size:13px;border-top:1px solid var(--border)}
 """
 
-def page_head(title, sub):
+def page_head(title, sub, canon):
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -114,7 +114,7 @@ def page_head(title, sub):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(sub)}">
 <meta property="og:type" content="website">
-<link rel="canonical" href="{SITE_URL}/">
+<link rel="canonical" href="{SITE_URL}{canon}">
 </head>
 <body>
 <div class="container">
@@ -139,7 +139,8 @@ def page_foot():
 # ---------------------------------------------------------------------------
 def build_prices():
     s = page_head(f"{SITE_NAME_ZH} · 实时价格表",
-                  f"全球大模型 API 实时价格表（每百万 Token）：输入价、输出价、上下文窗口。更新于 {esc(gen_at)}。")
+                  f"全球大模型 API 实时价格表（每百万 Token）：输入价、输出价、上下文窗口。更新于 {esc(gen_at)}。",
+                  "/prices")
     s += "<div class='card'>"
     s += f"覆盖厂商 <b>{esc(summary.get('providers','-'))}</b> · 监控模型 <b>{esc(summary.get('total_models','-'))}</b> · "
     s += f"今日降价 <b>{esc(summary.get('price_down','-'))}</b> · 今日涨价 <b>{esc(summary.get('price_up','-'))}</b> · 新模型 <b>{esc(summary.get('new_models','-'))}</b>"
@@ -169,7 +170,8 @@ def build_prices():
 # ---------------------------------------------------------------------------
 def build_promotions():
     s = page_head(f"{SITE_NAME_ZH} · 优惠活动",
-                  "整理全球主流大模型厂商当前真实在行的优惠、限免与免费额度活动。")
+                  "整理全球主流大模型厂商当前真实在行的优惠、限免与免费额度活动。",
+                  "/promotions")
     s += "<table><thead><tr><th>类型</th><th>厂商 · 活动</th><th>详情 / 来源</th></tr></thead><tbody>"
     for p in promotions:
         tag = p.get("tag", "")
@@ -192,7 +194,8 @@ def build_promotions():
 # ---------------------------------------------------------------------------
 def build_tools():
     s = page_head(f"{SITE_NAME_ZH} · 工具指南",
-                  "精选 AI 对话、模型聚合、价格对比、API 调试与 AI 编程工具，附价格与套餐说明。")
+                  "精选 AI 对话、模型聚合、价格对比、API 调试与 AI 编程工具，附价格与套餐说明。",
+                  "/tools")
     for cat in tools:
         s += f"<h2>{esc(cat.get('category', ''))}</h2>"
         s += "<div class='card'>"
@@ -213,9 +216,9 @@ PAGE_CSS_BLOCK = f"<style>{PAGE_CSS}</style>"
 def build_sitemap():
     urls = [
         ("/", "daily"),
-        ("/prices.html", "daily"),
-        ("/promotions.html", "daily"),
-        ("/tools.html", "daily"),
+        ("/prices", "daily"),
+        ("/promotions", "daily"),
+        ("/tools", "daily"),
     ]
     lastmod = (gen_at or today_date or datetime.date.today().isoformat())
     if "T" in lastmod:
@@ -243,9 +246,9 @@ def build_robots():
 Allow: /
 
 # 静态预渲染页（SEO 友好，优先抓取）
-Allow: /prices.html
-Allow: /promotions.html
-Allow: /tools.html
+Allow: /prices
+Allow: /promotions
+Allow: /tools
 Allow: /api/
 
 Sitemap: {SITE_URL}/sitemap.xml
