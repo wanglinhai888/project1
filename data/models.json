@@ -1,5 +1,65 @@
 [
   {
+    "provider": "Reflection",
+    "model": "beam-1.0-501b-a23b",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Moondream",
+    "model": "moondream3-preview",
+    "category": "LLM",
+    "context_window": 32000
+  },
+  {
+    "provider": "Moondream",
+    "model": "moondream3.1-9b-a2b",
+    "category": "LLM",
+    "context_window": 32000
+  },
+  {
+    "provider": "Meta",
+    "model": "muse-spark-open",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Nvidia",
+    "model": "nemotron-3.5-super-vl",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "~Unbiased",
+    "model": "pareto-latest",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
+    "provider": "Unbiased",
+    "model": "pareto-26.9",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
+    "provider": "Liquid",
+    "model": "lfm-2.5-24b-a2b",
+    "category": "LLM",
+    "context_window": 128000
+  },
+  {
+    "provider": "Google",
+    "model": "gemini-4-argon",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Google",
+    "model": "gemini-4-argon:batch",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Scaledown",
     "model": "summarize",
     "category": "LLM",
@@ -21,7 +81,7 @@
     "provider": "StepFun",
     "model": "step-5-preview",
     "category": "LLM",
-    "context_window": 1000000
+    "context_window": 1048576
   },
   {
     "provider": "Anthropic",
@@ -48,10 +108,10 @@
     "context_window": 1048576
   },
   {
-    "provider": "Unbiased",
-    "model": "pareto-26.10-preview",
+    "provider": "Inclusionai",
+    "model": "ling-3.1-flash",
     "category": "LLM",
-    "context_window": 1048576
+    "context_window": 262144
   },
   {
     "provider": "OpenAI",
@@ -240,12 +300,6 @@
     "context_window": 1048576
   },
   {
-    "provider": "Unbiased",
-    "model": "pareto",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
     "provider": "~Deepseek",
     "model": "deepseek-pro-latest",
     "category": "LLM",
@@ -309,7 +363,7 @@
     "provider": "Inclusionai",
     "model": "ling-3.0-flash-vl",
     "category": "LLM",
-    "context_window": 262144
+    "context_window": 131072
   },
   {
     "provider": "DeepSeek",
@@ -366,12 +420,6 @@
     "context_window": 1050000
   },
   {
-    "provider": "Inclusionai",
-    "model": "ling-3.0-flash-sante",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
     "provider": "Alibaba",
     "model": "qwen3.8-max-0902",
     "category": "LLM",
@@ -424,12 +472,6 @@
     "model": "hy4-preview",
     "category": "LLM",
     "context_window": 1048576
-  },
-  {
-    "provider": "Inclusionai",
-    "model": "ling-3.0-flash-fin",
-    "category": "LLM",
-    "context_window": 262144
   },
   {
     "provider": "~Z-Ai",
@@ -2064,12 +2106,6 @@
     "context_window": 163840
   },
   {
-    "provider": "Anthropic",
-    "model": "claude-sonnet-4",
-    "category": "LLM",
-    "context_window": 200000
-  },
-  {
     "provider": "Mistral",
     "model": "mistral-medium-3",
     "category": "LLM",
@@ -2608,6 +2644,30 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
+  },
+  {
+    "provider": "Google",
+    "model": "Gemini 2.5 Pro",
+    "category": "LLM",
+    "context_window": 200000
+  },
+  {
+    "provider": "Google",
+    "model": "Gemini 2.5 Flash",
+    "category": "LLM",
+    "context_window": 1000000
+  },
+  {
+    "provider": "Google",
+    "model": "Gemini 2.5 Flash-Lite",
+    "category": "LLM",
+    "context_window": 1000000
+  },
+  {
+    "provider": "Google",
+    "model": "Gemini 2.5 Flash Image",
+    "category": "Multimodal",
+    "context_window": 1000000
   },
   {
     "provider": "DeepSeek",

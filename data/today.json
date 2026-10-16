@@ -1,7 +1,127 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T23:47:26+08:00",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T23:54:41+08:00",
   "prices": [
+    {
+      "provider": "Reflection",
+      "model": "beam-1.0-501b-a23b",
+      "category": "LLM",
+      "context_window": 1048576,
+      "input_price": 0.25,
+      "output_price": 1.0,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://openrouter.ai/models/reflection/beam-1.0-501b-a23b"
+    },
+    {
+      "provider": "Moondream",
+      "model": "moondream3-preview",
+      "category": "LLM",
+      "context_window": 32000,
+      "input_price": 0.3,
+      "output_price": 2.5,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://openrouter.ai/models/moondream/moondream3-preview"
+    },
+    {
+      "provider": "Moondream",
+      "model": "moondream3.1-9b-a2b",
+      "category": "LLM",
+      "context_window": 32000,
+      "input_price": 0.3,
+      "output_price": 2.5,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://openrouter.ai/models/moondream/moondream3.1-9b-a2b"
+    },
+    {
+      "provider": "Meta",
+      "model": "muse-spark-open",
+      "category": "LLM",
+      "context_window": 1048576,
+      "input_price": 1.25,
+      "output_price": 4.25,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://www.llama.com/"
+    },
+    {
+      "provider": "Nvidia",
+      "model": "nemotron-3.5-super-vl",
+      "category": "LLM",
+      "context_window": 1048576,
+      "input_price": 0.15,
+      "output_price": 0.5,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://build.nvidia.com/"
+    },
+    {
+      "provider": "~Unbiased",
+      "model": "pareto-latest",
+      "category": "LLM",
+      "context_window": 262144,
+      "input_price": 2.5,
+      "output_price": 7.5,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://unbiased.ai/"
+    },
+    {
+      "provider": "Unbiased",
+      "model": "pareto-26.9",
+      "category": "LLM",
+      "context_window": 262144,
+      "input_price": 2.5,
+      "output_price": 7.5,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://unbiased.ai/"
+    },
+    {
+      "provider": "Liquid",
+      "model": "lfm-2.5-24b-a2b",
+      "category": "LLM",
+      "context_window": 128000,
+      "input_price": 0.05,
+      "output_price": 0.7,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://openrouter.ai/models/liquid/lfm-2.5-24b-a2b"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-4-argon",
+      "category": "LLM",
+      "context_window": 1048576,
+      "input_price": 2.0,
+      "output_price": 10.0,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://ai.google.dev/pricing"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-4-argon:batch",
+      "category": "LLM",
+      "context_window": 1048576,
+      "input_price": 1.0,
+      "output_price": 5.0,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://ai.google.dev/pricing"
+    },
     {
       "provider": "Scaledown",
       "model": "summarize",
@@ -12,7 +132,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/scaledown/summarize"
+      "official_page": "https://scaledown.ai/"
     },
     {
       "provider": "Scaledown",
@@ -24,7 +144,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/scaledown/extract"
+      "official_page": "https://scaledown.ai/"
     },
     {
       "provider": "Meta",
@@ -36,19 +156,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta/muse-wonder"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "StepFun",
       "model": "step-5-preview",
       "category": "LLM",
-      "context_window": 1000000,
+      "context_window": 1048576,
       "input_price": 1.0,
       "output_price": 2.7,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/stepfun/step-5-preview"
+      "official_page": "https://platform.stepfun.com/"
     },
     {
       "provider": "Anthropic",
@@ -60,7 +180,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-haiku-5.5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -72,7 +192,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-haiku-5.5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Google",
@@ -84,7 +204,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-nano-banana-2.1"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Mistral",
@@ -96,19 +216,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-large-4-0"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
-      "provider": "Unbiased",
-      "model": "pareto-26.10-preview",
+      "provider": "Inclusionai",
+      "model": "ling-3.1-flash",
       "category": "LLM",
-      "context_window": 1048576,
-      "input_price": 0.8,
-      "output_price": 3.2,
+      "context_window": 262144,
+      "input_price": 0.075,
+      "output_price": 0.225,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/unbiased/pareto-26.10-preview"
+      "official_page": "https://huggingface.co/inclusionAI"
     },
     {
       "provider": "OpenAI",
@@ -120,7 +240,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6.1-sol-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -132,7 +252,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6.1-sol-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -144,7 +264,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6.1-sol"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -156,7 +276,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6.1-sol:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Anthropic",
@@ -168,7 +288,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-5.5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -180,7 +300,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-5.5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Perceptron",
@@ -204,7 +324,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/fireworks/ember-1"
+      "official_page": "https://fireworks.ai/pricing"
     },
     {
       "provider": "Z.ai",
@@ -216,7 +336,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.3-prime"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Alibaba",
@@ -228,7 +348,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.8-max-prime"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Aion-Labs",
@@ -264,7 +384,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/upstage/solar-mini4"
+      "official_page": "https://upstage.ai/"
     },
     {
       "provider": "Cohere",
@@ -276,7 +396,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/cohere/command-a-plus"
+      "official_page": "https://cohere.com/pricing"
     },
     {
       "provider": "OpenAI",
@@ -288,7 +408,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-luna-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -300,7 +420,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-luna-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -312,7 +432,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-luna"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -324,7 +444,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-luna:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -336,7 +456,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-sol-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -348,7 +468,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-sol-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -360,7 +480,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-sol"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -372,7 +492,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-sol:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Anthropic",
@@ -384,7 +504,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-5.5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -396,7 +516,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-5.5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Xiaomi",
@@ -408,7 +528,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/xiaomi/mimo-v2.6-pro-ultraspeed"
+      "official_page": "https://mimo.mi.com/"
     },
     {
       "provider": "Xiaomi",
@@ -420,7 +540,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/xiaomi/mimo-v2.6-flash"
+      "official_page": "https://mimo.mi.com/"
     },
     {
       "provider": "Xiaomi",
@@ -432,7 +552,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/xiaomi/mimo-v2.6-pro"
+      "official_page": "https://mimo.mi.com/"
     },
     {
       "provider": "xAI",
@@ -444,7 +564,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-4.7"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "Alibaba",
@@ -456,7 +576,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.8-omni-flash"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Prism-Ml",
@@ -468,7 +588,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/prism-ml/ternary-bonsai-2-27b"
+      "official_page": "https://prismml.com/"
     },
     {
       "provider": "Z.ai",
@@ -480,19 +600,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.3-flashx"
-    },
-    {
-      "provider": "Unbiased",
-      "model": "pareto",
-      "category": "LLM",
-      "context_window": 262144,
-      "input_price": 2.5,
-      "output_price": 7.5,
-      "currency": "USD",
-      "unit": "per_1M_tokens",
-      "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/unbiased/pareto"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "~Deepseek",
@@ -504,19 +612,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~deepseek/deepseek-pro-latest"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "~Deepseek",
       "model": "deepseek-flash-latest",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.0441,
-      "output_price": 0.621,
+      "input_price": 0.0357,
+      "output_price": 0.1428,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~deepseek/deepseek-flash-latest"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Inference-Net",
@@ -528,7 +636,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inference-net/schematron-v2-turbo"
+      "official_page": "https://inference.net/"
     },
     {
       "provider": "Inference-Net",
@@ -540,7 +648,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inference-net/schematron-v2-small"
+      "official_page": "https://inference.net/"
     },
     {
       "provider": "~Openai",
@@ -552,7 +660,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~openai/gpt-astra-latest"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "~Openai",
@@ -564,7 +672,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~openai/gpt-sol-latest"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "~Openai",
@@ -576,7 +684,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~openai/gpt-terra-latest"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "~Openai",
@@ -588,7 +696,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~openai/gpt-luna-latest"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Sakana",
@@ -600,7 +708,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/sakana/fugu-ultra-v2"
+      "official_page": "https://sakana.ai/"
     },
     {
       "provider": "Sakana",
@@ -612,31 +720,31 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/sakana/fugu-max"
+      "official_page": "https://sakana.ai/"
     },
     {
       "provider": "Inclusionai",
       "model": "ling-3.0-flash-vl",
       "category": "LLM",
-      "context_window": 262144,
-      "input_price": 0.021,
-      "output_price": 0.0616,
+      "context_window": 131072,
+      "input_price": 0.06,
+      "output_price": 0.18,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-vl"
+      "official_page": "https://huggingface.co/inclusionAI"
     },
     {
       "provider": "DeepSeek",
       "model": "deepseek-v4.1-flash",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.0441,
-      "output_price": 0.621,
+      "input_price": 0.15,
+      "output_price": 0.6,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "DeepSeek",
@@ -648,7 +756,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v4.1-flash:batch"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Inception",
@@ -660,7 +768,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inception/mercury-2.5"
+      "official_page": "https://www.inceptionlabs.ai/"
     },
     {
       "provider": "Nex-Agi",
@@ -672,7 +780,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nex-agi/nex-n2.5-mini"
+      "official_page": "https://huggingface.co/nex-agi"
     },
     {
       "provider": "Nex-Agi",
@@ -684,7 +792,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nex-agi/nex-n2.5-pro"
+      "official_page": "https://huggingface.co/nex-agi"
     },
     {
       "provider": "OpenAI",
@@ -696,7 +804,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-astra"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -708,7 +816,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-astra:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -720,7 +828,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-astra-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -732,19 +840,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-6-astra-pro:batch"
-    },
-    {
-      "provider": "Inclusionai",
-      "model": "ling-3.0-flash-sante",
-      "category": "LLM",
-      "context_window": 262144,
-      "input_price": 0.042,
-      "output_price": 0.1232,
-      "currency": "USD",
-      "unit": "per_1M_tokens",
-      "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-sante"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Alibaba",
@@ -756,7 +852,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.8-max-0902"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Meta",
@@ -768,7 +864,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta/muse-spark-1.3-contributor"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Meta",
@@ -780,19 +876,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta/muse-spark-1.3"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Google",
       "model": "gemini-3.8-flash",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.75,
-      "output_price": 3.75,
+      "input_price": 0.825,
+      "output_price": 4.125,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.8-flash"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -804,7 +900,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.8-flash:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Anthropic",
@@ -816,7 +912,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-fable-5.1"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -828,7 +924,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-fable-5.1:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Ibm-Granite",
@@ -840,7 +936,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/ibm-granite/granite-4.2-8b"
+      "official_page": "https://www.ibm.com/products/watsonx/ai/models"
     },
     {
       "provider": "Tencent",
@@ -852,31 +948,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/tencent/hy4-preview"
-    },
-    {
-      "provider": "Inclusionai",
-      "model": "ling-3.0-flash-fin",
-      "category": "LLM",
-      "context_window": 262144,
-      "input_price": 0.042,
-      "output_price": 0.1232,
-      "currency": "USD",
-      "unit": "per_1M_tokens",
-      "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inclusionai/ling-3.0-flash-fin"
+      "official_page": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "provider": "~Z-Ai",
       "model": "glm-flash-latest",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.0261,
+      "input_price": 0.018,
       "output_price": 0.9,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~z-ai/glm-flash-latest"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Alibaba",
@@ -888,31 +972,31 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.8-flash"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Z.ai",
       "model": "glm-5.3-flash",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.0261,
+      "input_price": 0.018,
       "output_price": 0.9,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.3-flash"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Z.ai",
       "model": "glm-5.3-flash:batch",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.06,
-      "output_price": 0.2,
+      "input_price": 0.05,
+      "output_price": 0.18,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.3-flash:batch"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Meta",
@@ -924,7 +1008,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta/muse-spark-1.2-contributor"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "DeepSeek",
@@ -936,7 +1020,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-vision-exp"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Tencent",
@@ -948,7 +1032,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/tencent/hy-mt2-1.8b"
+      "official_page": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "provider": "Tencent",
@@ -960,19 +1044,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/tencent/hy-mt2-30b-a3b"
+      "official_page": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "provider": "~Z-Ai",
       "model": "glm-latest",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.055,
-      "output_price": 5.0,
+      "input_price": 0.0608,
+      "output_price": 4.4,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~z-ai/glm-latest"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Tencent",
@@ -984,7 +1068,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/tencent/hy-mt2-7b"
+      "official_page": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "provider": "Z.ai",
@@ -996,7 +1080,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.3"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Z.ai",
@@ -1008,19 +1092,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.3:batch"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Alibaba",
       "model": "qwen3.8-27b",
       "category": "LLM",
       "context_window": 1000000,
-      "input_price": 0.04,
-      "output_price": 2.3,
+      "input_price": 0.24,
+      "output_price": 2.2,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.8-27b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Google",
@@ -1032,7 +1116,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.7-flash"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -1044,7 +1128,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.7-flash:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "ByteDance Seed",
@@ -1056,7 +1140,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/bytedance-seed/seed-2-1-turbo"
+      "official_page": "https://volcengine.com/product/doubao"
     },
     {
       "provider": "Alibaba",
@@ -1068,7 +1152,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.8-2.4t-a95b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "ByteDance Seed",
@@ -1080,7 +1164,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/bytedance-seed/seed-2.0-code"
+      "official_page": "https://volcengine.com/product/doubao"
     },
     {
       "provider": "DeepSeek",
@@ -1092,7 +1176,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v4-pro-0813"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "xAI",
@@ -1104,7 +1188,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-4.6"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "Nvidia",
@@ -1116,7 +1200,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nvidia/nemotron-3.5-lightning"
+      "official_page": "https://build.nvidia.com/"
     },
     {
       "provider": "Sakana",
@@ -1128,7 +1212,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/sakana/sakana-namazu"
+      "official_page": "https://sakana.ai/"
     },
     {
       "provider": "Upstage",
@@ -1140,7 +1224,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/upstage/solar-pro4"
+      "official_page": "https://upstage.ai/"
     },
     {
       "provider": "Meta",
@@ -1152,7 +1236,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta/muse-glimmer-30b"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Meta",
@@ -1164,31 +1248,31 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta/muse-spark-1.2"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "~Deepseek",
       "model": "deepseek-v4-flash-latest",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.0144,
-      "output_price": 0.576,
+      "input_price": 0.0111,
+      "output_price": 1.28,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~deepseek/deepseek-v4-flash-latest"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "DeepSeek",
       "model": "deepseek-v4-flash-0731",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.016,
-      "output_price": 0.64,
+      "input_price": 0.0111,
+      "output_price": 1.28,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v4-flash-0731"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Thinkingmachines",
@@ -1200,7 +1284,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/thinkingmachines/inkling-small"
+      "official_page": "https://www.thinkingmachines.ai/"
     },
     {
       "provider": "Alibaba",
@@ -1212,7 +1296,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.7-flash"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Anthropic",
@@ -1224,7 +1308,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -1236,7 +1320,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Inclusionai",
@@ -1248,7 +1332,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inclusionai/ling-3.0-flash"
+      "official_page": "https://huggingface.co/inclusionAI"
     },
     {
       "provider": "Poolside",
@@ -1260,7 +1344,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/poolside/laguna-s-2.1"
+      "official_page": "https://poolside.ai/"
     },
     {
       "provider": "Google",
@@ -1272,7 +1356,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.6-flash"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -1284,7 +1368,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.6-flash:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -1296,7 +1380,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.5-flash-lite"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -1308,7 +1392,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.5-flash-lite:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Meituan",
@@ -1320,7 +1404,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meituan/longcat-2.0"
+      "official_page": "https://www.meituan.com/"
     },
     {
       "provider": "Thinkingmachines",
@@ -1332,19 +1416,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/thinkingmachines/inkling"
+      "official_page": "https://www.thinkingmachines.ai/"
     },
     {
       "provider": "Kimi",
       "model": "kimi-k3",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.73,
-      "output_price": 10.0,
+      "input_price": 0.304,
+      "output_price": 11.936,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k3"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "Kimi",
@@ -1356,7 +1440,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k3:batch"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "Meta",
@@ -1368,7 +1452,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta/muse-spark-1.1"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "OpenAI",
@@ -1380,7 +1464,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-luna-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -1392,7 +1476,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-luna-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -1404,7 +1488,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-luna"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -1416,7 +1500,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-luna:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -1428,7 +1512,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-terra-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -1440,7 +1524,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-terra-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -1452,7 +1536,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-terra"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -1464,35 +1548,47 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-terra:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
       "model": "gpt-5.6-sol-pro",
       "category": "LLM",
       "context_window": 1050000,
-      "input_price": 2.0,
-      "output_price": 10.0,
+      "input_price": 4.0,
+      "output_price": 20.0,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-sol-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
       "model": "gpt-5.6-sol-pro:batch",
       "category": "LLM",
       "context_window": 1050000,
-      "input_price": 1.0,
-      "output_price": 5.0,
+      "input_price": 2.0,
+      "output_price": 10.0,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-sol-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
       "model": "gpt-5.6-sol",
+      "category": "LLM",
+      "context_window": 1050000,
+      "input_price": 4.0,
+      "output_price": 20.0,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "openrouter_api",
+      "official_page": "https://openai.com/api/pricing/"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol:batch",
       "category": "LLM",
       "context_window": 1050000,
       "input_price": 2.0,
@@ -1500,19 +1596,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-sol"
-    },
-    {
-      "provider": "OpenAI",
-      "model": "gpt-5.6-sol:batch",
-      "category": "LLM",
-      "context_window": 1050000,
-      "input_price": 1.0,
-      "output_price": 5.0,
-      "currency": "USD",
-      "unit": "per_1M_tokens",
-      "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.6-sol:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "xAI",
@@ -1524,7 +1608,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-4.5"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "~X-Ai",
@@ -1536,7 +1620,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~x-ai/grok-latest"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "Aion-Labs",
@@ -1572,7 +1656,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/tencent/hy3"
+      "official_page": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "provider": "Poolside",
@@ -1584,7 +1668,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/poolside/laguna-xs-2.1"
+      "official_page": "https://poolside.ai/"
     },
     {
       "provider": "Anthropic",
@@ -1596,7 +1680,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -1608,7 +1692,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Google",
@@ -1620,7 +1704,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-flash-lite-image"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Sakana",
@@ -1632,7 +1716,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/sakana/fugu-ultra"
+      "official_page": "https://sakana.ai/"
     },
     {
       "provider": "Google",
@@ -1644,7 +1728,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-flash-image"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -1656,19 +1740,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3-pro-image"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Z.ai",
       "model": "glm-5.2",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.06,
-      "output_price": 7.0,
+      "input_price": 0.62,
+      "output_price": 2.42,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.2"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Kimi",
@@ -1680,7 +1764,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k2.7-code"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "~Anthropic",
@@ -1692,7 +1776,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~anthropic/claude-fable-latest"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -1704,7 +1788,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-fable-5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -1716,7 +1800,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-fable-5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Nvidia",
@@ -1728,7 +1812,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nvidia/nemotron-3.5-content-safety"
+      "official_page": "https://build.nvidia.com/"
     },
     {
       "provider": "Nvidia",
@@ -1740,7 +1824,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b"
+      "official_page": "https://build.nvidia.com/"
     },
     {
       "provider": "Alibaba",
@@ -1752,7 +1836,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.7-plus"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "MiniMax",
@@ -1764,7 +1848,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-m3"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "StepFun",
@@ -1776,7 +1860,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/stepfun/step-3.7-flash"
+      "official_page": "https://platform.stepfun.com/"
     },
     {
       "provider": "Anthropic",
@@ -1788,7 +1872,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.8"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -1800,7 +1884,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.8:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Alibaba",
@@ -1812,7 +1896,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.7-max"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "xAI",
@@ -1824,7 +1908,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-build-0.1"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "Google",
@@ -1836,7 +1920,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.5-flash"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -1848,7 +1932,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.5-flash:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Perceptron",
@@ -1872,7 +1956,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-flash-lite"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -1884,7 +1968,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-flash-lite:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "OpenAI",
@@ -1896,7 +1980,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-chat-latest"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "xAI",
@@ -1908,7 +1992,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-4.3"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "xAI",
@@ -1920,7 +2004,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-4.3:batch"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "Mistral",
@@ -1932,7 +2016,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-medium-3-5"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -1944,7 +2028,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-medium-3-5:batch"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "~Anthropic",
@@ -1956,7 +2040,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~anthropic/claude-haiku-latest"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "~Openai",
@@ -1968,7 +2052,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~openai/gpt-mini-latest"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "~Google",
@@ -1976,23 +2060,23 @@
       "category": "LLM",
       "context_window": 1048576,
       "input_price": 2.0,
-      "output_price": 12.0,
+      "output_price": 10.0,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~google/gemini-pro-latest"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "~Moonshotai",
       "model": "kimi-latest",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.73,
-      "output_price": 10.0,
+      "input_price": 0.294,
+      "output_price": 24.0,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~moonshotai/kimi-latest"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "~Google",
@@ -2004,7 +2088,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~google/gemini-flash-latest"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "~Anthropic",
@@ -2016,7 +2100,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~anthropic/claude-sonnet-latest"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Alibaba",
@@ -2028,7 +2112,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-plus-20260420"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -2040,31 +2124,31 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.6-flash"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
       "model": "qwen3.6-35b-a3b",
       "category": "LLM",
       "context_window": 262144,
-      "input_price": 0.1,
-      "output_price": 0.95,
+      "input_price": 0.15,
+      "output_price": 1.0,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.6-35b-a3b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
       "model": "qwen3.6-27b",
       "category": "LLM",
       "context_window": 262144,
-      "input_price": 0.32,
-      "output_price": 3.2,
+      "input_price": 0.25,
+      "output_price": 2.0,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.6-27b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "OpenAI",
@@ -2076,7 +2160,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.5-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2088,7 +2172,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.5-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2100,7 +2184,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.5"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2112,19 +2196,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.5:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "DeepSeek",
       "model": "deepseek-v4-pro",
       "category": "LLM",
       "context_window": 1048576,
-      "input_price": 0.436,
-      "output_price": 0.8721,
+      "input_price": 0.3682,
+      "output_price": 0.7364,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v4-pro"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "DeepSeek",
@@ -2136,7 +2220,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v4-flash"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Tencent",
@@ -2148,7 +2232,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/tencent/hy3-preview"
+      "official_page": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "provider": "Xiaomi",
@@ -2160,7 +2244,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/xiaomi/mimo-v2.5-pro"
+      "official_page": "https://mimo.mi.com/"
     },
     {
       "provider": "Xiaomi",
@@ -2172,7 +2256,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/xiaomi/mimo-v2.5"
+      "official_page": "https://mimo.mi.com/"
     },
     {
       "provider": "OpenAI",
@@ -2184,7 +2268,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4-image-2"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "~Anthropic",
@@ -2196,7 +2280,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/~anthropic/claude-opus-latest"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Kimi",
@@ -2208,7 +2292,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k2.6"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "Anthropic",
@@ -2220,7 +2304,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.7"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -2232,7 +2316,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.7:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Z.ai",
@@ -2244,7 +2328,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5.1"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Google",
@@ -2256,19 +2340,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
       "model": "gemma-4-31b-it",
       "category": "LLM",
       "context_window": 262144,
-      "input_price": 0.09,
-      "output_price": 0.34,
+      "input_price": 0.2,
+      "output_price": 0.4,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemma-4-31b-it"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Alibaba",
@@ -2280,7 +2364,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.6-plus"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Z.ai",
@@ -2292,7 +2376,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5v-turbo"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Arcee-Ai",
@@ -2304,7 +2388,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/arcee-ai/trinity-large-thinking"
+      "official_page": "https://www.arcee.ai/"
     },
     {
       "provider": "xAI",
@@ -2316,7 +2400,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-4.20-multi-agent"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "xAI",
@@ -2328,7 +2412,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/x-ai/grok-4.20"
+      "official_page": "https://x.ai/api"
     },
     {
       "provider": "Rekaai",
@@ -2340,7 +2424,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/rekaai/reka-edge"
+      "official_page": "https://www.reka.ai/"
     },
     {
       "provider": "MiniMax",
@@ -2352,7 +2436,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-m2.7"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "OpenAI",
@@ -2364,7 +2448,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4-nano"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2376,7 +2460,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4-nano:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2388,7 +2472,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2400,7 +2484,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4-mini:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mistral",
@@ -2412,7 +2496,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-small-2603"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -2424,7 +2508,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-small-2603:batch"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Z.ai",
@@ -2436,7 +2520,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5-turbo"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Nvidia",
@@ -2448,7 +2532,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nvidia/nemotron-3-super-120b-a12b"
+      "official_page": "https://build.nvidia.com/"
     },
     {
       "provider": "ByteDance Seed",
@@ -2460,7 +2544,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/bytedance-seed/seed-2.0-lite"
+      "official_page": "https://volcengine.com/product/doubao"
     },
     {
       "provider": "Alibaba",
@@ -2472,7 +2556,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-9b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "OpenAI",
@@ -2484,7 +2568,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2496,7 +2580,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2508,7 +2592,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2520,7 +2604,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.4:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Inception",
@@ -2532,7 +2616,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/inception/mercury-2"
+      "official_page": "https://www.inceptionlabs.ai/"
     },
     {
       "provider": "Google",
@@ -2544,7 +2628,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-flash-lite-preview"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "ByteDance Seed",
@@ -2556,7 +2640,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/bytedance-seed/seed-2.0-mini"
+      "official_page": "https://volcengine.com/product/doubao"
     },
     {
       "provider": "Google",
@@ -2568,19 +2652,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-flash-image-preview"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Alibaba",
       "model": "qwen3.5-35b-a3b",
       "category": "LLM",
       "context_window": 262144,
-      "input_price": 0.08,
-      "output_price": 0.75,
+      "input_price": 0.15,
+      "output_price": 1.0,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-35b-a3b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -2592,7 +2676,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-27b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -2604,7 +2688,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-122b-a10b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -2616,7 +2700,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-flash-02-23"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Google",
@@ -2628,7 +2712,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-pro-preview-customtools"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "OpenAI",
@@ -2640,7 +2724,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.3-codex"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Aion-Labs",
@@ -2664,7 +2748,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-pro-preview"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -2676,7 +2760,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3.1-pro-preview:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Anthropic",
@@ -2688,7 +2772,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-4.6"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -2700,7 +2784,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-4.6:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Alibaba",
@@ -2712,19 +2796,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-plus-02-15"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
       "model": "qwen3.5-397b-a17b",
       "category": "LLM",
       "context_window": 262144,
-      "input_price": 0.55,
-      "output_price": 3.5,
+      "input_price": 0.5,
+      "output_price": 3.6,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3.5-397b-a17b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "MiniMax",
@@ -2732,23 +2816,23 @@
       "category": "LLM",
       "context_window": 204800,
       "input_price": 0.27,
-      "output_price": 1.08,
+      "output_price": 0.95,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-m2.5"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "Z.ai",
       "model": "glm-5",
       "category": "LLM",
       "context_window": 204800,
-      "input_price": 0.6,
-      "output_price": 1.92,
+      "input_price": 1.0,
+      "output_price": 3.2,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-5"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Anthropic",
@@ -2760,7 +2844,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.6"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -2772,7 +2856,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.6:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Alibaba",
@@ -2784,7 +2868,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-coder-next"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "StepFun",
@@ -2796,7 +2880,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/stepfun/step-3.5-flash"
+      "official_page": "https://platform.stepfun.com/"
     },
     {
       "provider": "Kimi",
@@ -2808,7 +2892,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k2.5"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "Upstage",
@@ -2820,7 +2904,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/upstage/solar-pro-3"
+      "official_page": "https://upstage.ai/"
     },
     {
       "provider": "MiniMax",
@@ -2832,7 +2916,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-m2-her"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "Writer",
@@ -2844,7 +2928,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/writer/palmyra-x5"
+      "official_page": "https://writer.com/api"
     },
     {
       "provider": "OpenAI",
@@ -2856,7 +2940,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-audio"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -2868,7 +2952,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-audio-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Z.ai",
@@ -2880,7 +2964,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-4.7-flash"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "OpenAI",
@@ -2892,7 +2976,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.2-codex"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "ByteDance Seed",
@@ -2904,7 +2988,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/bytedance-seed/seed-1.6-flash"
+      "official_page": "https://volcengine.com/product/doubao"
     },
     {
       "provider": "ByteDance Seed",
@@ -2916,7 +3000,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/bytedance-seed/seed-1.6"
+      "official_page": "https://volcengine.com/product/doubao"
     },
     {
       "provider": "MiniMax",
@@ -2928,7 +3012,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-m2.1"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "Z.ai",
@@ -2940,7 +3024,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-4.7"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Google",
@@ -2952,7 +3036,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3-flash-preview"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -2964,7 +3048,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3-flash-preview:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Nvidia",
@@ -2976,7 +3060,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nvidia/nemotron-3-nano-30b-a3b"
+      "official_page": "https://build.nvidia.com/"
     },
     {
       "provider": "OpenAI",
@@ -2988,7 +3072,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.2-chat"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3000,7 +3084,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.2-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3012,7 +3096,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.2-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3024,7 +3108,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.2"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3036,7 +3120,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.2:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mistral",
@@ -3048,7 +3132,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/devstral-2512"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Relace",
@@ -3060,7 +3144,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/relace/relace-search"
+      "official_page": "https://relace.ai/"
     },
     {
       "provider": "Z.ai",
@@ -3072,7 +3156,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-4.6v"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "OpenAI",
@@ -3084,7 +3168,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.1-codex-max"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "AWS",
@@ -3096,7 +3180,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/amazon/nova-2-lite-v1"
+      "official_page": "https://aws.amazon.com/bedrock/pricing/"
     },
     {
       "provider": "Mistral",
@@ -3108,7 +3192,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/ministral-14b-2512"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -3120,7 +3204,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/ministral-8b-2512"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -3132,7 +3216,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/ministral-8b-2512:batch"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -3144,7 +3228,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/ministral-3b-2512"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -3156,7 +3240,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-large-2512"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -3168,7 +3252,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-large-2512:batch"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "DeepSeek",
@@ -3180,7 +3264,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v3.2"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Anthropic",
@@ -3192,7 +3276,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -3204,7 +3288,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Google",
@@ -3216,7 +3300,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-3-pro-image-preview"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "OpenAI",
@@ -3228,7 +3312,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.1"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3240,7 +3324,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.1:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3252,7 +3336,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.1-codex"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3264,7 +3348,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5.1-codex-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Kimi",
@@ -3276,7 +3360,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k2-thinking"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "AWS",
@@ -3288,7 +3372,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/amazon/nova-premier-v1"
+      "official_page": "https://aws.amazon.com/bedrock/pricing/"
     },
     {
       "provider": "Perplexity",
@@ -3300,7 +3384,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/perplexity/sonar-pro-search"
+      "official_page": "https://www.perplexity.ai/pricing"
     },
     {
       "provider": "Mistral",
@@ -3312,7 +3396,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/voxtral-small-24b-2507"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "OpenAI",
@@ -3324,19 +3408,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-oss-safeguard-20b"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "MiniMax",
       "model": "minimax-m2",
       "category": "LLM",
       "context_window": 204800,
-      "input_price": 0.3,
-      "output_price": 1.2,
+      "input_price": 0.255,
+      "output_price": 1.02,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-m2"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "Ibm-Granite",
@@ -3348,7 +3432,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/ibm-granite/granite-4.0-h-micro"
+      "official_page": "https://www.ibm.com/products/watsonx/ai/models"
     },
     {
       "provider": "OpenAI",
@@ -3360,7 +3444,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-image-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Anthropic",
@@ -3372,7 +3456,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-haiku-4.5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -3384,7 +3468,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-haiku-4.5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Alibaba",
@@ -3396,7 +3480,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-vl-8b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "OpenAI",
@@ -3408,7 +3492,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-image"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Google",
@@ -3420,7 +3504,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-flash-image"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Alibaba",
@@ -3432,7 +3516,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-vl-30b-a3b-thinking"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -3444,7 +3528,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-vl-30b-a3b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "OpenAI",
@@ -3456,7 +3540,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3468,7 +3552,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-pro:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Z.ai",
@@ -3480,7 +3564,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-4.6"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Anthropic",
@@ -3492,7 +3576,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-4.5"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -3504,7 +3588,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-4.5:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "DeepSeek",
@@ -3516,7 +3600,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v3.2-exp"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Thedrummer",
@@ -3528,7 +3612,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/thedrummer/cydonia-24b-v4.1"
+      "official_page": "https://huggingface.co/TheDrummer"
     },
     {
       "provider": "Relace",
@@ -3540,7 +3624,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/relace/relace-apply-3"
+      "official_page": "https://relace.ai/"
     },
     {
       "provider": "Alibaba",
@@ -3552,7 +3636,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-vl-235b-a22b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "DeepSeek",
@@ -3564,7 +3648,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-v3.1-terminus"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Alibaba",
@@ -3576,7 +3660,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-coder-flash"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -3588,19 +3672,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-next-80b-a3b-thinking"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
       "model": "qwen3-next-80b-a3b-instruct",
       "category": "LLM",
       "context_window": 262144,
-      "input_price": 0.1,
+      "input_price": 0.09,
       "output_price": 1.1,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-next-80b-a3b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Kimi",
@@ -3612,7 +3696,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k2-0905"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "Nousresearch",
@@ -3624,7 +3708,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nousresearch/hermes-4-405b"
+      "official_page": "https://nousresearch.com/"
     },
     {
       "provider": "DeepSeek",
@@ -3636,7 +3720,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-chat-v3.1"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Mistral",
@@ -3648,7 +3732,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-medium-3.1"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -3660,7 +3744,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-medium-3.1:batch"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Z.ai",
@@ -3672,7 +3756,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-4.5v"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "OpenAI",
@@ -3684,7 +3768,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3696,7 +3780,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3708,7 +3792,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3720,7 +3804,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-mini:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3732,7 +3816,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-nano"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3744,7 +3828,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-5-nano:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3756,7 +3840,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-oss-120b"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3768,7 +3852,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-oss-120b:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3780,7 +3864,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-oss-20b"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -3792,7 +3876,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-oss-20b:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Anthropic",
@@ -3804,7 +3888,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.1"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Anthropic",
@@ -3816,7 +3900,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-opus-4.1:batch"
+      "official_page": "https://www.anthropic.com/pricing"
     },
     {
       "provider": "Mistral",
@@ -3828,7 +3912,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/codestral-2508"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Mistral",
@@ -3840,7 +3924,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/codestral-2508:batch"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Alibaba",
@@ -3852,7 +3936,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-coder-30b-a3b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -3864,7 +3948,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-30b-a3b-instruct-2507"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Z.ai",
@@ -3876,7 +3960,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-4.5"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Z.ai",
@@ -3888,7 +3972,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/z-ai/glm-4.5-air"
+      "official_page": "https://z.ai/"
     },
     {
       "provider": "Alibaba",
@@ -3900,7 +3984,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-thinking-2507"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -3912,7 +3996,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-coder"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "ByteDance",
@@ -3924,7 +4008,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/bytedance/ui-tars-1.5-7b"
+      "official_page": "https://volcengine.com/product/doubao"
     },
     {
       "provider": "Google",
@@ -3936,7 +4020,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-flash-lite"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -3948,7 +4032,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-flash-lite:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Alibaba",
@@ -3960,7 +4044,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-235b-a22b-2507"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Kimi",
@@ -3972,7 +4056,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/moonshotai/kimi-k2"
+      "official_page": "https://platform.moonshot.cn/"
     },
     {
       "provider": "Cognitivecomputations",
@@ -3984,7 +4068,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/cognitivecomputations/dolphin-mistral-24b-venice-edition"
+      "official_page": "https://huggingface.co/cognitivecomputations"
     },
     {
       "provider": "Tencent",
@@ -3996,7 +4080,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/tencent/hunyuan-a13b-instruct"
+      "official_page": "https://cloud.tencent.com/product/hunyuan"
     },
     {
       "provider": "Morph",
@@ -4008,7 +4092,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/morph/morph-v3-large"
+      "official_page": "https://www.morphllm.com/"
     },
     {
       "provider": "Morph",
@@ -4020,7 +4104,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/morph/morph-v3-fast"
+      "official_page": "https://www.morphllm.com/"
     },
     {
       "provider": "Mistral",
@@ -4032,7 +4116,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-small-3.2-24b-instruct"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "MiniMax",
@@ -4044,7 +4128,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-m1"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "Google",
@@ -4056,7 +4140,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-flash"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -4068,7 +4152,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-flash:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -4080,7 +4164,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-pro"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -4092,7 +4176,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-pro:batch"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "OpenAI",
@@ -4104,7 +4188,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o3-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Google",
@@ -4116,7 +4200,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemini-2.5-pro-preview"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "DeepSeek",
@@ -4128,19 +4212,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-r1-0528"
-    },
-    {
-      "provider": "Anthropic",
-      "model": "claude-sonnet-4",
-      "category": "LLM",
-      "context_window": 200000,
-      "input_price": 3.0,
-      "output_price": 15.0,
-      "currency": "USD",
-      "unit": "per_1M_tokens",
-      "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthropic/claude-sonnet-4"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Mistral",
@@ -4152,7 +4224,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-medium-3"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Meta-Llama",
@@ -4164,7 +4236,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-guard-4-12b"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Alibaba",
@@ -4176,7 +4248,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-30b-a3b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -4188,7 +4260,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-14b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -4200,7 +4272,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen3-32b"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "OpenAI",
@@ -4212,7 +4284,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o4-mini-high"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4224,7 +4296,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o3"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4236,7 +4308,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o3:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4248,7 +4320,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o4-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4260,7 +4332,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o4-mini:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4272,7 +4344,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4.1"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4284,7 +4356,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4.1:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4296,7 +4368,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4.1-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4308,7 +4380,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4.1-mini:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4320,7 +4392,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4.1-nano"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4332,7 +4404,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4.1-nano:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Meta-Llama",
@@ -4344,19 +4416,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-4-maverick"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Meta-Llama",
       "model": "llama-4-scout",
       "category": "LLM",
       "context_window": 1310720,
-      "input_price": 0.18,
-      "output_price": 0.59,
+      "input_price": 0.1,
+      "output_price": 0.3,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-4-scout"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "DeepSeek",
@@ -4368,7 +4440,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-chat-v3-0324"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "OpenAI",
@@ -4380,7 +4452,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o1-pro"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mistral",
@@ -4392,7 +4464,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-small-3.1-24b-instruct"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Google",
@@ -4404,7 +4476,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemma-3-4b-it"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Google",
@@ -4416,7 +4488,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemma-3-12b-it"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Cohere",
@@ -4428,7 +4500,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/cohere/command-a"
+      "official_page": "https://cohere.com/pricing"
     },
     {
       "provider": "Rekaai",
@@ -4440,7 +4512,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/rekaai/reka-flash-3"
+      "official_page": "https://www.reka.ai/"
     },
     {
       "provider": "Google",
@@ -4452,7 +4524,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemma-3-27b-it"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "Thedrummer",
@@ -4464,7 +4536,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/thedrummer/skyfall-36b-v2"
+      "official_page": "https://huggingface.co/TheDrummer"
     },
     {
       "provider": "Perplexity",
@@ -4476,7 +4548,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/perplexity/sonar-reasoning-pro"
+      "official_page": "https://www.perplexity.ai/pricing"
     },
     {
       "provider": "Perplexity",
@@ -4488,7 +4560,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/perplexity/sonar-pro"
+      "official_page": "https://www.perplexity.ai/pricing"
     },
     {
       "provider": "Perplexity",
@@ -4500,7 +4572,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/perplexity/sonar-deep-research"
+      "official_page": "https://www.perplexity.ai/pricing"
     },
     {
       "provider": "Mistral",
@@ -4512,7 +4584,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-saba"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "OpenAI",
@@ -4524,7 +4596,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o3-mini-high"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Aion-Labs",
@@ -4548,7 +4620,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen2.5-vl-72b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Alibaba",
@@ -4560,7 +4632,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen-plus"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "OpenAI",
@@ -4572,7 +4644,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o3-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4584,7 +4656,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o3-mini:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mistral",
@@ -4596,7 +4668,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-small-24b-instruct-2501"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Perplexity",
@@ -4608,7 +4680,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/perplexity/sonar"
+      "official_page": "https://www.perplexity.ai/pricing"
     },
     {
       "provider": "DeepSeek",
@@ -4620,7 +4692,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-r1"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "MiniMax",
@@ -4632,7 +4704,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/minimax/minimax-01"
+      "official_page": "https://platform.minimax.io/"
     },
     {
       "provider": "Microsoft",
@@ -4644,19 +4716,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/microsoft/phi-4"
+      "official_page": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"
     },
     {
       "provider": "DeepSeek",
       "model": "deepseek-chat",
       "category": "LLM",
       "context_window": 163840,
-      "input_price": 0.32,
-      "output_price": 0.89,
+      "input_price": 0.2574,
+      "output_price": 1.0287,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/deepseek/deepseek-chat"
+      "official_page": "https://api-docs.deepseek.com/quick_start/pricing"
     },
     {
       "provider": "Sao10K",
@@ -4668,7 +4740,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/sao10k/l3.3-euryale-70b"
+      "official_page": "https://huggingface.co/Sao10K"
     },
     {
       "provider": "OpenAI",
@@ -4680,7 +4752,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/o1"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Cohere",
@@ -4692,19 +4764,19 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/cohere/command-r7b-12-2024"
+      "official_page": "https://cohere.com/pricing"
     },
     {
       "provider": "Meta-Llama",
       "model": "llama-3.3-70b-instruct",
       "category": "LLM",
       "context_window": 131072,
-      "input_price": 0.59,
-      "output_price": 0.79,
+      "input_price": 0.1,
+      "output_price": 0.32,
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-3.3-70b-instruct"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "AWS",
@@ -4716,7 +4788,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/amazon/nova-lite-v1"
+      "official_page": "https://aws.amazon.com/bedrock/pricing/"
     },
     {
       "provider": "AWS",
@@ -4728,7 +4800,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/amazon/nova-micro-v1"
+      "official_page": "https://aws.amazon.com/bedrock/pricing/"
     },
     {
       "provider": "AWS",
@@ -4740,7 +4812,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/amazon/nova-pro-v1"
+      "official_page": "https://aws.amazon.com/bedrock/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4752,7 +4824,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o-2024-11-20"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mistral",
@@ -4764,7 +4836,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-large-2407"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Alibaba",
@@ -4776,7 +4848,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen-2.5-coder-32b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Thedrummer",
@@ -4788,7 +4860,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/thedrummer/unslopnemo-12b"
+      "official_page": "https://huggingface.co/TheDrummer"
     },
     {
       "provider": "Anthracite-Org",
@@ -4800,7 +4872,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/anthracite-org/magnum-v4-72b"
+      "official_page": "https://huggingface.co/anthracite-org"
     },
     {
       "provider": "Alibaba",
@@ -4812,7 +4884,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen-2.5-7b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Meta-Llama",
@@ -4824,7 +4896,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-3.2-1b-instruct"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Meta-Llama",
@@ -4836,7 +4908,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-3.2-3b-instruct"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Alibaba",
@@ -4848,7 +4920,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/qwen/qwen-2.5-72b-instruct"
+      "official_page": "https://help.aliyun.com/zh/model-studio/models"
     },
     {
       "provider": "Cohere",
@@ -4860,7 +4932,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/cohere/command-r-08-2024"
+      "official_page": "https://cohere.com/pricing"
     },
     {
       "provider": "Cohere",
@@ -4872,7 +4944,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/cohere/command-r-plus-08-2024"
+      "official_page": "https://cohere.com/pricing"
     },
     {
       "provider": "Sao10K",
@@ -4884,7 +4956,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/sao10k/l3.1-euryale-70b"
+      "official_page": "https://huggingface.co/Sao10K"
     },
     {
       "provider": "Nousresearch",
@@ -4896,7 +4968,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nousresearch/hermes-3-llama-3.1-70b"
+      "official_page": "https://nousresearch.com/"
     },
     {
       "provider": "Nousresearch",
@@ -4908,7 +4980,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/nousresearch/hermes-3-llama-3.1-405b"
+      "official_page": "https://nousresearch.com/"
     },
     {
       "provider": "Sao10K",
@@ -4920,7 +4992,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/sao10k/l3-lunaris-8b"
+      "official_page": "https://huggingface.co/Sao10K"
     },
     {
       "provider": "OpenAI",
@@ -4932,7 +5004,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o-2024-08-06"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Meta-Llama",
@@ -4944,7 +5016,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-3.1-70b-instruct"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Meta-Llama",
@@ -4956,7 +5028,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct"
+      "official_page": "https://www.llama.com/"
     },
     {
       "provider": "Mistral",
@@ -4968,7 +5040,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-nemo"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "OpenAI",
@@ -4980,7 +5052,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o-mini"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -4992,7 +5064,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o-mini-2024-07-18"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5004,7 +5076,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o-mini:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Google",
@@ -5016,7 +5088,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/google/gemma-2-27b-it"
+      "official_page": "https://ai.google.dev/pricing"
     },
     {
       "provider": "OpenAI",
@@ -5028,7 +5100,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5040,7 +5112,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o-2024-05-13"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5052,7 +5124,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4o:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mistral",
@@ -5064,7 +5136,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mixtral-8x22b-instruct"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "Microsoft",
@@ -5076,7 +5148,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/microsoft/wizardlm-2-8x22b"
+      "official_page": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"
     },
     {
       "provider": "OpenAI",
@@ -5088,7 +5160,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4-turbo"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5100,7 +5172,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4-turbo:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mistral",
@@ -5112,7 +5184,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/mistralai/mistral-large"
+      "official_page": "https://mistral.ai/products/pricing"
     },
     {
       "provider": "OpenAI",
@@ -5124,7 +5196,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-3.5-turbo-0613"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5136,7 +5208,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-3.5-turbo-instruct"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5148,7 +5220,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-3.5-turbo-16k"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "Mancer",
@@ -5172,7 +5244,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/undi95/remm-slerp-l2-13b"
+      "official_page": "https://huggingface.co/Undi95"
     },
     {
       "provider": "Gryphe",
@@ -5184,7 +5256,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/gryphe/mythomax-l2-13b"
+      "official_page": "https://huggingface.co/Gryphe"
     },
     {
       "provider": "OpenAI",
@@ -5196,7 +5268,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-3.5-turbo"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5208,7 +5280,7 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-3.5-turbo:batch"
+      "official_page": "https://openai.com/api/pricing/"
     },
     {
       "provider": "OpenAI",
@@ -5220,7 +5292,55 @@
       "currency": "USD",
       "unit": "per_1M_tokens",
       "source": "openrouter_api",
-      "official_page": "https://openrouter.ai/models/openai/gpt-4"
+      "official_page": "https://openai.com/api/pricing/"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Pro",
+      "category": "LLM",
+      "context_window": 200000,
+      "input_price": 1.25,
+      "output_price": 10.0,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "official",
+      "official_page": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash",
+      "category": "LLM",
+      "context_window": 1000000,
+      "input_price": 0.3,
+      "output_price": 2.5,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "official",
+      "official_page": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash-Lite",
+      "category": "LLM",
+      "context_window": 1000000,
+      "input_price": 0.1,
+      "output_price": 0.4,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "official",
+      "official_page": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash Image",
+      "category": "Multimodal",
+      "context_window": 1000000,
+      "input_price": 0.3,
+      "output_price": 0.3,
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "source": "official",
+      "official_page": "https://ai.google.dev/gemini-api/docs/pricing"
     },
     {
       "provider": "DeepSeek",
@@ -5343,13 +5463,654 @@
       "official_page": "https://ai.gitee.com/serverless-api"
     }
   ],
-  "changes": [],
-  "new_models": [],
+  "changes": [
+    {
+      "provider": "Reflection",
+      "model": "beam-1.0-501b-a23b",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.25,
+      "new_output": 1.0,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Moondream",
+      "model": "moondream3-preview",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.3,
+      "new_output": 2.5,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Moondream",
+      "model": "moondream3.1-9b-a2b",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.3,
+      "new_output": 2.5,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Meta",
+      "model": "muse-spark-open",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 1.25,
+      "new_output": 4.25,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Nvidia",
+      "model": "nemotron-3.5-super-vl",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.15,
+      "new_output": 0.5,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "~Unbiased",
+      "model": "pareto-latest",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 2.5,
+      "new_output": 7.5,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Unbiased",
+      "model": "pareto-26.9",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 2.5,
+      "new_output": 7.5,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Liquid",
+      "model": "lfm-2.5-24b-a2b",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.05,
+      "new_output": 0.7,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-4-argon",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 2.0,
+      "new_output": 10.0,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-4-argon:batch",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 1.0,
+      "new_output": 5.0,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Inclusionai",
+      "model": "ling-3.1-flash",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.075,
+      "new_output": 0.225,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "~Deepseek",
+      "model": "deepseek-flash-latest",
+      "type": "price_down",
+      "change": "-48.0%",
+      "currency": "USD",
+      "old_input": 0.0441,
+      "old_output": 0.621,
+      "new_input": 0.0357,
+      "new_output": 0.1428,
+      "detail": "输入价 $0.04 → $0.04，输出价 $0.62 → $0.14"
+    },
+    {
+      "provider": "Inclusionai",
+      "model": "ling-3.0-flash-vl",
+      "type": "price_up",
+      "change": "+189.0%",
+      "currency": "USD",
+      "old_input": 0.021,
+      "old_output": 0.0616,
+      "new_input": 0.06,
+      "new_output": 0.18,
+      "detail": "输入价 $0.02 → $0.06，输出价 $0.06 → $0.18"
+    },
+    {
+      "provider": "DeepSeek",
+      "model": "deepseek-v4.1-flash",
+      "type": "price_up",
+      "change": "+121.8%",
+      "currency": "USD",
+      "old_input": 0.0441,
+      "old_output": 0.621,
+      "new_input": 0.15,
+      "new_output": 0.6,
+      "detail": "输入价 $0.04 → $0.15，输出价 $0.62 → $0.60"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-3.8-flash",
+      "type": "price_up",
+      "change": "+10.0%",
+      "currency": "USD",
+      "old_input": 0.75,
+      "old_output": 3.75,
+      "new_input": 0.825,
+      "new_output": 4.125,
+      "detail": "输入价 $0.75 → $0.82，输出价 $3.75 → $4.12"
+    },
+    {
+      "provider": "~Z-Ai",
+      "model": "glm-flash-latest",
+      "type": "price_down",
+      "change": "-15.5%",
+      "currency": "USD",
+      "old_input": 0.0261,
+      "old_output": 0.9,
+      "new_input": 0.018,
+      "new_output": 0.9,
+      "detail": "输入价 $0.03 → $0.02，输出价 $0.90 → $0.90"
+    },
+    {
+      "provider": "Z.ai",
+      "model": "glm-5.3-flash",
+      "type": "price_down",
+      "change": "-15.5%",
+      "currency": "USD",
+      "old_input": 0.0261,
+      "old_output": 0.9,
+      "new_input": 0.018,
+      "new_output": 0.9,
+      "detail": "输入价 $0.03 → $0.02，输出价 $0.90 → $0.90"
+    },
+    {
+      "provider": "Z.ai",
+      "model": "glm-5.3-flash:batch",
+      "type": "price_down",
+      "change": "-13.3%",
+      "currency": "USD",
+      "old_input": 0.06,
+      "old_output": 0.2,
+      "new_input": 0.05,
+      "new_output": 0.18,
+      "detail": "输入价 $0.06 → $0.05，输出价 $0.20 → $0.18"
+    },
+    {
+      "provider": "~Z-Ai",
+      "model": "glm-latest",
+      "type": "price_down",
+      "change": "-11.3%",
+      "currency": "USD",
+      "old_input": 0.055,
+      "old_output": 5.0,
+      "new_input": 0.0608,
+      "new_output": 4.4,
+      "detail": "输入价 $0.06 → $0.06，输出价 $5.00 → $4.40"
+    },
+    {
+      "provider": "Alibaba",
+      "model": "qwen3.8-27b",
+      "type": "price_up",
+      "change": "+252.2%",
+      "currency": "USD",
+      "old_input": 0.04,
+      "old_output": 2.3,
+      "new_input": 0.24,
+      "new_output": 2.2,
+      "detail": "输入价 $0.04 → $0.24，输出价 $2.30 → $2.20"
+    },
+    {
+      "provider": "~Deepseek",
+      "model": "deepseek-v4-flash-latest",
+      "type": "price_up",
+      "change": "+72.6%",
+      "currency": "USD",
+      "old_input": 0.0144,
+      "old_output": 0.576,
+      "new_input": 0.0111,
+      "new_output": 1.28,
+      "detail": "输入价 $0.01 → $0.01，输出价 $0.58 → $1.28"
+    },
+    {
+      "provider": "DeepSeek",
+      "model": "deepseek-v4-flash-0731",
+      "type": "price_up",
+      "change": "+65.3%",
+      "currency": "USD",
+      "old_input": 0.016,
+      "old_output": 0.64,
+      "new_input": 0.0111,
+      "new_output": 1.28,
+      "detail": "输入价 $0.02 → $0.01，输出价 $0.64 → $1.28"
+    },
+    {
+      "provider": "Kimi",
+      "model": "kimi-k3",
+      "type": "price_down",
+      "change": "-38.9%",
+      "currency": "USD",
+      "old_input": 0.73,
+      "old_output": 10.0,
+      "new_input": 0.304,
+      "new_output": 11.936,
+      "detail": "输入价 $0.73 → $0.30，输出价 $10.00 → $11.94"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol-pro",
+      "type": "price_up",
+      "change": "+100.0%",
+      "currency": "USD",
+      "old_input": 2.0,
+      "old_output": 10.0,
+      "new_input": 4.0,
+      "new_output": 20.0,
+      "detail": "输入价 $2.00 → $4.00，输出价 $10.00 → $20.00"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol-pro:batch",
+      "type": "price_up",
+      "change": "+100.0%",
+      "currency": "USD",
+      "old_input": 1.0,
+      "old_output": 5.0,
+      "new_input": 2.0,
+      "new_output": 10.0,
+      "detail": "输入价 $1.00 → $2.00，输出价 $5.00 → $10.00"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol",
+      "type": "price_up",
+      "change": "+100.0%",
+      "currency": "USD",
+      "old_input": 2.0,
+      "old_output": 10.0,
+      "new_input": 4.0,
+      "new_output": 20.0,
+      "detail": "输入价 $2.00 → $4.00，输出价 $10.00 → $20.00"
+    },
+    {
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol:batch",
+      "type": "price_up",
+      "change": "+100.0%",
+      "currency": "USD",
+      "old_input": 1.0,
+      "old_output": 5.0,
+      "new_input": 2.0,
+      "new_output": 10.0,
+      "detail": "输入价 $1.00 → $2.00，输出价 $5.00 → $10.00"
+    },
+    {
+      "provider": "Z.ai",
+      "model": "glm-5.2",
+      "type": "price_up",
+      "change": "+499.4%",
+      "currency": "USD",
+      "old_input": 0.06,
+      "old_output": 7.0,
+      "new_input": 0.62,
+      "new_output": 2.42,
+      "detail": "输入价 $0.06 → $0.62，输出价 $7.00 → $2.42"
+    },
+    {
+      "provider": "~Google",
+      "model": "gemini-pro-latest",
+      "type": "price_down",
+      "change": "-8.3%",
+      "currency": "USD",
+      "old_input": 2.0,
+      "old_output": 12.0,
+      "new_input": 2.0,
+      "new_output": 10.0,
+      "detail": "输入价 $2.00 → $2.00，输出价 $12.00 → $10.00"
+    },
+    {
+      "provider": "~Moonshotai",
+      "model": "kimi-latest",
+      "type": "price_up",
+      "change": "+99.9%",
+      "currency": "USD",
+      "old_input": 0.73,
+      "old_output": 10.0,
+      "new_input": 0.294,
+      "new_output": 24.0,
+      "detail": "输入价 $0.73 → $0.29，输出价 $10.00 → $24.00"
+    },
+    {
+      "provider": "Alibaba",
+      "model": "qwen3.6-35b-a3b",
+      "type": "price_up",
+      "change": "+27.6%",
+      "currency": "USD",
+      "old_input": 0.1,
+      "old_output": 0.95,
+      "new_input": 0.15,
+      "new_output": 1.0,
+      "detail": "输入价 $0.10 → $0.15，输出价 $0.95 → $1.00"
+    },
+    {
+      "provider": "Alibaba",
+      "model": "qwen3.6-27b",
+      "type": "price_down",
+      "change": "-29.7%",
+      "currency": "USD",
+      "old_input": 0.32,
+      "old_output": 3.2,
+      "new_input": 0.25,
+      "new_output": 2.0,
+      "detail": "输入价 $0.32 → $0.25，输出价 $3.20 → $2.00"
+    },
+    {
+      "provider": "DeepSeek",
+      "model": "deepseek-v4-pro",
+      "type": "price_down",
+      "change": "-15.6%",
+      "currency": "USD",
+      "old_input": 0.436,
+      "old_output": 0.8721,
+      "new_input": 0.3682,
+      "new_output": 0.7364,
+      "detail": "输入价 $0.44 → $0.37，输出价 $0.87 → $0.74"
+    },
+    {
+      "provider": "Google",
+      "model": "gemma-4-31b-it",
+      "type": "price_up",
+      "change": "+69.9%",
+      "currency": "USD",
+      "old_input": 0.09,
+      "old_output": 0.34,
+      "new_input": 0.2,
+      "new_output": 0.4,
+      "detail": "输入价 $0.09 → $0.20，输出价 $0.34 → $0.40"
+    },
+    {
+      "provider": "Alibaba",
+      "model": "qwen3.5-35b-a3b",
+      "type": "price_up",
+      "change": "+60.4%",
+      "currency": "USD",
+      "old_input": 0.08,
+      "old_output": 0.75,
+      "new_input": 0.15,
+      "new_output": 1.0,
+      "detail": "输入价 $0.08 → $0.15，输出价 $0.75 → $1.00"
+    },
+    {
+      "provider": "Alibaba",
+      "model": "qwen3.5-397b-a17b",
+      "type": "price_down",
+      "change": "-6.0%",
+      "currency": "USD",
+      "old_input": 0.55,
+      "old_output": 3.5,
+      "new_input": 0.5,
+      "new_output": 3.6,
+      "detail": "输入价 $0.55 → $0.50，输出价 $3.50 → $3.60"
+    },
+    {
+      "provider": "MiniMax",
+      "model": "minimax-m2.5",
+      "type": "price_down",
+      "change": "-6.0%",
+      "currency": "USD",
+      "old_input": 0.27,
+      "old_output": 1.08,
+      "new_input": 0.27,
+      "new_output": 0.95,
+      "detail": "输入价 $0.27 → $0.27，输出价 $1.08 → $0.95"
+    },
+    {
+      "provider": "Z.ai",
+      "model": "glm-5",
+      "type": "price_up",
+      "change": "+66.7%",
+      "currency": "USD",
+      "old_input": 0.6,
+      "old_output": 1.92,
+      "new_input": 1.0,
+      "new_output": 3.2,
+      "detail": "输入价 $0.60 → $1.00，输出价 $1.92 → $3.20"
+    },
+    {
+      "provider": "MiniMax",
+      "model": "minimax-m2",
+      "type": "price_down",
+      "change": "-15.0%",
+      "currency": "USD",
+      "old_input": 0.3,
+      "old_output": 1.2,
+      "new_input": 0.255,
+      "new_output": 1.02,
+      "detail": "输入价 $0.30 → $0.26，输出价 $1.20 → $1.02"
+    },
+    {
+      "provider": "Alibaba",
+      "model": "qwen3-next-80b-a3b-instruct",
+      "type": "price_down",
+      "change": "-5.0%",
+      "currency": "USD",
+      "old_input": 0.1,
+      "old_output": 1.1,
+      "new_input": 0.09,
+      "new_output": 1.1,
+      "detail": "输入价 $0.10 → $0.09，输出价 $1.10 → $1.10"
+    },
+    {
+      "provider": "Meta-Llama",
+      "model": "llama-4-scout",
+      "type": "price_down",
+      "change": "-46.8%",
+      "currency": "USD",
+      "old_input": 0.18,
+      "old_output": 0.59,
+      "new_input": 0.1,
+      "new_output": 0.3,
+      "detail": "输入价 $0.18 → $0.10，输出价 $0.59 → $0.30"
+    },
+    {
+      "provider": "DeepSeek",
+      "model": "deepseek-chat",
+      "type": "price_down",
+      "change": "-17.6%",
+      "currency": "USD",
+      "old_input": 0.32,
+      "old_output": 0.89,
+      "new_input": 0.2574,
+      "new_output": 1.0287,
+      "detail": "输入价 $0.32 → $0.26，输出价 $0.89 → $1.03"
+    },
+    {
+      "provider": "Meta-Llama",
+      "model": "llama-3.3-70b-instruct",
+      "type": "price_down",
+      "change": "-71.3%",
+      "currency": "USD",
+      "old_input": 0.59,
+      "old_output": 0.79,
+      "new_input": 0.1,
+      "new_output": 0.32,
+      "detail": "输入价 $0.59 → $0.10，输出价 $0.79 → $0.32"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Pro",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 1.25,
+      "new_output": 10.0,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.3,
+      "new_output": 2.5,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash-Lite",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.1,
+      "new_output": 0.4,
+      "detail": "新模型上线"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash Image",
+      "type": "new_model",
+      "change": null,
+      "currency": "USD",
+      "old_input": null,
+      "old_output": null,
+      "new_input": 0.3,
+      "new_output": 0.3,
+      "detail": "新模型上线"
+    }
+  ],
+  "new_models": [
+    {
+      "provider": "Reflection",
+      "model": "beam-1.0-501b-a23b",
+      "type": "new_model"
+    },
+    {
+      "provider": "Moondream",
+      "model": "moondream3-preview",
+      "type": "new_model"
+    },
+    {
+      "provider": "Moondream",
+      "model": "moondream3.1-9b-a2b",
+      "type": "new_model"
+    },
+    {
+      "provider": "Meta",
+      "model": "muse-spark-open",
+      "type": "new_model"
+    },
+    {
+      "provider": "Nvidia",
+      "model": "nemotron-3.5-super-vl",
+      "type": "new_model"
+    },
+    {
+      "provider": "~Unbiased",
+      "model": "pareto-latest",
+      "type": "new_model"
+    },
+    {
+      "provider": "Unbiased",
+      "model": "pareto-26.9",
+      "type": "new_model"
+    },
+    {
+      "provider": "Liquid",
+      "model": "lfm-2.5-24b-a2b",
+      "type": "new_model"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-4-argon",
+      "type": "new_model"
+    },
+    {
+      "provider": "Google",
+      "model": "gemini-4-argon:batch",
+      "type": "new_model"
+    },
+    {
+      "provider": "Inclusionai",
+      "model": "ling-3.1-flash",
+      "type": "new_model"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Pro",
+      "type": "new_model"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash",
+      "type": "new_model"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash-Lite",
+      "type": "new_model"
+    },
+    {
+      "provider": "Google",
+      "model": "Gemini 2.5 Flash Image",
+      "type": "new_model"
+    }
+  ],
   "summary": {
-    "total_models": 445,
-    "providers": 65,
-    "price_up": 0,
-    "price_down": 0,
-    "new_models": 0
+    "total_models": 455,
+    "providers": 69,
+    "price_up": 16,
+    "price_down": 16,
+    "new_models": 15
   }
 }
