@@ -9,27 +9,27 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/"/>
   </url>
   <url>
-    <loc>https://aipriceradar.pages.dev/prices.html</loc>
+    <loc>https://aipriceradar.pages.dev/prices</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/prices.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/prices.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/prices"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/prices"/>
   </url>
   <url>
-    <loc>https://aipriceradar.pages.dev/promotions.html</loc>
+    <loc>https://aipriceradar.pages.dev/promotions</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/promotions.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/promotions.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/promotions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/promotions"/>
   </url>
   <url>
-    <loc>https://aipriceradar.pages.dev/tools.html</loc>
+    <loc>https://aipriceradar.pages.dev/tools</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/tools.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/tools.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/tools"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/tools"/>
   </url>
 </urlset>

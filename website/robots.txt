@@ -2,9 +2,9 @@ User-agent: *
 Allow: /
 
 # 静态预渲染页（SEO 友好，优先抓取）
-Allow: /prices.html
-Allow: /promotions.html
-Allow: /tools.html
+Allow: /prices
+Allow: /promotions
+Allow: /tools
 Allow: /api/
 
 Sitemap: https://aipriceradar.pages.dev/sitemap.xml
