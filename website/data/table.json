@@ -1,0 +1,173 @@
+[
+  {
+    "provider": "阿里云",
+    "model": "Qwen3.8-Max",
+    "rank": "SuperCLUE #1\nArena #8",
+    "input_price": "12元 / 百万tokens",
+    "output_price": "36元 / 百万tokens",
+    "cache_hit": "1.5元",
+    "note": "综合能力国产第一"
+  },
+  {
+    "provider": "Kimi CN",
+    "model": "Kimi-K3",
+    "rank": "SuperCLUE #2\nArena #12",
+    "input_price": "20元 / 百万tokens",
+    "output_price": "100元 / 百万tokens",
+    "cache_hit": "2元",
+    "note": "智能体编程全场第一"
+  },
+  {
+    "provider": "火山引擎",
+    "model": "豆包2.1 Pro",
+    "rank": "SuperCLUE #3",
+    "input_price": "6元 / 百万tokens",
+    "output_price": "30元 / 百万tokens",
+    "cache_hit": "1.2元",
+    "note": "科学推理最强"
+  },
+  {
+    "provider": "DeepSeek",
+    "model": "V4-Flash",
+    "rank": "SuperCLUE #4",
+    "input_price": "高峰 3元\n闲时 1.5元",
+    "output_price": "高峰 9元\n闲时 4.5元",
+    "cache_hit": "高峰 0.1元\n闲时 0.05元",
+    "note": "数学推理最强"
+  },
+  {
+    "provider": "DeepSeek",
+    "model": "V4-Pro",
+    "rank": "SuperCLUE #5",
+    "input_price": "高峰 9元\n闲时 4.5元",
+    "output_price": "高峰 27元\n闲时 13.5元",
+    "cache_hit": "高峰 0.3元\n闲时 0.15元",
+    "note": "高性价比区间"
+  },
+  {
+    "provider": "MiniMax CN",
+    "model": "MiniMax-M2.7",
+    "rank": "中上游",
+    "input_price": "2.1元 / 百万tokens",
+    "output_price": "8.4元 / 百万tokens",
+    "cache_hit": "0.42元",
+    "note": "国内价格最低之一"
+  },
+  {
+    "provider": "MiniMax Global",
+    "model": "MiniMax-M2.7",
+    "rank": "中上游",
+    "input_price": "≈2.03元",
+    "output_price": "≈8.14元",
+    "cache_hit": "≈0.41元",
+    "note": "美元价换算"
+  },
+  {
+    "provider": "Bigmodel (智谱AI)",
+    "model": "GLM-5.2",
+    "rank": "LLM Stats #11",
+    "input_price": "8元 / 百万tokens",
+    "output_price": "28元 / 百万tokens",
+    "cache_hit": "·",
+    "note": "开源权重表现最佳"
+  },
+  {
+    "provider": "Bigmodel (智谱AI)",
+    "model": "GLM-5-Turbo",
+    "rank": "中上游",
+    "input_price": "5元 / 百万tokens",
+    "output_price": "22元 / 百万tokens",
+    "cache_hit": "0.5元",
+    "note": "经济版"
+  },
+  {
+    "provider": "Xiaomi MIMO",
+    "model": "MiMo-V2.5 Pro",
+    "rank": "Arena代码榜 #25",
+    "input_price": "3元 / 百万tokens",
+    "output_price": "6元 / 百万tokens",
+    "cache_hit": "0.025元",
+    "note": "官方文档价格"
+  },
+  {
+    "provider": "Xiaomi MIMO",
+    "model": "MiMo-V2.5 (标准版)",
+    "rank": "Arena代码榜 #25附近",
+    "input_price": "1元 / 百万tokens",
+    "output_price": "2元 / 百万tokens",
+    "cache_hit": "0.02元",
+    "note": "官方文档价格"
+  },
+  {
+    "provider": "腾讯云",
+    "model": "混元 Hy3",
+    "rank": "高效能区间",
+    "input_price": "1元 / 百万tokens",
+    "output_price": "4元 / 百万tokens",
+    "cache_hit": "0.25元",
+    "note": "新模型，价格很低"
+  },
+  {
+    "provider": "Z.ai",
+    "model": "GLM-5.3",
+    "rank": "新入前沿模型",
+    "input_price": "≈9.49元",
+    "output_price": "≈29.84元",
+    "cache_hit": "≈1.76元",
+    "note": "美元价: $1.40 / $4.40"
+  },
+  {
+    "provider": "OpenRouter",
+    "model": "GPT-5.6 Sol",
+    "rank": "前沿模型",
+    "input_price": "≈16.9元",
+    "output_price": "≈101.3元",
+    "cache_hit": "·",
+    "note": "近期价格减半"
+  },
+  {
+    "provider": "Kimi Global",
+    "model": "Kimi-K3",
+    "rank": "同Kimi CN",
+    "input_price": "≈20.35元",
+    "output_price": "≈101.73元",
+    "cache_hit": "≈2.03元",
+    "note": "美元价: $3.00 / $15.00"
+  },
+  {
+    "provider": "硅基流动",
+    "model": "聚合平台",
+    "rank": "因模型而异",
+    "input_price": "因模型而异",
+    "output_price": "因模型而异",
+    "cache_hit": "·",
+    "note": "价格低于官方"
+  },
+  {
+    "provider": "BytePlus",
+    "model": "Seed 2.0 Lite",
+    "rank": "待核实",
+    "input_price": "≈1.70元",
+    "output_price": "待核实",
+    "cache_hit": "·",
+    "note": "阶梯定价"
+  },
+  {
+    "provider": "AWS",
+    "model": "Amazon Nova Pro",
+    "rank": "待核实",
+    "input_price": "≈5.43元",
+    "output_price": "≈21.70元",
+    "cache_hit": "·",
+    "note": "美元价: $0.80 / $3.20"
+  },
+  {
+    "provider": "模力方舟",
+    "model": "聚合平台",
+    "rank": "因模型而异",
+    "input_price": "因模型而异",
+    "output_price": "因模型而异",
+    "cache_hit": "·",
+    "note": "提供免费试用额度"
+  }
+]

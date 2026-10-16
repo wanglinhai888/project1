@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI 大模型价格雷达：自动采集全球 AI 大模型 API 价格（每百万 Token 输入/输出价、上下文窗口），每日更新，追踪价格变化趋势、优惠活动与工具指南。">
+  <meta name="keywords" content="大模型价格,LLM API 价格,GPT 价格,Claude 价格,DeepSeek 价格,AI 模型价格对比,API 定价,优惠活动,AI 工具">
+  <title>AI 大模型价格雷达 · 全球 LLM API 价格每日追踪</title>
+  <!-- SEO / 多语言 -->
+  <link rel="canonical" href="https://aipriceradar.pages.dev/">
+  <link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/">
+  <link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/">
+  <link rel="alternate" hreflang="x-default" href="https://aipriceradar.pages.dev/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="AI 大模型价格雷达 · 全球 LLM API 价格每日追踪">
+  <meta property="og:description" content="自动采集全球 AI 大模型 API 价格，每日更新，含优惠活动与工具指南。">
+  <meta property="og:url" content="https://aipriceradar.pages.dev/">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- JSON-LD：结构化数据，利于搜索富摘要与大模型理解 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AI 大模型价格雷达",
+    "alternateName": "AI Model Price Radar",
+    "url": "https://aipriceradar.pages.dev/",
+    "description": "自动追踪全球大模型 API 价格变化，每日更新，覆盖主流及国内厂商。",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://aipriceradar.pages.dev/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "全球大模型 API 价格数据集",
+    "description": "每日自动采集的全球主流及国内大模型 API 价格（输入/输出每百万 Token、上下文窗口、来源），含优惠活动与工具指南。",
+    "url": "https://aipriceradar.pages.dev/api/prices.json",
+    "distribution": [
+      {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aipriceradar.pages.dev/api/prices.json"},
+      {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aipriceradar.pages.dev/api/promotions.json"},
+      {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://aipriceradar.pages.dev/api/tools.json"}
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="style.css?v=9">
+</head>
+<body>
+<div id="app" v-cloak>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">&#128225;</span>
+        <div>
+          <h1>{{ t('appTitle') }}</h1>
+          <p class="subtitle">{{ t('subtitle') }}</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="update-time" v-if="today">
+          <span class="dot"></span> {{ t('updatedAt') }} {{ today.date }}
+        </div>
+        <button type="button" class="lang-btn" @click="setLang(lang==='zh'?'en':'zh')">{{ lang==='zh' ? 'EN' : '中' }}</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div v-if="loading" class="loading">{{ t('loading') }}</div>
+    <div v-else-if="error" class="empty">{{ error }}</div>
+
+    <template v-else>
+      <!-- 顶部 tab 栏 -->
+      <div class="tabs">
+        <button type="button" class="tab" :class="{active: activeTab==='price'}" @click="setTab('price')">{{ t('tabPrice') }}</button>
+        <button type="button" class="tab" :class="{active: activeTab==='promo'}" @click="setTab('promo')">{{ t('tabPromo') }}</button>
+        <button type="button" class="tab" :class="{active: activeTab==='tools'}" @click="setTab('tools')">{{ t('tabTools') }}</button>
+      </div>
+
+      <!-- 价格 tab -->
+      <div v-show="activeTab==='price'">
+      <!-- 今日汇总 -->
+      <section class="cards">
+        <div class="card"><div class="num">{{ today.summary.providers }}</div><div class="label">{{ t('providers') }}</div></div>
+        <div class="card"><div class="num">{{ today.summary.total_models }}</div><div class="label">{{ t('models') }}</div></div>
+        <div class="card down"><div class="num">{{ today.summary.price_down }}</div><div class="label">{{ t('priceDown') }}</div></div>
+        <div class="card up"><div class="num">{{ today.summary.price_up }}</div><div class="label">{{ t('priceUp') }}</div></div>
+        <div class="card new"><div class="num">{{ today.summary.new_models }}</div><div class="label">{{ t('newModels') }}</div></div>
+      </section>
+
+      <!-- 今日价格变化 -->
+      <section class="panel">
+        <h2>{{ t('changesTitle') }}</h2>
+        <div v-if="today.changes.length" class="change-list">
+          <div class="change-item" v-for="(c, i) in today.changes" :key="i">
+            <span class="badge" :class="'badge-' + c.type">{{ typeText(c.type) }}</span>
+            <div class="change-info">
+              <div class="change-title">{{ c.provider }} · {{ c.model }}
+                <em v-if="c.change">（{{ c.change }}）</em>
+              </div>
+              <div class="change-detail">{{ c.detail }}</div>
+            </div>
+          </div>
+        </div>
+        <div v-else class="empty">{{ t('noChanges') }}</div>
+      </section>
+      </div>
+
+      <!-- 优惠 tab -->
+      <div v-show="activeTab==='promo'">
+      <!-- 优惠活动 -->
+      <section class="panel">
+        <h2>{{ t('promoTitle') }}</h2>
+        <div v-if="promotions.length" class="change-list">
+          <div class="change-item" v-for="(p, i) in promotions" :key="i">
+            <span class="badge" :class="p.tag === '限免' ? 'badge-limited' : 'badge-long'">{{ lng(p,'tag') }}</span>
+            <div class="change-info">
+              <div class="change-title">{{ p.provider }} · {{ lng(p,'title') }}</div>
+              <div class="change-detail">{{ lng(p,'date') }}{{ lng(p,'description') ? ' · ' + lng(p,'description') : '' }}<a v-if="p.url" :href="p.url" target="_blank" rel="noopener" class="promo-link"> {{ t('srcLink') }}</a></div>
+            </div>
+          </div>
+        </div>
+        <div v-else class="empty">{{ t('noPromo') }}</div>
+      </section>
+      </div>
+
+      <!-- 价格 tab（续） -->
+      <div v-show="activeTab==='price'">
+      <!-- 当前价格表（爬虫实时真实价） -->
+      <section class="panel">
+        <div class="panel-head">
+          <h2>{{ t('priceTableTitle') }}</h2>
+          <div class="filters">
+            <div class="view-tabs">
+              <button type="button" :class="{active: viewMode==='changed'}" @click="viewMode='changed'">{{ t('viewChanged') }}</button>
+              <button type="button" :class="{active: viewMode==='all'}" @click="viewMode='all'">{{ t('viewAll') }}（{{ today.summary.total_models }}）</button>
+            </div>
+            <input v-model="keyword" class="search" type="text" :placeholder="t('searchPlaceholder')">
+            <select v-model="providerFilter" class="select">
+              <option value="">{{ t('allProviders') }}（{{ tableProviders.length }}）</option>
+              <option v-for="p in tableProviders" :key="p" :value="p">{{ p }}</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <!-- 仅看变动：默认视图，仅展示今日有价格变化的模型 -->
+          <template v-if="viewMode === 'changed'">
+            <table class="price-table">
+              <thead>
+                <tr>
+                  <th>{{ t('thPlatform') }}</th><th>{{ t('thModel') }}</th>
+                  <th>{{ t('thInput') }}</th><th>{{ t('thOutput') }}</th><th>{{ t('thContext') }}</th><th>{{ t('thSource') }}</th><th>{{ t('thOfficial') }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(p, i) in changedModels" :key="'c'+i">
+                  <td>{{ p.provider }}</td>
+                  <td class="model-name">{{ p.model }}</td>
+                  <td class="price-cell">{{ priceText(p.input_price, p.currency) }}</td>
+                  <td class="price-cell">{{ priceText(p.output_price, p.currency) }}</td>
+                  <td class="ctx">{{ contextText(p.context_window) }}</td>
+                  <td><span class="source" :class="sourceClass(p.source)">{{ sourceText(p.source) }}</span></td>
+                  <td><a v-if="p.official_page" :href="p.official_page" target="_blank" rel="noopener" :class="isOpenRouterPage(p.official_page) ? 'ext-link openrouter-link' : 'ext-link'">{{ isOpenRouterPage(p.official_page) ? t('openrouterLink') : t('officialLink') }}</a></td>
+                </tr>
+              </tbody>
+            </table>
+            <div v-if="!changedModels.length" class="empty">
+              {{ t('noChanged', today.summary.total_models) }}
+            </div>
+          </template>
+
+          <!-- 全部模型：按厂商分组折叠 + 组内分页 -->
+          <template v-else>
+            <div v-for="group in groupedAll" :key="group.provider" class="provider-group">
+              <div class="group-head" @click="toggleCollapse(group.provider)">
+                <span class="caret" :class="{collapsed: isCollapsed(group.provider)}">▾</span>
+                <span class="group-name">{{ group.provider }}</span>
+                <span class="group-count">{{ group.models.length }} {{ t('modelsSuffix') }}</span>
+                <span class="group-toggle">{{ isCollapsed(group.provider) ? t('expand') : t('collapse') }}</span>
+              </div>
+              <div v-show="!isCollapsed(group.provider)" class="group-body">
+                <table class="price-table">
+                  <thead>
+                    <tr>
+                      <th>{{ t('thPlatform') }}</th><th>{{ t('thModel') }}</th>
+                      <th>{{ t('thInput') }}</th><th>{{ t('thOutput') }}</th><th>{{ t('thContext') }}</th><th>{{ t('thSource') }}</th><th>{{ t('thOfficial') }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="(p, i) in pagedModels(group)" :key="'a'+i">
+                      <td>{{ p.provider }}</td>
+                      <td class="model-name">{{ p.model }}</td>
+                      <td class="price-cell">{{ priceText(p.input_price, p.currency) }}</td>
+                      <td class="price-cell">{{ priceText(p.output_price, p.currency) }}</td>
+                      <td class="ctx">{{ contextText(p.context_window) }}</td>
+                      <td><span class="source" :class="sourceClass(p.source)">{{ sourceText(p.source) }}</span></td>
+                      <td><a v-if="p.official_page" :href="p.official_page" target="_blank" rel="noopener" :class="isOpenRouterPage(p.official_page) ? 'ext-link openrouter-link' : 'ext-link'">{{ isOpenRouterPage(p.official_page) ? t('openrouterLink') : t('officialLink') }}</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="pager" v-if="totalPages(group) > 1">
+                  <button type="button" class="pg" @click="setPage(group, 1)" :disabled="currentPage(group)===1">{{ t('pagerFirst') }}</button>
+                  <button type="button" class="pg" @click="setPage(group, currentPage(group)-1)" :disabled="currentPage(group)===1">{{ t('pagerPrev') }}</button>
+                  <span class="pg-info">{{ t('pagerPage', currentPage(group), totalPages(group)) }}</span>
+                  <button type="button" class="pg" @click="setPage(group, currentPage(group)+1)" :disabled="currentPage(group)===totalPages(group)">{{ t('pagerNext') }}</button>
+                  <button type="button" class="pg" @click="setPage(group, totalPages(group))" :disabled="currentPage(group)===totalPages(group)">{{ t('pagerLast') }}</button>
+                </div>
+              </div>
+            </div>
+            <div v-if="!groupedAll.length" class="empty">{{ t('allModelsEmpty') }}</div>
+          </template>
+        </div>
+        <p class="unit-note" v-html="t('unitNote')"></p>
+      </section>
+
+      <!-- 价格趋势 -->
+      <section class="panel">
+        <div class="panel-head">
+          <h2>{{ t('trendTitle') }}</h2>
+          <select v-model="selectedModel" class="select">
+            <option v-for="m in modelOptions" :key="m" :value="m">{{ m }}</option>
+          </select>
+        </div>
+        <div id="trendChart" class="chart"></div>
+        <p v-if="trendHint" class="hint">{{ trendHint }}</p>
+      </section>
+      </div>
+
+      <!-- 工具指南 tab -->
+      <div v-show="activeTab==='tools'">
+        <section class="panel">
+          <h2>{{ t('toolsTitle') }}</h2>
+          <div v-if="tools.length" class="tools-wrap">
+            <div v-for="cat in tools" :key="cat.category" class="tool-cat">
+              <h3>{{ lng(cat,'category') }}</h3>
+              <div class="tool-grid">
+                <a v-for="(it, i) in cat.items" :key="i" :href="it.url" target="_blank" rel="noopener" class="tool-card">
+                  <div class="tool-name">{{ it.name }}</div>
+                  <div class="tool-desc">{{ lng(it,'desc') }}</div>
+                  <div class="tool-price"><span class="tool-price-label">{{ t('toolPrice') }}</span> {{ lng(it,'price') }}</div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div v-else class="empty">{{ t('noTools') }}</div>
+        </section>
+      </div>
+    </template>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>{{ t('footer1') }}</p>
+      <p>{{ t('footer2') }}</p>
+      <p v-if="today">Last updated: {{ today.generated_at }}</p>
+      <p class="seo-links">静态版（无 JS，利于收录）：
+        <a href="prices.html">价格表</a> ·
+        <a href="promotions.html">优惠活动</a> ·
+        <a href="tools.html">工具指南</a> ·
+        <a href="llms.txt">llms.txt</a> ·
+        <a href="sitemap.xml">sitemap</a>
+      </p>
+    </div>
+  </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@3.4.27/dist/vue.global.prod.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<script src="app.js?v=9"></script>
+</body>
+</html>

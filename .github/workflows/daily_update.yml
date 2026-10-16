@@ -1,0 +1,50 @@
+# AI 大模型价格雷达 - 每日自动更新
+# 每天北京时间 08:00（UTC 00:00）自动运行价格采集程序，
+# 生成 JSON 数据并提交到仓库，触发 Cloudflare Pages 自动部署。
+name: Daily Price Update
+
+on:
+  schedule:
+    # cron 使用 UTC：00:00 UTC = 08:00 北京时间
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r crawler/requirements.txt
+
+      - name: Run price crawler
+        run: python crawler/main.py
+
+      - name: Sanitize garbled text in data (UTF-8 / mojibake guard)
+        run: python clean_garbled.py
+
+      - name: Build SEO / GEO artifacts (sitemap, robots, llms.txt, static pages, api)
+        run: python website/build_seo.py
+        env:
+          SITE_URL: ${{ secrets.SITE_URL || 'https://aipriceradar.pages.dev' }}
+
+      - name: Commit and push data update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data website
+          git diff --cached --quiet || git commit -m "chore(data): daily price update $(date -u +'%Y-%m-%d')"
+          git push

@@ -1,0 +1,67 @@
+[
+  {
+    "category": "官方对话 / 客户端",
+    "category_en": "Official Chat / Clients",
+    "items": [
+      { "name": "ChatGPT", "desc": "OpenAI 官方对话与 GPT 模型入口", "desc_en": "OpenAI official chat & GPT entry", "url": "https://chat.openai.com", "price": "免费层限流；Plus $20/月（GPT-5 等）；Pro $200/月；Team/Enterprise 按席位", "price_en": "Free (rate-limited); Plus $20/mo; Pro $200/mo; Team/Enterprise per seat" },
+      { "name": "Claude", "desc": "Anthropic 官方对话与 API 入口", "desc_en": "Anthropic official chat & API entry", "url": "https://claude.ai", "price": "免费层限流；Pro $20/月；Max 5× $100/月、20× $200/月；Team $30/席/月（含 API 额度）", "price_en": "Free (rate-limited); Pro $20/mo; Max 5× $100/mo, 20× $200/mo; Team $30/seat/mo" },
+      { "name": "DeepSeek 聊天", "desc": "DeepSeek 官方网页对话", "desc_en": "DeepSeek official web chat", "url": "https://chat.deepseek.com", "price": "网页/App 免费对话；API 按量（deepseek-chat 约 $0.27/1M 输入，缓存更便宜）", "price_en": "Free chat on web/App; API pay-as-you-go (~$0.27/1M in)" },
+      { "name": "通义千问", "desc": "阿里 Qwen 官方对话", "desc_en": "Alibaba Qwen official chat", "url": "https://tongyi.aliyun.com", "price": "网页免费对话；百炼 API 按量，新用户赠额度，小模型部分免费", "price_en": "Free chat; BaiLian API pay-as-you-go, free quota for new users" },
+      { "name": "文心一言", "desc": "百度 ERNIE 官方对话", "desc_en": "Baidu ERNIE official chat", "url": "https://yiyan.baidu.com", "price": "免费对话；千帆 API 按量，ERNIE-Speed 永久免费", "price_en": "Free chat; Qianfan API pay-as-you-go, ERNIE-Speed free" },
+      { "name": "豆包", "desc": "字节跳动豆包对话", "desc_en": "ByteDance Doubao chat", "url": "https://www.doubao.com", "price": "免费对话；火山方舟 API 按量，部分模型免费", "price_en": "Free chat; Volcano Ark API pay-as-you-go, some models free" },
+      { "name": "Kimi", "desc": "月之暗面 Kimi 长文本对话", "desc_en": "Moonshot Kimi long-context chat", "url": "https://kimi.moonshot.cn", "price": "免费对话；OpenAPI 按量（moonshot-v1 约 ¥1/1M 输入起）", "price_en": "Free chat; OpenAPI pay-as-you-go" },
+      { "name": "智谱清言", "desc": "智谱 GLM 官方对话", "desc_en": "Zhipu GLM official chat", "url": "https://chatglm.cn", "price": "免费对话；GLM API 按量，GLM-4-Flash 等免费", "price_en": "Free chat; GLM API pay-as-you-go, GLM-4-Flash free" },
+      { "name": "Poe", "desc": "聚合多模型的一站式对话", "desc_en": "All-in-one multi-model chat", "url": "https://poe.com", "price": "订阅 $19.99/月起（含点数）；可按模型单独付费", "price_en": "Subscription from $19.99/mo (points); per-model add-ons" }
+    ]
+  },
+  {
+    "category": "模型聚合 / 中转",
+    "category_en": "Model Aggregators / Gateways",
+    "items": [
+      { "name": "OpenRouter", "desc": "统一 API 接入数百模型，按量计费", "desc_en": "One API for hundreds of models, pay-as-you-go", "url": "https://openrouter.ai", "price": "按量计费，价格随上游；:free 模型免费；无月费", "price_en": "Pay-as-you-go, prices follow upstream; :free models free; no monthly fee" },
+      { "name": "硅基流动 SiliconFlow", "desc": "国产模型聚合与免费额度", "desc_en": "Domestic model hub with free quota", "url": "https://siliconflow.cn", "price": "按量计费；新用户赠 2000 万 tokens；部分模型免费", "price_en": "Pay-as-you-go; 20M free tokens for new users; some models free" },
+      { "name": "Together AI", "desc": "开源模型推理与微调平台", "desc_en": "Open-source inference & fine-tuning", "url": "https://www.together.ai", "price": "按量（如 Llama 3.3 70B 约 $0.88/1M 输出）；无月费", "price_en": "Pay-as-you-go (e.g. Llama 3.3 70B ~$0.88/1M out); no monthly fee" },
+      { "name": "Groq", "desc": "极速 Llama 等开源模型推理", "desc_en": "Blazing-fast open-model inference", "url": "https://groq.com", "price": "免费层限流；付费按量（需绑定卡）", "price_en": "Free tier (rate-limited); paid pay-as-you-go" },
+      { "name": "Fireworks AI", "desc": "低延迟开源模型推理云", "desc_en": "Low-latency open-model inference cloud", "url": "https://fireworks.ai", "price": "按量（小模型有免费额度，大模型约 $0.2/1M 输出）", "price_en": "Pay-as-you-go (free tier for small models)" }
+    ]
+  },
+  {
+    "category": "价格 / 评测对比",
+    "category_en": "Price / Benchmark",
+    "items": [
+      { "name": "Artificial Analysis", "desc": "独立模型价格与性能基准对比", "desc_en": "Independent price & performance benchmarks", "url": "https://artificialanalysis.ai", "price": "信息免费浏览；无付费 API 订阅", "price_en": "Free info; no paid API" },
+      { "name": "本价格雷达", "desc": "全球大模型 API 价格每日追踪（就是本站）", "desc_en": "Daily global LLM API price tracker (this site)", "url": "http://localhost:8765", "price": "免费开源；数据由 GitHub Actions 每日自动更新", "price_en": "Free & open-source; auto-updated daily" }
+    ]
+  },
+  {
+    "category": "API 调试 / 开发",
+    "category_en": "API Debug / Dev",
+    "items": [
+      { "name": "Postman", "desc": "API 调试与请求构造", "desc_en": "API debugging & request building", "url": "https://www.postman.com", "price": "免费版可用；Team $14/席/月；Business/Enterprise 更高", "price_en": "Free tier; Team $14/seat/mo; higher tiers" },
+      { "name": "Hoppscotch", "desc": "轻量开源 API 客户端", "desc_en": "Lightweight open-source API client", "url": "https://hoppscotch.io", "price": "开源免费；Cloud $12/月", "price_en": "Open-source free; Cloud $12/mo" },
+      { "name": "LangChain", "desc": "大模型应用开发框架", "desc_en": "LLM application framework", "url": "https://www.langchain.com", "price": "开源免费；LangSmith 按用量计费", "price_en": "Open-source free; LangSmith usage-based" },
+      { "name": "OpenAI SDK", "desc": "官方及兼容 SDK（多语言）", "desc_en": "Official & compatible SDKs (multi-lang)", "url": "https://platform.openai.com/docs/libraries", "price": "开源免费；调用按 OpenAI API 计费", "price_en": "Open-source free; billed per OpenAI API" }
+    ]
+  },
+  {
+    "category": "AI 编程工具 / 智能体",
+    "category_en": "AI Coding Tools / Agents",
+    "items": [
+      { "name": "OpenAI Codex", "desc": "OpenAI 云端编码智能体（代码生成与执行）", "desc_en": "OpenAI cloud coding agent (generate & run code)", "url": "https://openai.com/codex", "price": "通过 ChatGPT 订阅（Plus/Pro）或 API 按量", "price_en": "Via ChatGPT subscription (Plus/Pro) or API pay-as-you-go" },
+      { "name": "Claude Code", "desc": "Anthropic 终端编码智能体（Agentic CLI）", "desc_en": "Anthropic terminal coding agent (Agentic CLI)", "url": "https://www.anthropic.com/claude-code", "price": "需 Claude Pro/Max 或 API 按量（按 token 计费）", "price_en": "Needs Claude Pro/Max or API pay-as-you-go" },
+      { "name": "Cursor", "desc": "AI 原生代码编辑器", "desc_en": "AI-native code editor", "url": "https://cursor.com", "price": "免费 Hobby；Pro $20/月；Business $40/席/月", "price_en": "Free Hobby; Pro $20/mo; Business $40/seat/mo" },
+      { "name": "Windsurf", "desc": "Codeium 旗下 AI IDE（原 Codeium）", "desc_en": "Codeium's AI IDE (formerly Codeium)", "url": "https://windsurf.com", "price": "免费版；Pro $15/月；Pro Ultimate $60/月", "price_en": "Free; Pro $15/mo; Pro Ultimate $60/mo" },
+      { "name": "GitHub Copilot", "desc": "GitHub 官方 AI 编程助手", "desc_en": "GitHub's official AI pair programmer", "url": "https://github.com/features/copilot", "price": "免费版（个人限用）；Pro $10/月；Business $19/席/月", "price_en": "Free (individual); Pro $10/mo; Business $19/seat/mo" },
+      { "name": "Cline", "desc": "开源 VS Code AI 编程智能体", "desc_en": "Open-source VS Code AI agent", "url": "https://cline.bot", "price": "开源免费；按所用 API/模型计费", "price_en": "Open-source free; billed per API/model used" },
+      { "name": "Aider", "desc": "终端中的开源 AI 结对编程工具", "desc_en": "Open-source AI pair-programming in terminal", "url": "https://aider.chat", "price": "开源免费；按所用 API/模型计费", "price_en": "Open-source free; billed per API/model used" },
+      { "name": "Gemini CLI", "desc": "Google 开源命令行 AI 智能体", "desc_en": "Google's open-source CLI agent", "url": "https://github.com/google-gemini/gemini-cli", "price": "免费（Google 账号）；Google AI Pro $19.99/月 可升级", "price_en": "Free (Google account); AI Pro $19.99/mo upgrade" },
+      { "name": "CodeBuddy", "desc": "腾讯 AI 编程助手（IDE 插件 / 智能体）", "desc_en": "Tencent AI coding assistant (plugin / agent)", "url": "https://www.codebuddy.ai", "price": "免费额度；Pro/团队版按席位或用量（以官网为准）", "price_en": "Free quota; Pro/Team per seat or usage (see site)" },
+      { "name": "通义灵码", "desc": "阿里通义灵码 AI 编程插件（智能补全 / 对话）", "desc_en": "Alibaba Tongyi Lingma AI coding plugin", "url": "https://lingma.aliyun.com", "price": "个人免费；企业版按席位", "price_en": "Free for individuals; Enterprise per seat" },
+      { "name": "文心快码 Comate", "desc": "百度 AI 代码助手", "desc_en": "Baidu AI code assistant", "url": "https://comate.baidu.com", "price": "免费个人版；企业版按席位", "price_en": "Free individual; Enterprise per seat" },
+      { "name": "Trae", "desc": "字节 AI 原生 IDE（trae.com / trae.cn）", "desc_en": "ByteDance AI-native IDE", "url": "https://www.trae.com", "price": "免费版；Pro/团队版订阅", "price_en": "Free; Pro/Team subscription" },
+      { "name": "CodeGeeX", "desc": "智谱开源 AI 编程助手", "desc_en": "Zhipu open-source AI coding assistant", "url": "https://codegeex.cn", "price": "免费个人版；企业版按席位", "price_en": "Free individual; Enterprise per seat" },
+      { "name": "iFlyCode", "desc": "科大讯飞 AI 代码助手", "desc_en": "iFlytek AI code assistant", "url": "https://iflycode.xfyun.cn", "price": "免费试用；付费订阅/按席位", "price_en": "Free trial; paid subscription per seat" },
+      { "name": "华为云 CodeArts Snap", "desc": "华为云 AI 代码生成插件", "desc_en": "Huawei Cloud AI code-generation plugin", "url": "https://www.huaweicloud.com/product/codeartside/snap.html", "price": "免费/按用量（以华为云官网为准）", "price_en": "Free / usage-based (see Huawei Cloud)" }
+    ]
+  }
+]

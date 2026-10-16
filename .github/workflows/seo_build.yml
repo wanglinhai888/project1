@@ -1,0 +1,44 @@
+# SEO / GEO 静态产物构建（仅在 push 时运行，不重跑爬虫）
+# 生成 sitemap.xml / robots.txt / llms.txt / 静态预渲染页 / api 端点 / _headers，
+# 提交后由 Cloudflare Pages 自动部署。确保首次推送即可被搜索引擎与 LLM 收录。
+name: SEO Build
+
+on:
+  push:
+    branches: ["main", "master"]
+    paths:
+      - "website/data/**"
+      - "website/build_seo.py"
+      - "website/index.html"
+      - "website/app.js"
+      - "website/style.css"
+
+permissions:
+  contents: write
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build SEO / GEO artifacts
+        run: python website/build_seo.py
+        env:
+          SITE_URL: ${{ secrets.SITE_URL || 'https://aipriceradar.pages.dev' }}
+
+      - name: Commit SEO artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add website/sitemap.xml website/robots.txt website/llms.txt website/_headers website/prices.html website/promotions.html website/tools.html website/api
+          git diff --cached --quiet || git commit -m "chore(seo): build static SEO/GEO artifacts"
+          git push

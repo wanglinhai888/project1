@@ -1,0 +1,28 @@
+平台,代表模型,综合排名,输入 (缓存未命中),输出,缓存命中 (输入),备注
+阿里云,Qwen3.8-Max,"SuperCLUE #1
+Arena #8",12元 / 百万tokens,36元 / 百万tokens,1.5元,综合能力国产第一
+Kimi CN,Kimi-K3,"SuperCLUE #2
+Arena #12",20元 / 百万tokens,100元 / 百万tokens,2元,智能体编程全场第一
+火山引擎,豆包2.1 Pro,SuperCLUE #3,6元 / 百万tokens,30元 / 百万tokens,1.2元,科学推理最强
+DeepSeek,V4-Flash,SuperCLUE #4,"高峰 3元
+闲时 1.5元","高峰 9元
+闲时 4.5元","高峰 0.1元
+闲时 0.05元",数学推理最强
+DeepSeek,V4-Pro,SuperCLUE #5,"高峰 9元
+闲时 4.5元","高峰 27元
+闲时 13.5元","高峰 0.3元
+闲时 0.15元",高性价比区间
+MiniMax CN,MiniMax-M2.7,中上游,2.1元 / 百万tokens,8.4元 / 百万tokens,0.42元,国内价格最低之一
+MiniMax Global,MiniMax-M2.7,中上游,≈2.03元,≈8.14元,≈0.41元,美元价换算
+Bigmodel (智谱AI),GLM-5.2,LLM Stats #11,8元 / 百万tokens,28元 / 百万tokens,·,开源权重表现最佳
+Bigmodel (智谱AI),GLM-5-Turbo,中上游,5元 / 百万tokens,22元 / 百万tokens,0.5元,经济版
+Xiaomi MIMO,MiMo-V2.5 Pro,Arena代码榜 #25,3元 / 百万tokens,6元 / 百万tokens,0.025元,官方文档价格
+Xiaomi MIMO,MiMo-V2.5 (标准版),Arena代码榜 #25附近,1元 / 百万tokens,2元 / 百万tokens,0.02元,官方文档价格
+腾讯云,混元 Hy3,高效能区间,1元 / 百万tokens,4元 / 百万tokens,0.25元,新模型，价格很低
+Z.ai,GLM-5.3,新入前沿模型,≈9.49元,≈29.84元,≈1.76元,美元价: $1.40 / $4.40
+OpenRouter,GPT-5.6 Sol,前沿模型,≈16.9元,≈101.3元,·,近期价格减半
+Kimi Global,Kimi-K3,同Kimi CN,≈20.35元,≈101.73元,≈2.03元,美元价: $3.00 / $15.00
+硅基流动,聚合平台,因模型而异,因模型而异,因模型而异,·,价格低于官方
+BytePlus,Seed 2.0 Lite,待核实,≈1.70元,待核实,·,阶梯定价
+AWS,Amazon Nova Pro,待核实,≈5.43元,≈21.70元,·,美元价: $0.80 / $3.20
+模力方舟,聚合平台,因模型而异,因模型而异,因模型而异,·,提供免费试用额度
