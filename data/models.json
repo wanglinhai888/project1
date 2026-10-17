@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Elorian",
+    "model": "glimpse",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Reflection",
     "model": "beam-1.0-501b-a23b",
     "category": "LLM",
@@ -916,6 +922,12 @@
     "model": "qwen3.7-plus",
     "category": "LLM",
     "context_window": 1000000
+  },
+  {
+    "provider": "Alibaba",
+    "model": "qwen3.7-plus:batch",
+    "category": "LLM",
+    "context_window": 262144
   },
   {
     "provider": "MiniMax",
