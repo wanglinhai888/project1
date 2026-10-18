@@ -1,5 +1,11 @@
 [
   {
+    "provider": "DeepSeek",
+    "model": "deepseek-v4.1-flash-1017",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Elorian",
     "model": "glimpse",
     "category": "LLM",
@@ -36,10 +42,16 @@
     "context_window": 1048576
   },
   {
+    "provider": "Unbiased",
+    "model": "pareto-26.10",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "~Unbiased",
     "model": "pareto-latest",
     "category": "LLM",
-    "context_window": 262144
+    "context_window": 1048576
   },
   {
     "provider": "Unbiased",
