@@ -2,7 +2,7 @@
 
 走标准 SMTP（QQ/163/Gmail 等均可），无 IP 白名单限制，可直接在 CI 运行。
 配置（GitHub Secrets 或环境变量）：
-  EMAIL_TO      收件人（默认 119662230@qq.com）
+  EMAIL_TO      收件人（必填，仅从 Secrets 读取，代码中不出现明文邮箱）
   EMAIL_FROM    发件人邮箱（不填则默认等于 EMAIL_TO，即发给自己）
   EMAIL_PASSWORD 邮箱"授权码"（注意：不是登录密码！QQ/163 需在邮箱设置里开启 SMTP 后生成）
   EMAIL_SMTP_HOST  SMTP 服务器（默认 smtp.qq.com）
@@ -45,8 +45,11 @@ def send_email(article):
     port = int(os.environ.get("EMAIL_SMTP_PORT", "465"))
     user = os.environ.get("EMAIL_FROM") or os.environ.get("EMAIL_TO")
     pwd = os.environ.get("EMAIL_PASSWORD")
-    to = os.environ.get("EMAIL_TO", "119662230@qq.com")
+    to = os.environ.get("EMAIL_TO")
 
+    if not to:
+        print("[email] 未配置 EMAIL_TO（收件人），跳过邮件发送。请在 GitHub Secrets 中设置 EMAIL_TO。")
+        return
     if not (user and pwd):
         print("[email] 未配置 EMAIL_FROM/EMAIL_PASSWORD，跳过邮件发送。")
         return
@@ -98,7 +101,11 @@ def main():
     ap.add_argument("--article", default=None)
     args = ap.parse_args()
 
-    user = os.environ.get("EMAIL_FROM") or os.environ.get("EMAIL_TO")
+    to = os.environ.get("EMAIL_TO")
+    if not to:
+        print("[email] 未配置 EMAIL_TO（收件人），跳过邮件发送。请在 GitHub Secrets 中设置 EMAIL_TO。")
+        return
+    user = os.environ.get("EMAIL_FROM") or to
     if not (user and os.environ.get("EMAIL_PASSWORD")):
         print("[email] 未配置 EMAIL_FROM/EMAIL_PASSWORD，跳过邮件发送（不阻断流程）。")
         return

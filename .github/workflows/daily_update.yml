@@ -62,11 +62,11 @@ jobs:
           WX_DEFAULT_COVER: ${{ secrets.WX_DEFAULT_COVER }}
 
       - name: Email article to editor (optional, non-blocking)
-        if: ${{ secrets.EMAIL_PASSWORD != '' }}
+        if: ${{ secrets.EMAIL_TO != '' && secrets.EMAIL_PASSWORD != '' }}
         continue-on-error: true
         run: python publisher/sinks/mail.py
         env:
-          EMAIL_TO: ${{ secrets.EMAIL_TO || '119662230@qq.com' }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_SMTP_HOST: ${{ secrets.EMAIL_SMTP_HOST || 'smtp.qq.com' }}
