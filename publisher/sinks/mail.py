@@ -31,6 +31,18 @@ from crawler.config import DATA_DIR
 from publisher.sinks.wechat import md_to_html
 
 
+def _mask_email(email):
+    """日志中打码邮箱，避免明文暴露；真实发送仍用完整地址。"""
+    if not email or "@" not in email:
+        return email
+    name, domain = email.split("@", 1)
+    if len(name) <= 1:
+        masked = "*"
+    else:
+        masked = name[0] + "*" * (len(name) - 2) + name[-1]
+    return f"{masked}@{domain}"
+
+
 def _find_article_json(explicit=None):
     if explicit:
         p = Path(explicit)
@@ -93,7 +105,7 @@ def send_email(article):
     with smtplib.SMTP_SSL(host, port, context=context) as server:
         server.login(user, pwd)
         server.send_message(message)
-    print(f"[email] 已发送文章《{subject}》至 {to}")
+    print(f"[email] 已发送文章《{subject}》至 {_mask_email(to)}")
 
 
 def main():
