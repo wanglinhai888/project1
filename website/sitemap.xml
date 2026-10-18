@@ -32,4 +32,12 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/tools"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/tools"/>
   </url>
+  <url>
+    <loc>https://aipriceradar.pages.dev/article</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/article"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/article"/>
+  </url>
 </urlset>

@@ -3,17 +3,17 @@
 > 自动追踪全球大模型 API 价格、优惠活动与工具指南的每日更新站点。数据由爬虫每日采集，覆盖主流及国内厂商。更新于 2026-10-18T12:11:27+08:00。
 
 ## Data (machine-readable, CORS-enabled)
-- 实时价格表 (JSON): https://www.codenav.cn/api/prices.json
-- 优惠活动 (JSON): https://www.codenav.cn/api/promotions.json
-- 工具指南 (JSON): https://www.codenav.cn/api/tools.json
-- 历史价格趋势 (JSON): https://www.codenav.cn/data/history.json
+- 实时价格表 (JSON): https://aipriceradar.pages.dev/api/prices.json
+- 优惠活动 (JSON): https://aipriceradar.pages.dev/api/promotions.json
+- 工具指南 (JSON): https://aipriceradar.pages.dev/api/tools.json
+- 历史价格趋势 (JSON): https://aipriceradar.pages.dev/data/history.json
 
 ## Pages
-- 交互主页（搜索/筛选/趋势）: https://www.codenav.cn/
-- 静态价格表（SEO）: https://www.codenav.cn/prices.html
-- 优惠活动: https://www.codenav.cn/promotions.html
-- 工具指南: https://www.codenav.cn/tools.html
-- 每日价格日报（SEO/GEO 文章页）: https://www.codenav.cn/article.html
+- 交互主页（搜索/筛选/趋势）: https://aipriceradar.pages.dev/
+- 静态价格表（SEO）: https://aipriceradar.pages.dev/prices.html
+- 优惠活动: https://aipriceradar.pages.dev/promotions.html
+- 工具指南: https://aipriceradar.pages.dev/tools.html
+- 每日价格日报（SEO/GEO 文章页）: https://aipriceradar.pages.dev/article.html
 
 ## Notes
 - 价格单位：每百万 Token（1M tokens）。
