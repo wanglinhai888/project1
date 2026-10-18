@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aipriceradar.pages.dev/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://www.codenav.cn/</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.codenav.cn/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.codenav.cn/"/>
   </url>
   <url>
-    <loc>https://aipriceradar.pages.dev/prices</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://www.codenav.cn/prices</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/prices"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/prices"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.codenav.cn/prices"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.codenav.cn/prices"/>
   </url>
   <url>
-    <loc>https://aipriceradar.pages.dev/promotions</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://www.codenav.cn/promotions</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/promotions"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/promotions"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.codenav.cn/promotions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.codenav.cn/promotions"/>
   </url>
   <url>
-    <loc>https://aipriceradar.pages.dev/tools</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://www.codenav.cn/tools</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/tools"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/tools"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.codenav.cn/tools"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.codenav.cn/tools"/>
   </url>
   <url>
-    <loc>https://aipriceradar.pages.dev/article</loc>
-    <lastmod>2026-10-18</lastmod>
+    <loc>https://www.codenav.cn/article</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://aipriceradar.pages.dev/article"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aipriceradar.pages.dev/article"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.codenav.cn/article"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.codenav.cn/article"/>
   </url>
 </urlset>
