@@ -19,11 +19,14 @@ SEO / GEO 构建脚本（与每日价格更新一起运行）
 """
 import json
 import os
+import re
 import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 OUT = HERE
+# 项目根 data 目录（crawler 产出 + publisher 增强文章落库处）
+ROOT_DATA = os.path.join(os.path.dirname(HERE), "data")
 
 SITE_URL = os.environ.get("SITE_URL", "https://www.codenav.cn").rstrip("/")
 SITE_NAME_ZH = "AI 大模型价格雷达"
@@ -219,6 +222,7 @@ def build_sitemap():
         ("/prices", "daily"),
         ("/promotions", "daily"),
         ("/tools", "daily"),
+        ("/article", "daily"),
     ]
     lastmod = (gen_at or today_date or datetime.date.today().isoformat())
     if "T" in lastmod:
@@ -275,6 +279,7 @@ def build_llms():
         f"- 静态价格表（SEO）: {SITE_URL}/prices.html",
         f"- 优惠活动: {SITE_URL}/promotions.html",
         f"- 工具指南: {SITE_URL}/tools.html",
+        f"- 每日价格日报（SEO/GEO 文章页）: {SITE_URL}/article.html",
         "",
         "## Notes",
         "- 价格单位：每百万 Token（1M tokens）。",
@@ -314,6 +319,150 @@ def build_api():
     write_json("api/tools.json", tools)
 
 # ---------------------------------------------------------------------------
+# article.html（每日 SEO/GEO 文章页，含 JSON-LD 结构化数据）
+# ---------------------------------------------------------------------------
+def inline_md(s):
+    """Markdown 行内元素转 HTML：转义 -> 链接 -> 加粗。"""
+    s = esc(s)
+    s = re.sub(r'\[([^\]]+)\]\(([^)]+)\)',
+               r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
+    s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
+    return s
+
+
+def md_to_html(md):
+    """极简 Markdown -> HTML（仅覆盖本场景受控输出：标题/列表/段落/链接/加粗）。"""
+    if not md:
+        return ""
+    out, in_list = [], False
+    for line in md.split("\n"):
+        s = line.strip()
+        if s.startswith("### "):
+            if in_list:
+                out.append("</ul>"); in_list = False
+            out.append(f"<h3>{esc(s[4:])}</h3>")
+        elif s.startswith("## "):
+            if in_list:
+                out.append("</ul>"); in_list = False
+            out.append(f"<h2>{esc(s[3:])}</h2>")
+        elif s.startswith("# "):
+            if in_list:
+                out.append("</ul>"); in_list = False
+            out.append(f"<h1>{esc(s[2:])}</h1>")
+        elif s.startswith("- "):
+            if not in_list:
+                out.append("<ul>"); in_list = True
+            out.append(f"<li>{inline_md(s[2:])}</li>")
+        elif s == "":
+            if in_list:
+                out.append("</ul>"); in_list = False
+        else:
+            if in_list:
+                out.append("</ul>"); in_list = False
+            out.append(f"<p>{inline_md(s)}</p>")
+    if in_list:
+        out.append("</ul>")
+    return "\n".join(out)
+
+
+def fallback_article_html():
+    """无 AI 增强文章时，用原始变化数据兜底渲染。"""
+    if not changes:
+        return "<p>今日价格无变动。</p>"
+    rows = "".join(
+        f"<li>{esc(c.get('provider', ''))} {esc(c.get('model', ''))}：{esc(c.get('detail', ''))}</li>"
+        for c in changes
+    )
+    return (
+        f"<p>今日共追踪 {esc(summary.get('total_models', '-'))} 个模型，"
+        f"覆盖 {esc(summary.get('providers', '-'))} 家厂商；"
+        f"涨价 {esc(summary.get('price_up', '-'))}、降价 {esc(summary.get('price_down', '-'))}、"
+        f"新模型 {esc(summary.get('new_models', '-'))}。</p>"
+        f"<p>详细变动：</p><ul>{rows}</ul>"
+        f"<p>完整实时价格见 <a href='{SITE_URL}/prices.html'>价格表</a>。</p>"
+    )
+
+
+def build_article():
+    date = today_date
+    art_path = os.path.join(ROOT_DATA, f"article_{date}.json")
+    art = None
+    if os.path.exists(art_path):
+        try:
+            with open(art_path, "r", encoding="utf-8") as f:
+                art = json.load(f)
+        except Exception as e:
+            print(f"[build_seo] 读取 {art_path} 失败: {e}")
+
+    if art:
+        title = art.get("title") or f"{SITE_NAME_ZH} · 每日价格日报（{date}）"
+        desc = art.get("meta_description") or f"每日追踪全球大模型 API 价格变动，更新于 {date}。"
+        keywords = art.get("keywords") or "AI大模型,价格,降价,涨价"
+        body_html = md_to_html(art.get("article", ""))
+        faq = art.get("faq") or []
+    else:
+        title = f"{SITE_NAME_ZH} · 每日价格日报（{date}）"
+        desc = f"每日追踪全球大模型 API 价格变动，更新于 {date}。"
+        keywords = "AI大模型,价格,降价,涨价"
+        body_html = fallback_article_html()
+        faq = []
+
+    modified = (gen_at.split("T")[0] if "T" in gen_at else gen_at) or date
+    article_ld = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": desc,
+        "datePublished": date,
+        "dateModified": modified,
+        "author": {"@type": "Organization", "name": SITE_NAME_ZH},
+        "publisher": {"@type": "Organization", "name": SITE_NAME_ZH},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": f"{SITE_URL}/article.html"},
+    }
+    ld = f'<script type="application/ld+json">{json.dumps(article_ld, ensure_ascii=False)}</script>'
+    if faq:
+        faq_ld = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {"@type": "Question", "name": q.get("q", ""),
+                 "acceptedAnswer": {"@type": "Answer", "text": q.get("a", "")}}
+                for q in faq
+            ],
+        }
+        ld += f'\n<script type="application/ld+json">{json.dumps(faq_ld, ensure_ascii=False)}</script>'
+
+    html = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(desc)}">
+<meta name="keywords" content="{esc(keywords)}">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:type" content="article">
+<link rel="canonical" href="{SITE_URL}/article.html">
+{ld}
+</head>
+<body>
+<div class="container">
+<header><h1>{esc(title)}</h1><p class="sub">{esc(desc)}</p></header>
+<a class="back" href="{SITE_URL}/">← 返回交互主页（可搜索 / 筛选 / 看趋势）</a>
+<div class="article">{body_html}</div>
+"""
+    if faq:
+        html += "<h2>常见问题（FAQ）</h2><div class='faq'>"
+        for q in faq:
+            html += (f"<div class='card'><p><b>Q：{esc(q.get('q', ''))}</b></p>"
+                     f"<p>{esc(q.get('a', ''))}</p></div>")
+        html += "</div>"
+    html += page_foot()
+    write("article.html", html)
+
+
+# ---------------------------------------------------------------------------
 # helpers
 # ---------------------------------------------------------------------------
 def write(name, content):
@@ -332,6 +481,7 @@ if __name__ == "__main__":
     build_prices()
     build_promotions()
     build_tools()
+    build_article()
     build_api()
     build_sitemap()
     build_robots()

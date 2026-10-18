@@ -36,10 +36,18 @@ jobs:
       - name: Sanitize garbled text in data (UTF-8 / mojibake guard)
         run: python clean_garbled.py
 
+      - name: AI polish & SEO/GEO enhance (optional, degrades if no key)
+        run: python publisher/enhance.py
+        env:
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER || 'openrouter' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          SITE_URL: ${{ secrets.SITE_URL || 'https://www.codenav.cn' }}
+
       - name: Build SEO / GEO artifacts (sitemap, robots, llms.txt, static pages, api)
         run: python website/build_seo.py
         env:
-          SITE_URL: ${{ secrets.SITE_URL || 'https://aipriceradar.pages.dev' }}
+          SITE_URL: ${{ secrets.SITE_URL || 'https://www.codenav.cn' }}
 
       - name: Commit and push data update
         run: |

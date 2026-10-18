@@ -7,4 +7,4 @@ Allow: /promotions
 Allow: /tools
 Allow: /api/
 
-Sitemap: https://aipriceradar.pages.dev/sitemap.xml
+Sitemap: https://www.codenav.cn/sitemap.xml
