@@ -50,7 +50,6 @@ jobs:
           SITE_URL: ${{ secrets.SITE_URL || 'https://www.codenav.cn' }}
 
       - name: Publish to WeChat Official Accounts (optional, non-blocking)
-        if: ${{ secrets.WX_ACCOUNTS != '' || secrets.WX_APPID != '' }}
         continue-on-error: true
         run: python publisher/sinks/wechat.py
         env:
@@ -62,7 +61,6 @@ jobs:
           WX_DEFAULT_COVER: ${{ secrets.WX_DEFAULT_COVER }}
 
       - name: Email article to editor (optional, non-blocking)
-        if: ${{ secrets.EMAIL_TO != '' && secrets.EMAIL_PASSWORD != '' }}
         continue-on-error: true
         run: python publisher/sinks/mail.py
         env:
