@@ -16347,8 +16347,8 @@
     "date": "2026-10-19",
     "provider": "DeepSeek",
     "model": "deepseek-v4.1-flash-1017",
-    "input_price": 0.3,
-    "output_price": 1.2,
+    "input_price": 0.15,
+    "output_price": 0.6,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -16824,7 +16824,7 @@
     "date": "2026-10-19",
     "provider": "~Deepseek",
     "model": "deepseek-pro-latest",
-    "input_price": 0.225,
+    "input_price": 0.1307,
     "output_price": 8.0,
     "currency": "USD",
     "source": "openrouter_api"
@@ -16833,7 +16833,7 @@
     "date": "2026-10-19",
     "provider": "~Deepseek",
     "model": "deepseek-flash-latest",
-    "input_price": 0.05,
+    "input_price": 0.041,
     "output_price": 0.6,
     "currency": "USD",
     "source": "openrouter_api"
@@ -16923,8 +16923,8 @@
     "date": "2026-10-19",
     "provider": "DeepSeek",
     "model": "deepseek-v4.1-flash",
-    "input_price": 0.0472,
-    "output_price": 0.12,
+    "input_price": 0.0328,
+    "output_price": 0.08,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -17086,7 +17086,7 @@
     "provider": "~Z-Ai",
     "model": "glm-flash-latest",
     "input_price": 0.048,
-    "output_price": 0.2,
+    "output_price": 0.16,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -17104,7 +17104,7 @@
     "provider": "Z.ai",
     "model": "glm-5.3-flash",
     "input_price": 0.048,
-    "output_price": 0.2,
+    "output_price": 0.16,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -17157,8 +17157,8 @@
     "date": "2026-10-19",
     "provider": "~Z-Ai",
     "model": "glm-latest",
-    "input_price": 0.06,
-    "output_price": 1.2,
+    "input_price": 0.053,
+    "output_price": 6.0,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -17310,7 +17310,7 @@
     "date": "2026-10-19",
     "provider": "~Deepseek",
     "model": "deepseek-v4-flash-latest",
-    "input_price": 0.0159,
+    "input_price": 0.0052,
     "output_price": 0.12,
     "currency": "USD",
     "source": "openrouter_api"
@@ -17436,7 +17436,7 @@
     "date": "2026-10-19",
     "provider": "Kimi",
     "model": "kimi-k3",
-    "input_price": 0.249,
+    "input_price": 0.239,
     "output_price": 11.936,
     "currency": "USD",
     "source": "openrouter_api"
@@ -17931,8 +17931,8 @@
     "date": "2026-10-19",
     "provider": "~Moonshotai",
     "model": "kimi-latest",
-    "input_price": 0.249,
-    "output_price": 11.936,
+    "input_price": 0.238,
+    "output_price": 13.0,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -18030,8 +18030,8 @@
     "date": "2026-10-19",
     "provider": "DeepSeek",
     "model": "deepseek-v4-pro",
-    "input_price": 0.9553,
-    "output_price": 1.9105,
+    "input_price": 0.4343,
+    "output_price": 0.8686,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -18129,8 +18129,8 @@
     "date": "2026-10-19",
     "provider": "Google",
     "model": "gemma-4-26b-a4b-it",
-    "input_price": 0.0675,
-    "output_price": 0.225,
+    "input_price": 0.09,
+    "output_price": 0.3,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -18381,8 +18381,8 @@
     "date": "2026-10-19",
     "provider": "Alibaba",
     "model": "qwen3.5-27b",
-    "input_price": 0.195,
-    "output_price": 1.56,
+    "input_price": 0.27,
+    "output_price": 2.16,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -19047,8 +19047,8 @@
     "date": "2026-10-19",
     "provider": "Z.ai",
     "model": "glm-4.6",
-    "input_price": 0.5,
-    "output_price": 2.0,
+    "input_price": 0.55,
+    "output_price": 2.2,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -19891,15 +19891,6 @@
   },
   {
     "date": "2026-10-19",
-    "provider": "DeepSeek",
-    "model": "deepseek-r1",
-    "input_price": 0.7,
-    "output_price": 2.5,
-    "currency": "USD",
-    "source": "openrouter_api"
-  },
-  {
-    "date": "2026-10-19",
     "provider": "MiniMax",
     "model": "minimax-01",
     "input_price": 0.2,
@@ -19922,15 +19913,6 @@
     "model": "deepseek-chat",
     "input_price": 0.32,
     "output_price": 0.89,
-    "currency": "USD",
-    "source": "openrouter_api"
-  },
-  {
-    "date": "2026-10-19",
-    "provider": "Sao10K",
-    "model": "l3.3-euryale-70b",
-    "input_price": 0.65,
-    "output_price": 0.75,
     "currency": "USD",
     "source": "openrouter_api"
   },
@@ -20233,15 +20215,6 @@
   },
   {
     "date": "2026-10-19",
-    "provider": "Microsoft",
-    "model": "wizardlm-2-8x22b",
-    "input_price": 0.62,
-    "output_price": 0.62,
-    "currency": "USD",
-    "source": "openrouter_api"
-  },
-  {
-    "date": "2026-10-19",
     "provider": "OpenAI",
     "model": "gpt-4-turbo",
     "input_price": 10.0,
@@ -20401,24 +20374,6 @@
     "output_price": 30.0,
     "currency": "CNY",
     "source": "fallback"
-  },
-  {
-    "date": "2026-10-19",
-    "provider": "MiniMax CN",
-    "model": "MiniMax-M2.7",
-    "input_price": 2.0,
-    "output_price": 0.5,
-    "currency": "CNY",
-    "source": "official"
-  },
-  {
-    "date": "2026-10-19",
-    "provider": "MiniMax Global",
-    "model": "MiniMax-M2.7",
-    "input_price": 0.3,
-    "output_price": 1.2,
-    "currency": "USD",
-    "source": "official"
   },
   {
     "date": "2026-10-19",

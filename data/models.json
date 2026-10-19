@@ -2229,7 +2229,7 @@
     "provider": "Meta-Llama",
     "model": "llama-4-maverick",
     "category": "LLM",
-    "context_window": 1048576
+    "context_window": 524288
   },
   {
     "provider": "Meta-Llama",
@@ -2364,12 +2364,6 @@
     "context_window": 127072
   },
   {
-    "provider": "DeepSeek",
-    "model": "deepseek-r1",
-    "category": "LLM",
-    "context_window": 64000
-  },
-  {
     "provider": "MiniMax",
     "model": "minimax-01",
     "category": "LLM",
@@ -2386,12 +2380,6 @@
     "model": "deepseek-chat",
     "category": "LLM",
     "context_window": 163840
-  },
-  {
-    "provider": "Sao10K",
-    "model": "l3.3-euryale-70b",
-    "category": "LLM",
-    "context_window": 131072
   },
   {
     "provider": "OpenAI",
@@ -2592,12 +2580,6 @@
     "context_window": 65536
   },
   {
-    "provider": "Microsoft",
-    "model": "wizardlm-2-8x22b",
-    "category": "LLM",
-    "context_window": 65535
-  },
-  {
     "provider": "OpenAI",
     "model": "gpt-4-turbo",
     "category": "LLM",
@@ -2702,18 +2684,6 @@
   {
     "provider": "火山引擎",
     "model": "豆包2.1 Pro",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "MiniMax CN",
-    "model": "MiniMax-M2.7",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "MiniMax Global",
-    "model": "MiniMax-M2.7",
     "category": "LLM",
     "context_window": 262144
   },
