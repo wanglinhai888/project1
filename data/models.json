@@ -2073,7 +2073,7 @@
     "provider": "Morph",
     "model": "morph-v3-fast",
     "category": "LLM",
-    "context_window": 81920
+    "context_window": 262144
   },
   {
     "provider": "Mistral",
