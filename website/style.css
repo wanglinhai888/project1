@@ -109,6 +109,23 @@ body {
   color: var(--accent-blue);
 }
 
+.nav-link {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 6px 14px;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.nav-link:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
 .dot {
   width: 8px;
   height: 8px;

@@ -64,6 +64,7 @@
         </div>
       </div>
       <div class="header-actions">
+        <a class="nav-link" href="/article">每日日报</a>
         <div class="update-time" v-if="today">
           <span class="dot"></span> {{ t('updatedAt') }} {{ today.date }}
         </div>
@@ -263,6 +264,7 @@
       <p>{{ t('footer2') }}</p>
       <p v-if="today">Last updated: {{ today.generated_at }}</p>
       <p class="seo-links">静态版（无 JS，利于收录）：
+        <a href="/article">每日价格日报</a> ·
         <a href="/prices">价格表</a> ·
         <a href="/promotions">优惠活动</a> ·
         <a href="/tools">工具指南</a> ·
