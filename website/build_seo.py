@@ -20,6 +20,7 @@ SEO / GEO 构建脚本（与每日价格更新一起运行）
 import json
 import os
 import re
+import glob
 import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -213,6 +214,19 @@ def build_tools():
 
 PAGE_CSS_BLOCK = f"<style>{PAGE_CSS}</style>"
 
+ARTICLE_CSS = """
+.article{max-width:840px;line-height:1.9;font-size:16px;margin:0 auto}
+.article h1{font-size:26px;margin:20px 0 12px}
+.article h2{font-size:21px;margin:28px 0 10px;padding-left:11px;border-left:4px solid var(--accent)}
+.article h3{font-size:18px;margin:20px 0 8px;color:var(--accent-blue)}
+.article p{margin:12px 0}
+.article ul{margin:12px 0;padding-left:22px}
+.article li{margin:8px 0}
+.article a{color:var(--accent-blue);text-decoration:none}
+.faq .card p{margin:6px 0}
+"""
+ARTICLE_CSS_BLOCK = f"<style>{ARTICLE_CSS}</style>"
+
 # ---------------------------------------------------------------------------
 # sitemap.xml
 # ---------------------------------------------------------------------------
@@ -385,8 +399,14 @@ def fallback_article_html():
 
 def build_article():
     date = today_date
-    art_path = os.path.join(ROOT_DATA, f"article_{date}.json")
     art = None
+    art_path = os.path.join(ROOT_DATA, f"article_{date}.json")
+    if not os.path.exists(art_path):
+        # 当日 AI 文章缺失时，回退到最近一期，避免退化成无样式的干列表
+        cands = sorted(glob.glob(os.path.join(ROOT_DATA, "article_*.json")), reverse=True)
+        if cands:
+            art_path = cands[0]
+            print(f"[build_seo] 未找到当日文章 article_{date}.json，改用 {os.path.basename(art_path)}")
     if os.path.exists(art_path):
         try:
             with open(art_path, "r", encoding="utf-8") as f:
@@ -398,7 +418,12 @@ def build_article():
         title = art.get("title") or f"{SITE_NAME_ZH} · 每日价格日报（{date}）"
         desc = art.get("meta_description") or f"每日追踪全球大模型 API 价格变动，更新于 {date}。"
         keywords = art.get("keywords") or "AI大模型,价格,降价,涨价"
-        body_html = md_to_html(art.get("article", ""))
+        body_md = art.get("article", "")
+        # 文章正文开头的 "# 标题" 与页面 <h1> 重复，去掉首行 H1
+        if body_md.lstrip().startswith("# "):
+            body_md = body_md.lstrip()
+            body_md = body_md[body_md.find("\n") + 1:].lstrip()
+        body_html = md_to_html(body_md)
         faq = art.get("faq") or []
     else:
         title = f"{SITE_NAME_ZH} · 每日价格日报（{date}）"
@@ -458,6 +483,7 @@ def build_article():
             html += (f"<div class='card'><p><b>Q：{esc(q.get('q', ''))}</b></p>"
                      f"<p>{esc(q.get('a', ''))}</p></div>")
         html += "</div>"
+    html += PAGE_CSS_BLOCK + ARTICLE_CSS_BLOCK
     html += page_foot()
     write("article.html", html)
 

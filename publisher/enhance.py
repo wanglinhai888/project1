@@ -30,6 +30,8 @@ except Exception:  # pragma: no cover - 依赖缺失时降级
 
 # 各 provider 的默认（尽量免费）模型
 DEFAULT_MODELS = {
+    "zhipu": "glm-4-flash",  # 智谱：免费模型，国内手机号注册即用
+    "siliconflow": "Qwen/Qwen2.5-7B-Instruct",  # 硅基流动：注册送额度，含免费模型
     "gemini": "gemini-2.5-flash",
     "openrouter": "meta-llama/llama-3.1-8b-instruct:free",
     "openai": "gpt-4o-mini",
@@ -39,6 +41,8 @@ DEFAULT_MODELS = {
 
 # OpenAI 兼容接口的 base url
 _COMPAT_BASE = {
+    "zhipu": "https://open.bigmodel.cn/api/paas/v4",
+    "siliconflow": "https://api.siliconflow.cn/v1",
     "openrouter": "https://openrouter.ai/api/v1",
     "openai": "https://api.openai.com/v1",
     "groq": "https://api.groq.com/openai/v1",
@@ -73,13 +77,19 @@ PROMPT = """你是一名资深科技内容编辑，负责把一份"AI 大模型�
 只输出 JSON，不要任何额外说明文字。"""
 
 
-def _compat_payload(model, prompt):
-    return {
+def _compat_payload(model, prompt, json_mode=True):
+    payload = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
-        "response_format": {"type": "json_object"},
         "temperature": 0.4,
     }
+    if json_mode:
+        payload["response_format"] = {"type": "json_object"}
+    return payload
+
+
+# 这些兼容端点支持 response_format=json_object
+_SUPPORT_JSON_MODE = {"zhipu", "siliconflow", "openrouter", "openai", "groq", "deepseek"}
 
 
 def _gemini_payload(model, prompt):
@@ -89,7 +99,15 @@ def _gemini_payload(model, prompt):
     }
 
 
-def _call(provider, api_key, model, prompt, timeout=60):
+def _extract_json(text):
+    """剥掉模型可能输出的 ```json 围栏，再解析；失败抛异常由上层重试/降级。"""
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.strip("`").lstrip("json").strip()
+    return json.loads(text)
+
+
+def _call(provider, api_key, model, prompt, timeout=180):
     if provider == "gemini":
         url = (
             "https://generativelanguage.googleapis.com/v1beta/models/"
@@ -102,7 +120,10 @@ def _call(provider, api_key, model, prompt, timeout=60):
     url = f"{_COMPAT_BASE[provider]}/chat/completions"
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
     resp = requests.post(
-        url, headers=headers, json=_compat_payload(model, prompt), timeout=timeout
+        url,
+        headers=headers,
+        json=_compat_payload(model, prompt, json_mode=provider in _SUPPORT_JSON_MODE),
+        timeout=timeout,
     )
     resp.raise_for_status()
     return resp.json()["choices"][0]["message"]["content"]
@@ -141,11 +162,19 @@ def enhance(today=None, site=None, provider=None, api_key=None, model=None):
     raw = _build_raw_context(today)
     prompt = PROMPT.format(raw=raw, site=site)
 
-    try:
-        text = _call(provider, api_key, model, prompt)
-        data = json.loads(text)
-    except Exception as exc:  # 网络 / 解析 / 限流 等均降级
-        print(f"[enhance] LLM 调用失败，降级为原始摘要: {exc}")
+    # 失败自动重试一次（处理偶发超时 / 限流），仍失败才降级
+    last_err = None
+    data = None
+    for attempt in range(2):
+        try:
+            text = _call(provider, api_key, model, prompt)
+            data = _extract_json(text)
+            break
+        except Exception as exc:
+            last_err = exc
+            print(f"[enhance] LLM 调用失败（第 {attempt + 1} 次），{'重试…' if attempt == 0 else '降级为原始摘要'}: {exc}")
+    if data is None:
+        print(f"[enhance] 最终降级: {last_err}")
         return None
 
     data.setdefault("date", today.get("date", ""))
