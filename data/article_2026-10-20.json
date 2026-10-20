@@ -1,0 +1,27 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格变动，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，包括涨价、降价和新模型上线信息，数据来源于Codenav。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, 新模型, DeepSeek, Reflection, Inception, Nvidia, Alibaba, Google, Z.ai, Upstage, Moonshotai",
+  "article": "# AI 大模型价格日报：多款模型价格变动，新模型上线\n\n## 今日核心结论\n今日AI大模型市场多款模型价格发生变动，包括涨价、降价和新模型上线，以下是详细情况。\n\n## 涨价\n- **DeepSeek deepseek-v4.1-flash-1017**：输入价从 $0.15 上涨至 $0.30，输出价从 $0.60 上涨至 $1.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Reflection beam-1.0-501b-a23b**：输入价从 $1.00 下降至 $0.30，输出价从 $3.00 下降至 $1.00。[官网](https://openrouter.ai/models/reflection/beam-1.0-501b-a23b)\n- **Nvidia nemotron-3.5-super-vl**：输入价从 $0.10 上涨至 $0.15，输出价从 $0.40 上涨至 $0.50。[官网](https://build.nvidia.com/)\n- **Deepseek deepseek-pro-latest**：输入价从 $0.13 上涨至 $0.20，输出价保持 $8.00。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4.1-flash**：输入价从 $0.03 上涨至 $0.04，输出价从 $0.08 上涨至 $0.01。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z-Ai glm-flash-latest**：输入价从 $0.05 上涨至 $0.06，输出价保持 $0.16。[官网](https://z.ai/)\n- **Z.ai glm-5.3-flash**：输入价从 $0.05 上涨至 $0.15，输出价从 $0.16 上涨至 $0.50。[官网](https://z.ai/)\n- **Upstage solar-pro4**：输入价从 $0.09 上涨至 $0.15，输出价从 $0.36 上涨至 $0.60。[官网](https://upstage.ai/)\n- **Deepseek deepseek-v4-flash-latest**：输入价保持 $0.01，输出价从 $0.12 上涨至 $0.12。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-0731**：输入价从 $0.15 上涨至 $0.44，输出价从 $0.15 上涨至 $1.32。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Moonshotai kimi-latest**：输入价保持 $0.24，输出价从 $13.00 上涨至 $16.00。[官网](https://platform.moonshot.cn/)\n- **DeepSeek deepseek-v4-pro**：输入价从 $0.43 上涨至 $0.96，输出价从 $0.87 上涨至 $1.91。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 降价\n- **Reflection beam-1.0-501b-a23b**：输入价从 $1.00 下降至 $0.30，输出价从 $3.00 下降至 $1.00。[官网](https://openrouter.ai/models/reflection/beam-1.0-501b-a23b)\n- **Alibaba qwen3.6-35b-a3b**：输入价从 $0.15 下降至 $0.10，输出价从 $1.00 下降至 $0.95。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Google gemma-4-26b-a4b-it**：输入价从 $0.09 下降至 $0.08，输出价从 $0.30 下降至 $0.26。[官网](https://ai.google.dev/pricing)\n- **Alibaba qwen3.5-397b-a17b**：输入价从 $0.50 下降至 $0.39，输出价从 $3.60 下降至 $2.34。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Z.ai glm-5**：输入价从 $1.00 下降至 $0.60，输出价从 $3.20 下降至 $1.92。[官网](https://z.ai/)\n- **Google gemma-3-4b-it**：输入价从 $0.05 下降至 $0.04，输出价从 $0.10 下降至 $0.05。[官网](https://ai.google.dev/pricing)\n- **DeepSeek deepseek-chat**：输入价从 $0.32 下降至 $0.26，输出价从 $0.89 下降至 $1.03。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 新模型\n- **Inception mercury-3**：新模型上线。[官网](https://www.inceptionlabs.ai/)\n\n## 行业观察\nAI大模型市场持续活跃，价格变动和新模型上线成为行业关注的焦点。随着技术的不断进步，预计未来将有更多创新模型和价格策略出现。\n\n## 数据来源与更新频率\n数据来源于Codenav，实时价格表请访问[这里](https://www.codenav.cn/prices.html)。\n\n## 常见问题\n- **今日哪些模型降价**？\n  - 今日有多款模型降价，包括Reflection beam-1.0-501b-a23b、Alibaba qwen3.6-35b-a3b等。\n- **今日哪些模型涨价**？\n  - 今日有多款模型涨价，包括DeepSeek deepseek-v4.1-flash-1017、Nvidia nemotron-3.5-super-vl等。\n- **新上线了哪些模型**？\n  - 今日新上线了Inception mercury-3模型。\n- **数据来源与更新频率**？\n  - 数据来源于Codenav，实时更新。\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日有多款模型降价，包括Reflection beam-1.0-501b-a23b、Alibaba qwen3.6-35b-a3b等。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日有多款模型涨价，包括DeepSeek deepseek-v4.1-flash-1017、Nvidia nemotron-3.5-super-vl等。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线了Inception mercury-3模型。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于Codenav，实时更新。"
+    }
+  ],
+  "date": "2026-10-20",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

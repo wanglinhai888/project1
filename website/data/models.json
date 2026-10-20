@@ -18,6 +18,12 @@
     "context_window": 1048576
   },
   {
+    "provider": "Inception",
+    "model": "mercury-3",
+    "category": "LLM",
+    "context_window": 1000000
+  },
+  {
     "provider": "Moondream",
     "model": "moondream3-preview",
     "category": "LLM",
