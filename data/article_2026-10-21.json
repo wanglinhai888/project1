@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报/变动：多款模型价格调整，部分降价明显",
+  "meta_description": "今日AI大模型价格动态，多款模型价格调整，部分降价明显，了解最新价格变动。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, Mistral, Deepseek, Alibaba, Xiaomi, Z.ai, Nvidia",
+  "article": "# AI 大模型每日价格变化报告\n\n## 涨价模型\n- **Mistral mistral-large-4-0**: 输入价 $0.68 → $1.36，输出价 $2.09 → $4.18 [官网](https://mistral.ai/products/pricing)\n- **Deepseek deepseek-pro-latest**: 输入价 $0.20 → $0.23，输出价 $8.00 → $8.00 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-flash-latest**: 输入价 $0.05 → $0.07，输出价 $0.02 → $0.50 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4.1-flash**: 输入价 $0.04 → $0.05，输出价 $0.01 → $0.53 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z-Ai glm-flash-latest**: 输入价 $0.06 → $0.05，输出价 $0.16 → $0.53 [官网](https://z.ai/)\n- **Z.ai glm-5.2**: 输入价 $0.62 → $0.03，输出价 $2.42 → $7.00 [官网](https://z.ai/)\n- **Deepseek deepseek-v4-flash-latest**: 输入价 $0.01 → $0.01，输出价 $0.12 → $0.14 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Nvidia nemotron-3-super-120b-a12b**: 输入价 $0.08 → $0.30，输出价 $0.45 → $2.40 [官网](https://build.nvidia.com/)\n- **Z.ai glm-5**: 输入价 $0.60 → $1.00，输出价 $1.92 → $3.20 [官网](https://z.ai/)\n\n## 降价模型\n- **Alibaba qwen3.8-27b**: 输入价 $0.24 → $0.04，输出价 $2.20 → $1.35 [官网](https://help.aliyun.com/zh/model-studio/models)\n- **Xiaomi mimo-v2.5-pro**: 输入价 $0.43 → $0.30，输出价 $0.87 → $0.61 [官网](https://mimo.mi.com/)\n- **Xiaomi mimo-v2.5**: 输入价 $0.14 → $0.12，输出价 $0.28 → $0.24 [官网](https://mimo.mi.com/)\n- **Alibaba qwen3.5-9b**: 输入价 $0.10 → $0.08，输出价 $0.15 → $0.13 [官网](https://help.aliyun.com/zh/model-studio/models)\n- **Alibaba qwen3.5-35b-a3b**: 输入价 $0.15 → $0.14，输出价 $1.00 → $1.00 [官网](https://help.aliyun.com/zh/model-studio/models)\n\n## 行业观察\nAI大模型市场持续活跃，价格调整成为常态，厂商通过价格策略应对市场竞争和需求变化。\n\n[查看实时价格表](https://www.codenav.cn/prices.html)",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日包括Alibaba qwen3.8-27b、Xiaomi mimo-v2.5-pro、Xiaomi mimo-v2.5、Alibaba qwen3.5-9b和Alibaba qwen3.5-35b-a3b等模型降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日包括Mistral mistral-large-4-0、Deepseek deepseek-pro-latest、Deepseek deepseek-flash-latest、DeepSeek deepseek-v4.1-flash、Z-Ai glm-flash-latest、Z.ai glm-5.2、Deepseek deepseek-v4-flash-latest、Nvidia nemotron-3-super-120b-a12b和Z.ai glm-5等模型涨价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日没有提及新上线的模型。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于https://www.codenav.cn，具体更新频率未提及。"
+    },
+    {
+      "q": "价格变动的原因是什么？",
+      "a": "价格变动可能是由于市场竞争、需求变化或厂商策略调整等原因。"
+    }
+  ],
+  "date": "2026-10-21",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

@@ -2101,19 +2101,7 @@
   },
   {
     "provider": "Google",
-    "model": "gemini-2.5-flash:batch",
-    "category": "LLM",
-    "context_window": 1048576
-  },
-  {
-    "provider": "Google",
     "model": "gemini-2.5-pro",
-    "category": "LLM",
-    "context_window": 1048576
-  },
-  {
-    "provider": "Google",
-    "model": "gemini-2.5-pro:batch",
     "category": "LLM",
     "context_window": 1048576
   },
