@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报/变动：多款模型价格调整，涨跌互现",
+  "meta_description": "今日AI大模型价格动态，多款模型价格调整，涨跌互现，了解最新价格变化。",
+  "keywords": "AI大模型, 价格, 降价, 涨价, DeepSeek, Z-Ai, Moonshotai, Alibaba",
+  "article": "# AI 大模型每日价格变化报告\n\n## 今日核心结论\n今日AI大模型市场多款模型价格出现调整，既有价格上涨的案例，也有价格下降的情况。\n\n## 涨价模型\n- **DeepSeek deepseek-v4.1-flash**：输入价从 $0.05 上涨至 $0.30，输出价从 $0.53 上涨至 $1.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Alibaba qwen3.5-122b-a10b**：输入价从 $0.26 上涨至 $0.40，输出价从 $2.08 上涨至 $3.20。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Alibaba qwen3.5-397b-a17b**：输入价从 $0.39 上涨至 $0.50，输出价从 $2.34 上涨至 $3.60。[官网](https://help.aliyun.com/zh/model-studio/models)\n\n## 降价模型\n- **Z-Ai glm-flash-latest**：输入价从 $0.05 降至 $0.02，输出价从 $0.53 降至 $0.12。[官网](https://z.ai/)\n- **Z.ai glm-5.3-flash**：输入价从 $0.15 降至 $0.02，输出价从 $0.50 降至 $0.12。[官网](https://z.ai/)\n- **Z.ai GLM-5.3**：输入价和输出价均从 $1.40 降至 $0.37。[官网](https://docs.z.ai/guides/overview/pricing)\n\n## 新模型\n- 今日暂无新模型上线。\n\n## 行业观察\nAI大模型市场的价格波动反映了技术的快速发展和市场竞争的加剧。价格调整可能受到技术进步、市场需求和竞争策略等多种因素的影响。\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日Z-Ai的glm-flash-latest和glm-5.3，以及Z.ai的GLM-5.3模型降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日DeepSeek的deepseek-v4.1-flash，以及Alibaba的qwen3.5-122b-a10b和qwen3.5-397b-a17b模型涨价。"
+    },
+    {
+      "q": "今日有新模型上线吗？",
+      "a": "今日没有新模型上线。"
+    },
+    {
+      "q": "这些价格变化的数据来源是什么？",
+      "a": "这些价格变化的数据来源于Codenav网站，具体数据表可以在这里查看：[实时价格表](https://www.codenav.cn/prices.html)。"
+    },
+    {
+      "q": "这些数据的更新频率是怎样的？",
+      "a": "数据的更新频率取决于模型厂商，具体更新频率可能有所不同。"
+    }
+  ],
+  "date": "2026-10-22",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

@@ -2040,12 +2040,6 @@
     "context_window": 1048576
   },
   {
-    "provider": "Google",
-    "model": "gemini-2.5-flash-lite:batch",
-    "category": "LLM",
-    "context_window": 1048576
-  },
-  {
     "provider": "Alibaba",
     "model": "qwen3-235b-a22b-2507",
     "category": "LLM",
