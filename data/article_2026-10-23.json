@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格下调，新模型上线，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, MiniMax, Reflection, Deepseek, Z-Ai, Moonshotai, Mistral",
+  "article": "# AI 大模型价格日报\n\n## 今日核心结论\n今日AI大模型市场部分模型价格有所调整，同时有新模型上线。\n\n## 涨价\n- **Deepseek deepseek-pro-latest**：输入价从 $0.22 上涨至 $0.23，输出价保持 $8.00 不变。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 降价\n- **Reflection beam-1.0-501b-a23b**：输入价从 $0.30 降至 $0.25，输出价保持 $1.00 不变。[官网](https://openrouter.ai/models/reflection/beam-1.0-501b-a23b)\n- **DeepSeek deepseek-v4.1-flash**：输入价从 $0.30 降至 $0.17，输出价从 $1.20 降至 $0.66。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z-Ai glm-flash-latest**：输入价从 $0.02 降至 $0.01，输出价从 $0.12 降至 $0.20。[官网](https://z.ai/)\n- **Moonshotai kimi-latest**：输入价保持 $0.24 不变，输出价从 $24.00 降至 $16.00。[官网](https://platform.moonshot.cn/)\n- **Mistral mistral-small-3.2-24b-instruct**：输入价从 $0.09 降至 $0.07，输出价从 $0.25 降至 $0.20。[官网](https://mistral.ai/products/pricing)\n\n## 新模型上线\n- **MiniMax minimax-m3.1-flash**：新模型上线。[官网](https://platform.minimax.io/)\n\n## 行业观察\nAI大模型市场持续活跃，价格调整和新模型上线成为行业发展的新趋势。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "Reflection beam-1.0-501b-a23b, DeepSeek deepseek-v4.1-flash, Z-Ai glm-flash-latest, Moonshotai kimi-latest, Mistral mistral-small-3.2-24b-instruct等模型降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "Deepseek deepseek-pro-latest模型涨价。"
+    },
+    {
+      "q": "今日新上线了哪些模型？",
+      "a": "MiniMax minimax-m3.1-flash模型新上线。"
+    },
+    {
+      "q": "数据来源是什么？",
+      "a": "数据来源于Codenav网站，网址为[https://www.codenav.cn](https://www.codenav.cn)。"
+    },
+    {
+      "q": "数据更新频率是多少？",
+      "a": "数据更新频率为每日更新。"
+    }
+  ],
+  "date": "2026-10-23",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

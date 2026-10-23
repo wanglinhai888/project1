@@ -1,5 +1,11 @@
 [
   {
+    "provider": "MiniMax",
+    "model": "minimax-m3.1-flash",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "DeepSeek",
     "model": "deepseek-v4.1-flash-1017",
     "category": "LLM",
