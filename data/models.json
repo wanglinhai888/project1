@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Kimi",
+    "model": "kimi-k3.1-pro",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "MiniMax",
     "model": "minimax-m3.1-flash",
     "category": "LLM",

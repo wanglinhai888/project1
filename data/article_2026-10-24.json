@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格波动，新模型上线引关注",
+  "meta_description": "今日AI大模型价格动态，多款模型价格调整，新模型上线，了解最新价格变动。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, DeepSeek, Kimi, Alibaba, Google",
+  "article": "# AI 大模型价格日报：多款模型价格波动，新模型上线引关注\n\n## 今日核心结论\n今日AI大模型市场多款模型价格出现波动，部分模型价格下调，同时也有新模型上线，市场动态值得关注。\n\n## 涨价\n- **Alibaba qwen3.8-27b**: 输入价 $0.04 → $0.20，输出价 $1.35 → $2.50\n- **Z.ai glm-5.3-flash**: 输入价 $0.01 → $0.15，输出价 $0.20 → $0.50\n- **Alibaba qwen3.5-9b**: 输入价 $0.08 → $0.17，输出价 $0.13 → $0.25\n\n## 降价\n- **DeepSeek deepseek-v4.1-flash-1017**: 输入价 $0.30 → $0.15，输出价 $1.20 → $0.60\n- **Deepseek deepseek-pro-latest**: 输入价 $0.23 → $0.12，输出价 $8.00 → $8.00\n- **Deepseek deepseek-flash-latest**: 输入价 $0.07 → $0.02，输出价 $0.50 → $1.00\n- **DeepSeek deepseek-v4.1-flash**: 输入价 $0.17 → $0.02，输出价 $0.66 → $1.00\n- **Z-Ai glm-flash-latest**: 输入价 $0.01 → $0.03，输出价 $0.20 → $0.09\n- **DeepSeek deepseek-v4-pro-0813**: 输入价 $1.32 → $0.66，输出价 $3.96 → $1.98\n- **Deepseek deepseek-v4-flash-latest**: 输入价 $0.05 → $0.04，输出价 $0.16 → $0.17\n- **DeepSeek deepseek-v4-flash-0731**: 输入价 $0.44 → $0.04，输出价 $1.32 → $0.13\n- **Kimi kimi-k3**: 输入价 $0.24 → $0.24，输出价 $11.94 → $10.80\n- **DeepSeek deepseek-v4-pro**: 输入价 $0.96 → $0.63，输出价 $1.91 → $1.26\n- **Google gemma-4-26b-a4b-it**: 输入价 $0.08 → $0.07，输出价 $0.26 → $0.23\n\n## 新模型\n- **Kimi kimi-k3.1-pro**: 新模型上线，官网: [https://platform.moonshot.cn/](https://platform.moonshot.cn/)\n\n## 行业观察\nAI大模型市场持续活跃，价格波动和新模型上线成为行业关注的焦点。未来，随着技术的不断进步，AI大模型的应用场景将更加广泛。\n\n## 参考资料\n- [站点](https://www.codenav.cn/)\n- [实时价格表](https://www.codenav.cn/prices.html)\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日多款模型降价，包括DeepSeek、Kimi、Z-Ai、Alibaba等厂商的多个模型。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日Alibaba的qwen3.8-27b、Z.ai的glm-5.3-flash以及Alibaba的qwen3.5-9b等模型涨价。"
+    },
+    {
+      "q": "今日有哪些新模型上线？",
+      "a": "今日Kimi的新模型kimi-k3.1-pro上线。"
+    },
+    {
+      "q": "数据来源是什么？",
+      "a": "数据来源于[站点](https://www.codenav.cn/)提供的实时价格表。"
+    },
+    {
+      "q": "数据更新频率是多少？",
+      "a": "数据更新频率为每日更新。"
+    }
+  ],
+  "date": "2026-10-24",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
