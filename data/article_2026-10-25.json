@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格上调或下调，同时有新模型上线，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, Z-Ai, Liquid, DeepSeek, Moonshotai, MiniMax, Meta-Llama",
+  "article": "# AI 大模型价格日报\n\n## 涨价\n- **Z-Ai glm-flash-latest**: 输入价 $0.03 → $0.03，输出价 $0.09 → $0.09 [官网](https://z.ai/)\n- **Z-Ai glm-latest**: 输入价 $0.08 → $0.07，输出价 $1.40 → $4.38 [官网](https://z.ai/)\n- **DeepSeek deepseek-v4-flash-0731**: 输入价 $0.04 → $0.04，输出价 $0.13 → $0.17 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **MiniMax minimax-m2.5**: 输入价 $0.27 → $0.30，输出价 $0.95 → $1.20 [官网](https://platform.minimax.io/)\n- **Meta-Llama llama-3.2-3b-instruct**: 输入价 $0.05 → $0.05，输出价 $0.34 → $0.33 [官网](https://www.llama.com/)\n\n## 降价\n- **Moonshotai kimi-latest**: 输入价 $0.24 → $0.18，输出价 $16.00 → $9.72 [官网](https://platform.moonshot.cn/)\n- **DeepSeek deepseek-v4-pro**: 输入价 $0.63 → $0.21，输出价 $1.26 → $0.42 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 新模型\n- **Liquid lfm-2.5-2.6b**: 新模型上线 [官网](https://openrouter.ai/models/liquid/lfm-2.5-2.6b)\n\n## 行业观察\nAI大模型市场今日呈现价格调整和新模型上线的趋势，价格变动反映了市场供需关系的变化，新模型的上线则为开发者提供了更多选择。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "Moonshotai kimi-latest 和 DeepSeek deepseek-v4-pro 降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "Z-Ai glm-flash-latest, Z-Ai glm-latest, DeepSeek deepseek-v4-flash-0731, MiniMax minimax-m2.5 和 Meta-Llama llama-3.2-3b-instruct 涨价。"
+    },
+    {
+      "q": "今日有哪些新模型上线？",
+      "a": "Liquid lfm-2.5-2.6b 新模型上线。"
+    },
+    {
+      "q": "数据来源是什么？",
+      "a": "数据来源于 Codenav 网站实时价格表。"
+    },
+    {
+      "q": "数据更新频率是多少？",
+      "a": "数据更新频率为每日。"
+    }
+  ],
+  "date": "2026-10-25",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
