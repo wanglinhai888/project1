@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型价格调整，关注最新动态",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格上调或下调，了解最新价格变动。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, DeepSeek, Z-Ai, Moonshotai, Alibaba, Google",
+  "article": "# AI 大模型每日价格变化报告\n\n## 涨价模型\n- **DeepSeek deepseek-v4.1-flash-1017**: 输入价从 $0.15 上涨至 $0.30，输出价从 $0.60 上涨至 $1.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-pro-latest**: 输入价从 $0.12 上涨至 $0.23，输出价保持 $8.00。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z-Ai glm-flash-latest**: 输入价从 $0.03 上涨至 $0.05，输出价从 $0.09 上涨至 $0.15。[官网](https://z.ai/)\n- **DeepSeek deepseek-v4-pro-0813**: 输入价从 $0.66 上涨至 $1.32，输出价从 $1.98 上涨至 $3.96。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-latest**: 输入价从 $0.04 上涨至 $0.05，输出价从 $0.17 下降至 $0.16。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-0731**: 输入价从 $0.04 上涨至 $0.44，输出价从 $0.17 上涨至 $1.32。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Kimi kimi-k3**: 输入价从 $0.24 上涨至 $0.36，输出价从 $10.80 上涨至 $11.90。[官网](https://platform.moonshot.cn/)\n- **Moonshotai kimi-latest**: 输入价从 $0.18 上涨至 $0.23，输出价从 $9.72 上涨至 $9.75。[官网](https://platform.moonshot.cn/)\n- **Alibaba qwen3.6-27b**: 输入价从 $0.25 上涨至 $0.32，输出价从 $2.00 上涨至 $3.20。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **DeepSeek deepseek-v4-pro**: 输入价从 $0.21 上涨至 $0.96，输出价从 $0.42 上涨至 $1.91。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash**: 输入价从 $0.09 上涨至 $0.05，输出价从 $0.18 上涨至 $0.45。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 降价模型\n- **Google gemma-4-31b-it**: 输入价从 $0.20 下降至 $0.10，输出价从 $0.40 下降至 $0.34。[官网](https://ai.google.dev/pricing)\n- **Alibaba qwen3.5-122b-a10b**: 输入价从 $0.40 下降至 $0.26，输出价从 $3.20 下降至 $2.08。[官网](https://help.aliyun.com/zh/model-studio/models)\n\n## 行业观察\nAI大模型市场持续活跃，价格调整反映了市场竞争和技术进步的双重影响。\n\n[查看实时价格表](https://www.codenav.cn/prices.html)",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日Google的gemma-4-31b-it和Alibaba的qwen3.5-122b-a10b模型进行了降价调整。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日DeepSeek、Z-Ai、Moonshotai、Alibaba等多个厂商的多个模型进行了涨价调整。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日没有新上线的模型信息。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于Codenav网站，实时价格表更新频率为每日。"
+    },
+    {
+      "q": "AI大模型价格变动的原因是什么？",
+      "a": "AI大模型价格变动可能是由于市场竞争、技术进步或厂商策略调整等因素导致的。"
+    }
+  ],
+  "date": "2026-10-26",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
