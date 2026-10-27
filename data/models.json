@@ -1,5 +1,29 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "gpt-6.1-terra-pro",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.1-terra-pro:batch",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.1-terra",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.1-terra:batch",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
     "provider": "Kimi",
     "model": "kimi-k3.1-pro",
     "category": "LLM",
@@ -1236,12 +1260,6 @@
     "context_window": 202752
   },
   {
-    "provider": "Arcee-Ai",
-    "model": "trinity-large-thinking",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
     "provider": "xAI",
     "model": "grok-4.20-multi-agent",
     "category": "LLM",
@@ -1292,12 +1310,6 @@
   {
     "provider": "Mistral",
     "model": "mistral-small-2603",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "Mistral",
-    "model": "mistral-small-2603:batch",
     "category": "LLM",
     "context_window": 262144
   },
@@ -1651,12 +1663,6 @@
   },
   {
     "provider": "Mistral",
-    "model": "ministral-8b-2512:batch",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "Mistral",
     "model": "ministral-3b-2512",
     "category": "LLM",
     "context_window": 131072
@@ -1664,12 +1670,6 @@
   {
     "provider": "Mistral",
     "model": "mistral-large-2512",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "Mistral",
-    "model": "mistral-large-2512:batch",
     "category": "LLM",
     "context_window": 262144
   },
@@ -1756,12 +1756,6 @@
     "model": "minimax-m2",
     "category": "LLM",
     "context_window": 204800
-  },
-  {
-    "provider": "Ibm-Granite",
-    "model": "granite-4.0-h-micro",
-    "category": "LLM",
-    "context_window": 131000
   },
   {
     "provider": "OpenAI",
@@ -1914,12 +1908,6 @@
     "context_window": 131072
   },
   {
-    "provider": "Mistral",
-    "model": "mistral-medium-3.1:batch",
-    "category": "LLM",
-    "context_window": 131072
-  },
-  {
     "provider": "Z.ai",
     "model": "glm-4.5v",
     "category": "LLM",
@@ -2000,12 +1988,6 @@
   {
     "provider": "Mistral",
     "model": "codestral-2508",
-    "category": "LLM",
-    "context_window": 256000
-  },
-  {
-    "provider": "Mistral",
-    "model": "codestral-2508:batch",
     "category": "LLM",
     "context_window": 256000
   },

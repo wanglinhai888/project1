@@ -1,6 +1,6 @@
 # AI 大模型价格雷达 / AI Model Price Radar
 
-> 自动追踪全球大模型 API 价格、优惠活动与工具指南的每日更新站点。数据由爬虫每日采集，覆盖主流及国内厂商。更新于 2026-10-26T10:54:17+08:00。
+> 自动追踪全球大模型 API 价格、优惠活动与工具指南的每日更新站点。数据由爬虫每日采集，覆盖主流及国内厂商。更新于 2026-10-27T11:27:36+08:00。
 
 ## Data (machine-readable, CORS-enabled)
 - 实时价格表 (JSON): https://www.codenav.cn/api/prices.json
