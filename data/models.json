@@ -60,6 +60,12 @@
     "context_window": 1000000
   },
   {
+    "provider": "Prism-Ml",
+    "model": "ternary-bonsai-2-9b",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Moondream",
     "model": "moondream3-preview",
     "category": "LLM",
@@ -171,7 +177,7 @@
     "provider": "Inclusionai",
     "model": "ling-3.1-flash",
     "category": "LLM",
-    "context_window": 262144
+    "context_window": 1000000
   },
   {
     "provider": "OpenAI",

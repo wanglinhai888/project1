@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格上调或下调，新模型上线，尽在本日报。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, 新模型, Deepseek, Z.ai, Alibaba, Moonshotai, Nvidia, Google, Meta",
+  "article": "# AI 大模型价格日报\n\n## 今日核心结论\n今日AI大模型市场部分模型价格有所调整，同时有新模型上线。\n\n## 涨价\n- **Deepseek deepseek-pro-latest**: 输入价 $0.24 → $0.25，输出价 $8.00 → $8.00 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-flash-latest**: 输入价 $0.02 → $0.02，输出价 $0.03 → $1.80 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z-Ai glm-flash-latest**: 输入价 $0.04 → $0.05，输出价 $0.08 → $0.07 [官网](https://z.ai/)\n- **Alibaba qwen3.6-27b**: 输入价 $0.32 → $0.45，输出价 $3.20 → $2.70 [官网](https://help.aliyun.com/zh/model-studio/models)\n- **Z.ai glm-5.1**: 输入价 $0.97 → $1.40，输出价 $3.04 → $4.40 [官网](https://z.ai/)\n- **Google gemma-3-4b-it**: 输入价 $0.04 → $0.05，输出价 $0.05 → $0.10 [官网](https://ai.google.dev/pricing)\n\n## 降价\n- **Z.ai glm-5.3-flash**: 输入价 $0.15 → $0.05，输出价 $0.50 → $0.07 [官网](https://z.ai/)\n- **Z-Ai glm-latest**: 输入价 $0.07 → $0.07，输出价 $4.38 → $1.40 [官网](https://z.ai/)\n- **Z.ai glm-5.3**: 输入价 $0.08 → $0.07，输出价 $1.40 → $1.40 [官网](https://z.ai/)\n- **Alibaba qwen3.8-27b**: 输入价 $0.20 → $0.04，输出价 $2.50 → $1.25 [官网](https://help.aliyun.com/zh/model-studio/models)\n- **Moonshotai kimi-latest**: 输入价 $0.19 → $0.17，输出价 $8.94 → $8.94 [官网](https://platform.moonshot.cn/)\n- **Alibaba qwen3.6-35b-a3b**: 输入价 $0.10 → $0.10，输出价 $0.95 → $0.90 [官网](https://help.aliyun.com/zh/model-studio/models)\n- **Nvidia nemotron-3-super-120b-a12b**: 输入价 $0.30 → $0.08，输出价 $2.40 → $0.45 [官网](https://build.nvidia.com/)\n- **Meta-Llama llama-3.1-8b-instruct**: 输入价 $0.05 → $0.02，输出价 $0.08 → $0.04 [官网](https://www.llama.com/)\n\n## 新模型\n- **Prism-Ml ternary-bonsai-2-9b**: 新模型上线 [官网](https://prismml.com/)\n\n## 行业观察\n今日AI大模型市场活跃，价格调整和新模型上线表明行业竞争加剧，用户将获得更多选择。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价的模型包括Deepseek deepseek-pro-latest、Z.ai glm-5.3-flash等。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价的模型包括Deepseek deepseek-pro-latest、Deepseek deepseek-flash-latest等。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型为Prism-Ml ternary-bonsai-2-9b。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于https://www.codenav.cn，实时价格表更新。"
+    },
+    {
+      "q": "如何获取更多详细信息？",
+      "a": "请访问https://www.codenav.cn获取更多模型官方定价页面的详细信息。"
+    }
+  ],
+  "date": "2026-10-28",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
