@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Particle-Ai",
+    "model": "particle-1",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "OpenAI",
     "model": "gpt-6.1-terra-pro",
     "category": "LLM",
@@ -1329,7 +1335,7 @@
     "provider": "Nvidia",
     "model": "nemotron-3-super-120b-a12b",
     "category": "LLM",
-    "context_window": 262144
+    "context_window": 1048576
   },
   {
     "provider": "ByteDance Seed",
@@ -1879,12 +1885,6 @@
   },
   {
     "provider": "Alibaba",
-    "model": "qwen3-next-80b-a3b-thinking",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "Alibaba",
     "model": "qwen3-next-80b-a3b-instruct",
     "category": "LLM",
     "context_window": 262144
@@ -2155,12 +2155,6 @@
   },
   {
     "provider": "OpenAI",
-    "model": "o4-mini-high",
-    "category": "LLM",
-    "context_window": 200000
-  },
-  {
-    "provider": "OpenAI",
     "model": "o3",
     "category": "LLM",
     "context_window": 200000
@@ -2168,12 +2162,6 @@
   {
     "provider": "OpenAI",
     "model": "o3:batch",
-    "category": "LLM",
-    "context_window": 200000
-  },
-  {
-    "provider": "OpenAI",
-    "model": "o4-mini",
     "category": "LLM",
     "context_window": 200000
   },
@@ -2236,12 +2224,6 @@
     "model": "deepseek-chat-v3-0324",
     "category": "LLM",
     "context_window": 163840
-  },
-  {
-    "provider": "OpenAI",
-    "model": "o1-pro",
-    "category": "LLM",
-    "context_window": 200000
   },
   {
     "provider": "Mistral",
@@ -2310,12 +2292,6 @@
     "context_window": 32768
   },
   {
-    "provider": "OpenAI",
-    "model": "o3-mini-high",
-    "category": "LLM",
-    "context_window": 200000
-  },
-  {
     "provider": "Aion-Labs",
     "model": "aion-rp-llama-3.1-8b",
     "category": "LLM",
@@ -2332,12 +2308,6 @@
     "model": "qwen-plus",
     "category": "LLM",
     "context_window": 1000000
-  },
-  {
-    "provider": "OpenAI",
-    "model": "o3-mini",
-    "category": "LLM",
-    "context_window": 200000
   },
   {
     "provider": "OpenAI",
@@ -2374,12 +2344,6 @@
     "model": "deepseek-chat",
     "category": "LLM",
     "context_window": 163840
-  },
-  {
-    "provider": "OpenAI",
-    "model": "o1",
-    "category": "LLM",
-    "context_window": 200000
   },
   {
     "provider": "Cohere",
@@ -2572,12 +2536,6 @@
     "model": "mixtral-8x22b-instruct",
     "category": "LLM",
     "context_window": 65536
-  },
-  {
-    "provider": "OpenAI",
-    "model": "gpt-4-turbo",
-    "category": "LLM",
-    "context_window": 128000
   },
   {
     "provider": "OpenAI",

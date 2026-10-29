@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格波动，新模型上线引关注",
+  "meta_description": "今日AI大模型价格变动汇总，多款模型价格调整，新模型上线，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, Deepseek, Ibm-Granite, Z-Ai, Kimi, Moonshotai, Nvidia, Meta-Llama",
+  "article": "# AI 大模型价格日报\n\n## 涨价模型\n- **Nvidia nemotron-3-super-120b-a12b**: 输入价从 $0.08 上涨至 $0.30，输出价从 $0.45 上涨至 $2.40。[官网](https://build.nvidia.com/)\n- **Meta-Llama llama-3.1-8b-instruct**: 输入价从 $0.02 上涨至 $0.05，输出价从 $0.04 上涨至 $0.08。[官网](https://www.llama.com/)\n\n## 降价模型\n- **Deepseek deepseek-pro-latest**: 输入价从 $0.25 降至 $0.10。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-flash-latest**: 输出价从 $1.80 降至 $1.64。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4.1-flash**: 输入价从 $0.14 降至 $0.04，输出价从 $0.42 降至 $0.50。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Ibm-Granite granite-4.2-8b**: 输出价从 $0.25 降至 $0.15。[官网](https://www.ibm.com/products/watsonx/ai/models)\n- **Z-Ai glm-flash-latest**: 输入价和输出价均从 $0.07 降至 $0.07。[官网](https://z.ai/)\n- **Z.ai glm-5.3-flash**: 输入价和输出价均从 $0.07 降至 $0.07。[官网](https://z.ai/)\n- **Kimi kimi-k3**: 输入价从 $0.20 降至 $0.19。[官网](https://platform.moonshot.cn/)\n- **Z.ai glm-5.2**: 输入价从 $0.03 降至 $0.01。[官网](https://z.ai/)\n- **Moonshotai kimi-latest**: 输入价从 $0.17 降至 $0.16，输出价从 $8.94 降至 $9.75。[官网](https://platform.moonshot.cn/)\n- **DeepSeek deepseek-v4-flash**: 输入价从 $0.14 降至 $0.09，输出价从 $0.28 降至 $0.18。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z.ai glm-4.6**: 输入价从 $0.55 降至 $0.50，输出价从 $2.20 降至 $2.00。[官网](https://z.ai/)\n\n## 新模型上线\n- **Particle-Ai particle-1**: 新模型上线。[官网](https://openrouter.ai/models/particle-ai/particle-1)\n\n## 行业观察\nAI大模型市场今日价格波动明显，多款模型价格调整，同时也有新模型上线。价格调整反映了市场对模型性能和需求的动态变化，新模型的上线则预示着技术的不断进步。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日有多款模型降价，包括Deepseek deepseek-pro-latest、Deepseek deepseek-flash-latest等。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日Nvidia nemotron-3-super-120b-a12b和Meta-Llama llama-3.1-8b-instruct两款模型价格上涨。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型为Particle-Ai particle-1。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于[CodeNav](https://www.codenav.cn)，实时价格表可查看[这里](https://www.codenav.cn/prices.html)。"
+    },
+    {
+      "q": "AI大模型价格变动的原因是什么？",
+      "a": "AI大模型价格变动可能由市场需求、技术进步、竞争策略等多种因素导致。"
+    }
+  ],
+  "date": "2026-10-29",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
