@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格变动，部分降价显著",
+  "meta_description": "今日AI大模型价格变动汇总，多款模型价格下调，部分模型价格上调，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, DeepSeek, Mistral, Z.ai, Alibaba",
+  "article": "# AI 大模型价格日报\n\n## 涨价\n- **Z.ai glm-5.3**：输入价 $0.07 → $0.08，输出价 $1.40 → $3.60 [官网](https://z.ai/)\n- **Z.ai glm-5.3-flash**：输入价 $0.05 → $0.05，输出价 $0.07 → $0.07 [官网](https://z.ai/)\n- **~Z-Ai glm-flash-latest**：输入价 $0.05 → $0.05，输出价 $0.07 → $0.07 [官网](https://z.ai/)\n- **~Deepseek deepseek-flash-latest**：输入价 $0.05 → $0.04，输出价 $0.16 → $0.30 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 降价\n- **DeepSeek deepseek-v4.1-flash-1017**：输入价 $0.30 → $0.15，输出价 $1.20 → $0.60 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Mistral mistral-large-4-0**：输入价 $1.36 → $0.70，输出价 $4.18 → $2.10 [官网](https://mistral.ai/products/pricing)\n- **~Deepseek deepseek-pro-latest**：输入价 $0.10 → $0.10，输出价 $8.00 → $4.00 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-pro-0813**：输入价 $1.32 → $0.66，输出价 $3.96 → $1.98 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Kimi kimi-k3**：输入价 $0.19 → $0.19，输出价 $20.00 → $15.00 [官网](https://platform.moonshot.cn/)\n- **~Moonshotai kimi-latest**：输入价 $0.16 → $0.15，输出价 $9.75 → $9.34 [官网](https://platform.moonshot.cn/)\n- **Alibaba qwen3.6-27b**：输入价 $0.45 → $0.32，输出价 $2.70 → $3.20 [官网](https://help.aliyun.com/zh/model-studio/models)\n- **DeepSeek deepseek-v4-pro**：输入价 $0.96 → $0.82，输出价 $1.91 → $1.63 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 行业观察\nAI大模型市场今日价格变动较大，部分模型价格下调显著，反映了市场竞争的激烈。同时，也有部分模型价格上调，可能是由于技术升级或服务优化。\n\n[查看实时价格表](https://www.codenav.cn/prices.html)\n[返回站点首页](https://www.codenav.cn/),\n\n## 常见问题\n\n- **Q: 今日哪些模型降价**？\n  - A: 今日降价模型包括DeepSeek deepseek-v4.1-flash-1017、Mistral mistral-large-4-0等。\n- **Q: 今日哪些模型涨价**？\n  - A: 今日涨价模型包括Z.ai glm-5.3、Z.ai glm-5.3-flash等。\n- **Q: 新上线了哪些模型**？\n  - A: 文章中未提及新上线的模型。\n- **Q: 数据来源与更新频率**？\n  - A: 数据来源于[CodeNav](https://www.codenav.cn/)，更新频率为每日。\n- **Q: 如何获取更多模型信息**？\n  - A: 可以访问模型官网或CodeNav实时价格表获取更多信息。\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价模型包括DeepSeek deepseek-v4.1-flash-1017、Mistral mistral-large-4-0等。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价模型包括Z.ai glm-5.3、Z.ai glm-5.3-flash等。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "文章中未提及新上线的模型。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于[CodeNav](https://www.codenav.cn/)，更新频率为每日。"
+    },
+    {
+      "q": "如何获取更多模型信息？",
+      "a": "可以访问模型官网或CodeNav实时价格表获取更多信息。"
+    }
+  ],
+  "date": "2026-10-30",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

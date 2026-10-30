@@ -1518,12 +1518,6 @@
     "context_window": 262144
   },
   {
-    "provider": "Upstage",
-    "model": "solar-pro-3",
-    "category": "LLM",
-    "context_window": 131072
-  },
-  {
     "provider": "MiniMax",
     "model": "minimax-m2-her",
     "category": "LLM",
