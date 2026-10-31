@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多模型降价，新模型上线",
+  "meta_description": "今日AI大模型价格变动：Particle-Ai、Deepseek等多模型降价，Alibaba、Kimi等模型涨价，DeepSeek V4-Pro新模型上线。实时价格表见官网。",
+  "keywords": "AI大模型,价格日报,降价,涨价,DeepSeek,Alibaba,Kimi,Particle-Ai",
+  "article": "# AI 大模型每日价格变动报告\n\n**今日核心结论：** 多家AI大模型价格下调，包括Particle-Ai、Deepseek-flash-latest等；同时Alibaba、Kimi等模型价格上涨，DeepSeek V4-Pro新模型正式上线。\n\n## 降价模型\n\n- **Particle-Ai particle-1**：输入价从 $0.25 降至 $0.05，输出价从 $1.00 降至 $0.50。[官网](https://openrouter.ai/models/particle-ai/particle-1)\n- **Deepseek deepseek-flash-latest**：输入价从 $0.03 降至 $0.02，输出价从 $1.14 降至 $0.23。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z.ai glm-5.3**：输入价从 $0.08 降至 $0.07，输出价从 $3.60 降至 $1.40。[官网](https://z.ai)\n- **Google gemma-4-26b-a4b-it**：输入价从 $0.08 降至 $0.07，输出价从 $0.26 降至 $0.23。[官网](https://ai.google.dev/pricing)\n- **MiniMax minimax-m2.5**：输入价从 $0.30 降至 $0.27，输出价从 $1.20 降至 $0.95。[官网](https://platform.minimax.io)\n- **DeepSeek deepseek-v3.2**：输入价从 $0.28 降至 $0.26，输出价从 $0.42 降至 $0.38。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 涨价模型\n\n- **Z-Ai glm-flash-latest**：输入价从 $0.05 降至 $0.02，输出价从 $0.07 上涨至 $0.11。[官网](https://z.ai)\n- **Z.ai glm-5.3-flash**：输入价从 $0.05 降至 $0.02，输出价从 $0.07 上涨至 $0.11。[官网](https://z.ai)\n- **Alibaba qwen3.8-27b**：输入价从 $0.04 上涨至 $0.15，输出价从 $1.25 上涨至 $1.88。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **~Deepseek deepseek-v4-flash-latest**：输入价从 $0.04 保持不变，输出价从 $0.30 上涨至 $0.30。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Kimi kimi-k2.7-code**：输入价从 $0.56 上涨至 $0.60，输出价从 $3.10 上涨至 $3.50。[官网](https://platform.moonshot.cn)\n- **~Moonshotai kimi-latest**：输入价从 $0.15 上涨至 $0.18，输出价从 $9.34 上涨至 $10.15。[官网](https://platform.moonshot.cn)\n- **Alibaba qwen3.6-27b**：输入价从 $0.32 上涨至 $0.45，输出价从 $3.20 降至 $2.70。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **DeepSeek deepseek-v4-pro**：输入价从 $0.82 上涨至 $1.60，输出价从 $1.63 上涨至 $3.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 新上线模型\n\n- **DeepSeek V4-Pro**：新模型正式上线。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 行业观察\n\n今日AI大模型市场呈现降价与涨价并存的现象，Particle-Ai和Deepseek-flash-latest等模型大幅降价，而Alibaba和Kimi等模型则提价。新模型DeepSeek V4-Pro的上线也值得关注。整体来看，市场竞争加剧，价格策略更加多样化。\n\n实时价格表请访问：[https://www.codenav.cn/prices.html](https://www.codenav.cn/prices.html)",
+  "faq": [
+    {
+      "q": "今日哪些AI大模型降价了？",
+      "a": "今日降价模型包括Particle-Ai particle-1、Deepseek deepseek-flash-latest、Z.ai glm-5.3、Google gemma-4-26b-a4b-it、MiniMax minimax-m2.5和DeepSeek deepseek-v3.2。"
+    },
+    {
+      "q": "今日哪些AI大模型涨价了？",
+      "a": "今日涨价模型包括Z-Ai glm-flash-latest、Z.ai glm-5.3-flash、Alibaba qwen3.8-27b、~Deepseek deepseek-v4-flash-latest、Kimi kimi-k2.7-code、~Moonshotai kimi-latest和Alibaba qwen3.6-27b。"
+    },
+    {
+      "q": "今日是否有新模型上线？",
+      "a": "今日DeepSeek V4-Pro新模型正式上线。"
+    },
+    {
+      "q": "数据来源和更新频率是怎样的？",
+      "a": "数据来源于各模型官网，每日更新一次。"
+    },
+    {
+      "q": "如何查看实时价格表？",
+      "a": "实时价格表请访问https://www.codenav.cn/prices.html。"
+    }
+  ],
+  "date": "2026-10-31",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

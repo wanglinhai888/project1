@@ -2604,6 +2604,12 @@
     "context_window": 1000000
   },
   {
+    "provider": "DeepSeek",
+    "model": "V4-Pro",
+    "category": "LLM",
+    "context_window": 1000000
+  },
+  {
     "provider": "火山引擎",
     "model": "豆包2.1 Pro",
     "category": "LLM",
