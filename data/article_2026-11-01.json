@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型涨价，部分降价",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格上调，部分下调，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, OpenAI, Deepseek, Z.ai, Moonshotai",
+  "article": "# AI 大模型价格日报\n\n## 涨价模型\n\n- **Deepseek deepseek-pro-latest**: 输入价 $0.10 → $0.10，输出价 $4.00 → $8.00 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-flash-latest**: 输入价 $0.02 → $0.04，输出价 $0.23 → $0.50 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z-Ai glm-flash-latest**: 输入价 $0.02 → $0.01，输出价 $0.11 → $0.18 [官网](https://z.ai/)\n- **Z.ai glm-5.3-flash**: 输入价 $0.02 → $0.01，输出价 $0.11 → $0.18 [官网](https://z.ai/)\n- **DeepSeek deepseek-v4-pro-0813**: 输入价 $0.66 → $0.12，输出价 $1.98 → $4.00 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-v4-flash-latest**: 输入价 $0.04 → $0.04，输出价 $0.30 → $0.30 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z.ai glm-4.7**: 输入价 $0.54 → $0.60，输出价 $1.98 → $2.20 [官网](https://z.ai/)\n- **OpenAI gpt-oss-20b**: 输入价 $0.02 → $0.03，输出价 $0.09 → $0.13 [官网](https://openai.com/api/pricing/)\n\n## 降价模型\n\n- **Z.ai glm-5.2**: 输入价 $0.01 → $0.01，输出价 $7.00 → $6.80 [官网](https://z.ai/)\n- **Moonshotai kimi-latest**: 输入价 $0.18 → $0.15，输出价 $10.15 → $7.15 [官网](https://platform.moonshot.cn/)\n\n## 行业观察\n\n今日AI大模型市场继续活跃，部分模型价格上调，显示市场对某些模型的需求增加。同时，也有模型价格下调，可能是为了吸引更多用户。整体来看，AI大模型市场正逐渐走向成熟，竞争加剧。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日Z.ai的glm-5.2和Moonshotai的kimi-latest模型降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日Deepseek、Z.ai和OpenAI的多款模型涨价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日没有新模型上线。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于[CodeNav](https://www.codenav.cn)，实时价格表更新。"
+    },
+    {
+      "q": "AI大模型价格变动对市场有何影响？",
+      "a": "AI大模型价格变动反映了市场对特定模型的需求变化，同时也可能影响其他模型的定价策略。"
+    }
+  ],
+  "date": "2026-11-01",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
