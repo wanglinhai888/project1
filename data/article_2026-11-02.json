@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型价格调整，OpenAI GPT-oss-20b 降价",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格上调或下调，了解最新价格变化。",
+  "keywords": "AI 大模型, 价格, 日报, 涨价, 降价, OpenAI, GPT-oss-20b, Deepseek, Z.ai, Alibaba",
+  "article": "# AI 大模型价格日报\n\n## 涨价\n- **DeepSeek deepseek-v4.1-flash-1017**：输入价 $0.15 → $0.30，输出价 $0.60 → $1.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z.ai glm-flash-latest**：输入价 $0.01 → $0.03，输出价 $0.18 → $0.09。[官网](https://z.ai/)\n- **Z.ai glm-5.3-flash**：输入价 $0.01 → $0.03，输出价 $0.18 → $0.09。[官网](https://z.ai/)\n- **Z.ai glm-5.3**：输入价 $0.07 → $0.08，输出价 $1.40 → $3.60。[官网](https://z.ai/)\n- **~Deepseek deepseek-v4-flash-latest**：输入价 $0.04 → $0.06，输出价 $0.30 → $0.30。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Alibaba qwen3-coder-30b-a3b-instruct**：输入价 $0.07 → $0.15，输出价 $0.28 → $0.60。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Meta-Llama llama-3.2-3b-instruct**：输入价 $0.05 → $0.05，输出价 $0.33 → $0.34。[官网](https://www.llama.com/)\n\n## 降价\n- **Google gemma-4-26b-a4b-it**：输入价 $0.07 → $0.02，输出价 $0.23 → $0.07。[官网](https://ai.google.dev/pricing)\n- **OpenAI gpt-oss-20b**：输入价 $0.03 → $0.02，输出价 $0.13 → $0.09。[官网](https://openai.com/api/pricing/)\n\n## 行业观察\n今日AI大模型价格变动频繁，部分模型价格上调，部分模型价格下调，反映出市场竞争加剧，厂商在调整策略以适应市场需求。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价的模型包括Google的gemma-4-26b-a4b-it和OpenAI的gpt-oss-20b。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价的模型包括DeepSeek的deepseek-v4.1-flash-1017、Z.ai的glm-flash-latest、glm-5.3-flash、glm-5.3、~Deepseek的deepseek-v4-flash-latest、Alibaba的qwen3-coder-30b-a3b-instruct和Meta-Llama的llama-3.2-3b-instruct。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日没有新上线的模型信息。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于[CodeNav](https://www.codenav.cn)，实时价格表可访问[CodeNav价格表](https://www.codenav.cn/prices.html)。"
+    },
+    {
+      "q": "AI大模型价格变动的原因是什么？",
+      "a": "AI大模型价格变动可能由市场竞争、技术进步、厂商策略调整等多种因素导致。"
+    }
+  ],
+  "date": "2026-11-02",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
