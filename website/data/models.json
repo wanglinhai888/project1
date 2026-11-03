@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Z.ai",
+    "model": "glm-5.3-flashx-legal",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Particle-Ai",
     "model": "particle-1",
     "category": "LLM",
@@ -621,7 +627,7 @@
     "provider": "Alibaba",
     "model": "qwen3.8-27b",
     "category": "LLM",
-    "context_window": 1000000
+    "context_window": 1024000
   },
   {
     "provider": "Google",
@@ -2430,18 +2436,6 @@
     "context_window": 131072
   },
   {
-    "provider": "Nousresearch",
-    "model": "hermes-3-llama-3.1-70b",
-    "category": "LLM",
-    "context_window": 131072
-  },
-  {
-    "provider": "Nousresearch",
-    "model": "hermes-3-llama-3.1-405b",
-    "category": "LLM",
-    "context_window": 131072
-  },
-  {
     "provider": "Sao10K",
     "model": "l3-lunaris-8b",
     "category": "LLM",
@@ -2566,30 +2560,6 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
-  },
-  {
-    "provider": "Google",
-    "model": "Gemini 2.5 Pro",
-    "category": "LLM",
-    "context_window": 200000
-  },
-  {
-    "provider": "Google",
-    "model": "Gemini 2.5 Flash",
-    "category": "LLM",
-    "context_window": 1000000
-  },
-  {
-    "provider": "Google",
-    "model": "Gemini 2.5 Flash-Lite",
-    "category": "LLM",
-    "context_window": 1000000
-  },
-  {
-    "provider": "Google",
-    "model": "Gemini 2.5 Flash Image",
-    "category": "Multimodal",
-    "context_window": 1000000
   },
   {
     "provider": "DeepSeek",
