@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Tencent",
+    "model": "hy4",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Z.ai",
     "model": "glm-5.3-flashx-legal",
     "category": "LLM",
@@ -360,6 +366,12 @@
     "context_window": 500000
   },
   {
+    "provider": "xAI",
+    "model": "grok-4.7:batch",
+    "category": "LLM",
+    "context_window": 500000
+  },
+  {
     "provider": "Alibaba",
     "model": "qwen3.8-omni-flash",
     "category": "LLM",
@@ -668,6 +680,12 @@
   {
     "provider": "xAI",
     "model": "grok-4.6",
+    "category": "LLM",
+    "context_window": 500000
+  },
+  {
+    "provider": "xAI",
+    "model": "grok-4.6:batch",
     "category": "LLM",
     "context_window": 500000
   },
