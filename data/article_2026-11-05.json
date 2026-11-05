@@ -1,0 +1,23 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，多款模型价格调整，包括降价、涨价和新模型上线，数据来自Codenav。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, OpenAI, DeepSeek, Z.ai, Alibaba, Meta-Llama",
+  "article": "# AI 大模型价格日报：多款模型价格调整，新模型上线\n\n## 今日核心结论\n今日AI大模型市场动态活跃，多款模型价格调整，包括降价、涨价和新模型上线，以下是具体详情。\n\n## 涨价\n- **DeepSeek deepseek-v4.1-flash:batch**：输入价 $0.05 → $0.11，输出价 $0.15 → $0.34\n- **Alibaba qwen3-235b-a22b-2507**：输入价 $0.09 → $0.14，输出价 $0.55 → $0.80\n- **Meta-Llama llama-4-maverick**：输入价 $0.19 → $0.35，输出价 $0.65 → $1.00\n- **Meta-Llama llama-3.3-70b-instruct**：输入价 $0.10 → $0.20，输出价 $0.32 → $0.52\n\n## 降价\n- **Deepseek deepseek-flash-latest**：输入价 $0.03 → $0.01，输出价 $0.47 → $0.50\n- **Z-Ai glm-flash-latest**：输入价 $0.03 → $0.03，输出价 $0.09 → $0.09\n- **Google gemma-4-26b-a4b-it**：输入价 $0.06 → $0.03，输出价 $0.17 → $0.09\n- **OpenAI gpt-oss-120b**：输入价 $0.03 → $0.01，输出价 $0.10 → $0.05\n- **Kimi kimi-k3**：输入价 $0.20 → $0.19，输出价 $16.00 → $16.00\n- **Moonshotai kimi-latest**：输入价 $0.19 → $0.17，输出价 $8.94 → $9.75\n- **DeepSeek deepseek-v4-pro-0813**：输入价 $0.12 → $0.11，输出价 $5.50 → $4.28\n- **Z.ai glm-5.3**：输入价 $0.08 → $0.07，输出价 $3.60 → $1.40\n\n## 新模型\n- **Ricursiveai ripple-65b-preview**：新模型上线，官网: [Ricursiveai ripple-65b-preview](https://openrouter.ai/models/ricursiveai/ripple-65b-preview)\n\n## 行业观察\nAI大模型市场的竞争日益激烈，价格调整和新模型的推出成为推动行业发展的关键因素。未来，我们预计将有更多创新和变革发生。\n\n## 参考资料\n- [站点](https://www.codenav.cn)\n- [实时价格表](https://www.codenav.cn/prices.html)\n\n## 常见问题\n- **今日哪些模型降价**？\n  - 今日包括Deepseek deepseek-flash-latest、Z-Ai glm-flash-latest、Google gemma-4-26b-a4b-it等多个模型降价。\n- **新上线了哪些模型**？\n  - 今日新上线了Ricursiveai ripple-65b-preview模型。\n- **数据来源与更新频率**？\n  - 数据来源于Codenav，每日更新。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日包括Deepseek deepseek-flash-latest、Z-Ai glm-flash-latest、Google gemma-4-26b-a4b-it等多个模型降价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线了Ricursiveai ripple-65b-preview模型。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于Codenav，每日更新。"
+    }
+  ],
+  "date": "2026-11-05",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

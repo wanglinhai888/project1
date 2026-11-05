@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Ricursiveai",
+    "model": "ripple-65b-preview",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Tencent",
     "model": "hy4",
     "category": "LLM",
@@ -1221,7 +1227,7 @@
     "provider": "Xiaomi",
     "model": "mimo-v2.5",
     "category": "LLM",
-    "context_window": 1050000
+    "context_window": 1000000
   },
   {
     "provider": "OpenAI",
