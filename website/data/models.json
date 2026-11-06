@@ -1,5 +1,17 @@
 [
   {
+    "provider": "Google",
+    "model": "gemini-omni-1.2-flash",
+    "category": "LLM",
+    "context_window": 131072
+  },
+  {
+    "provider": "Google",
+    "model": "gemini-omni-1.1-flash",
+    "category": "LLM",
+    "context_window": 131072
+  },
+  {
     "provider": "Ricursiveai",
     "model": "ripple-65b-preview",
     "category": "LLM",
@@ -724,6 +736,12 @@
     "model": "muse-glimmer-30b",
     "category": "LLM",
     "context_window": 131072
+  },
+  {
+    "provider": "Inclusionai",
+    "model": "ling-3.0-tiny",
+    "category": "LLM",
+    "context_window": 262144
   },
   {
     "provider": "Meta",
@@ -1536,12 +1554,6 @@
     "context_window": 262144
   },
   {
-    "provider": "MiniMax",
-    "model": "minimax-m2-her",
-    "category": "LLM",
-    "context_window": 65536
-  },
-  {
     "provider": "Writer",
     "model": "palmyra-x5",
     "category": "LLM",
@@ -1582,12 +1594,6 @@
     "model": "seed-1.6",
     "category": "LLM",
     "context_window": 262144
-  },
-  {
-    "provider": "MiniMax",
-    "model": "minimax-m2.1",
-    "category": "LLM",
-    "context_window": 204800
   },
   {
     "provider": "Z.ai",
@@ -1774,12 +1780,6 @@
     "model": "gpt-oss-safeguard-20b",
     "category": "LLM",
     "context_window": 131072
-  },
-  {
-    "provider": "MiniMax",
-    "model": "minimax-m2",
-    "category": "LLM",
-    "context_window": 204800
   },
   {
     "provider": "OpenAI",
@@ -2340,12 +2340,6 @@
     "context_window": 127072
   },
   {
-    "provider": "MiniMax",
-    "model": "minimax-01",
-    "category": "LLM",
-    "context_window": 1000192
-  },
-  {
     "provider": "Microsoft",
     "model": "phi-4",
     "category": "LLM",
@@ -2584,12 +2578,6 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
-  },
-  {
-    "provider": "DeepSeek",
-    "model": "V4-Pro",
-    "category": "LLM",
-    "context_window": 1000000
   },
   {
     "provider": "火山引擎",

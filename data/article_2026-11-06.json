@@ -1,0 +1,27 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格变动，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，包括价格涨跌和新模型上线信息，覆盖Google、OpenAI、Meta等知名厂商。",
+  "keywords": "AI大模型, 价格变动, 日报, 涨价, 降价, 新模型, Google, OpenAI, Meta, DeepSeek",
+  "article": "# AI 大模型价格日报：多款模型价格变动，新模型上线\n\n## 今日核心结论\n今日AI大模型市场动态活跃，多款模型价格发生变动，同时有新模型上线。\n\n## 涨价\n- **Reflection beam-1.0-501b-a23b**：输入价从 $0.25 上涨至 $0.30，输出价保持 $1.00。\n- **DeepSeek deepseek-v4-flash-vision-exp**：输入价从 $0.22 上涨至 $0.44，输出价从 $0.65 上涨至 $1.32。\n- **Moonshotai kimi-latest**：输入价从 $0.17 上涨至 $0.18，输出价从 $9.75 上涨至 $10.56。\n- **Google gemma-4-26b-a4b-it**：输入价从 $0.03 上涨至 $0.08，输出价从 $0.09 上涨至 $0.26。\n- **OpenAI gpt-oss-120b**：输入价从 $0.01 上涨至 $0.02，输出价从 $0.05 上涨至 $0.07。\n- **Meta-Llama llama-3.3-70b-instruct**：输入价从 $0.20 上涨至 $0.59，输出价从 $0.52 上涨至 $0.79。\n\n## 降价\n- **Deepseek deepseek-pro-latest**：输入价从 $0.10 降至 $0.09，输出价保持 $8.00。\n- **Z-Ai glm-flash-latest**：输入价保持 $0.03，输出价从 $0.09 降至 $0.08。\n- **DeepSeek deepseek-v4-pro-0813**：输入价从 $0.11 降至 $0.10，输出价从 $4.28 降至 $4.11。\n- **DeepSeek deepseek-v4-pro**：输入价从 $1.60 降至 $0.96，输出价从 $3.20 降至 $1.91。\n- **MiniMax minimax-m2.7**：输入价从 $0.30 降至 $0.21，输出价从 $1.20 降至 $0.84。\n- **Alibaba qwen3-next-80b-a3b-instruct**：输入价从 $0.10 降至 $0.09，输出价保持 $1.10。\n\n## 新模型\n- **Google gemini-omni-1.2-flash**：新模型上线，官网：[https://ai.google.dev/pricing](https://ai.google.dev/pricing)\n- **Google gemini-omni-1.1-flash**：新模型上线，官网：[https://ai.google.dev/pricing](https://ai.google.dev/pricing)\n- **Inclusionai ling-3.0-tiny**：新模型上线，官网：[https://huggingface.co/inclusionAI](https://huggingface.co/inclusionAI)\n\n## 行业观察\n今日AI大模型市场继续保持活跃态势，价格调整和新模型上线成为行业关注的焦点。随着技术的不断进步，AI大模型的应用场景将更加广泛，未来市场将更加多元化。\n\n## FAQ\n- **今日哪些模型降价**？\n  - 今日降价模型包括Deepseek deepseek-pro-latest、Z-Ai glm-flash-latest、DeepSeek deepseek-v4-pro-0813、DeepSeek deepseek-v4-pro、MiniMax minimax-m2.7、Alibaba qwen3-next-80b-a3b-instruct等。\n- **今日哪些模型涨价**？\n  - 今日涨价模型包括Reflection beam-1.0-501b-a23b、DeepSeek deepseek-v4-flash-vision-exp、Moonshotai kimi-latest、Google gemma-4-26b-a4b-it、OpenAI gpt-oss-120b、Meta-Llama llama-3.3-70b-instruct等。\n- **新上线了哪些模型**？\n  - 今日新上线的模型包括Google gemini-omni-1.2-flash、Google gemini-omni-1.1-flash、Inclusionai ling-3.0-tiny。\n- **数据来源与更新频率**？\n  - 数据来源于Codenav，实时价格表请访问[https://www.codenav.cn/prices.html](https://www.codenav.cn/prices.html)。\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价模型包括Deepseek deepseek-pro-latest、Z-Ai glm-flash-latest、DeepSeek deepseek-v4-pro-0813、DeepSeek deepseek-v4-pro、MiniMax minimax-m2.7、Alibaba qwen3-next-80b-a3b-instruct等。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价模型包括Reflection beam-1.0-501b-a23b、DeepSeek deepseek-v4-flash-vision-exp、Moonshotai kimi-latest、Google gemma-4-26b-a4b-it、OpenAI gpt-oss-120b、Meta-Llama llama-3.3-70b-instruct等。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型包括Google gemini-omni-1.2-flash、Google gemini-omni-1.1-flash、Inclusionai ling-3.0-tiny。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于Codenav，实时价格表请访问[https://www.codenav.cn/prices.html](https://www.codenav.cn/prices.html)。"
+    }
+  ],
+  "date": "2026-11-06",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
