@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Liquid",
+    "model": "lfm-3-1.7b",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Google",
     "model": "gemini-omni-1.2-flash",
     "category": "LLM",
@@ -660,6 +666,12 @@
     "context_window": 1024000
   },
   {
+    "provider": "Alibaba",
+    "model": "qwen3.8-27b:batch",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Google",
     "model": "gemini-3.7-flash",
     "category": "LLM",
@@ -738,6 +750,12 @@
     "context_window": 131072
   },
   {
+    "provider": "Meta",
+    "model": "muse-glimmer-30b:batch",
+    "category": "LLM",
+    "context_window": 131072
+  },
+  {
     "provider": "Inclusionai",
     "model": "ling-3.0-tiny",
     "category": "LLM",
@@ -762,8 +780,20 @@
     "context_window": 1048576
   },
   {
+    "provider": "DeepSeek",
+    "model": "deepseek-v4-flash-0731:batch",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Thinkingmachines",
     "model": "inkling-small",
+    "category": "LLM",
+    "context_window": 524288
+  },
+  {
+    "provider": "Thinkingmachines",
+    "model": "inkling-small:batch",
     "category": "LLM",
     "context_window": 524288
   },
@@ -1042,6 +1072,12 @@
     "model": "minimax-m3",
     "category": "LLM",
     "context_window": 1048576
+  },
+  {
+    "provider": "MiniMax",
+    "model": "minimax-m3:batch",
+    "category": "LLM",
+    "context_window": 524288
   },
   {
     "provider": "StepFun",

@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格动态，多款模型价格调整，包括降价、涨价和新模型上线，尽在本日报。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, OpenAI, DeepSeek, MiniMax, Moonshotai",
+  "article": "# AI 大模型价格日报\n\n## 涨价\n- DeepSeek deepseek-pro-latest：输入价 $0.10 → $0.12，输出价 $4.11 → $4.66 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- MiniMax minimax-m2.5：输入价 $0.27 → $0.30，输出价 $0.95 → $1.20 [官网](https://platform.minimax.io/)\n- DeepSeek deepseek-chat：输入价 $0.26 → $0.32，输出价 $1.03 → $0.89 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 降价\n- Inclusionai ling-3.1-flash：输入价 $0.07 → $0.04，输出价 $0.23 → $0.14 [官网](https://huggingface.co/inclusionAI)\n- Deepseek deepseek-pro-latest：输入价 $0.09 → $0.10，输出价 $8.00 → $8.00 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- DeepSeek deepseek-v4.1-flash：输入价 $0.04 → $0.05，输出价 $0.50 → $0.57 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- Deepseek deepseek-v4-flash-latest：输入价 $0.06 → $0.06，输出价 $0.30 → $0.17 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- Deepseek deepseek-v4-flash-0731：输入价 $0.06 → $0.06，输出价 $0.30 → $0.30 [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- Google gemma-4-26b-a4b-it：输入价 $0.08 → $0.07，输出价 $0.26 → $0.23 [官网](https://ai.google.dev/pricing)\n- Nvidia nemotron-3-super-120b-a12b：输入价 $0.30 → $0.07，输出价 $2.40 → $0.40 [官网](https://build.nvidia.com/)\n- OpenAI gpt-oss-120b：输入价 $0.02 → $0.01，输出价 $0.07 → $0.04 [官网](https://openai.com/api/pricing/)\n\n## 新模型\n- Liquid lfm-3-1.7b [官网](https://openrouter.ai/models/liquid/lfm-3-1.7b)\n- Alibaba qwen3.8-27b:batch [官网](https://help.aliyun.com/zh/model-studio/models)\n- Meta muse-glimmer-30b:batch [官网](https://www.llama.com/)\n- DeepSeek deepseek-v4-flash-0731:batch [官网](https://api-docs.deepseek.com/quick_start/pricing)\n- Thinkingmachines inkling-small:batch [官网](https://www.thinkingmachines.ai/)\n- MiniMax minimax-m3:batch [官网](https://platform.minimax.io/)\n- Moonshotai kimi-latest [官网](https://platform.moonshot.cn/)\n\n## 行业观察\n今日AI大模型市场动态活跃，多款模型价格调整，同时新模型上线，显示出市场在持续发展和竞争。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价的模型包括Inclusionai ling-3.1-flash、Deepseek deepseek-pro-latest等多个模型。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价的模型包括DeepSeek deepseek-pro-latest、MiniMax minimax-m2.5等。"
+    },
+    {
+      "q": "今日有哪些新模型上线？",
+      "a": "今日上线的新模型包括Liquid lfm-3-1.7b、Alibaba qwen3.8-27b:batch等。"
+    },
+    {
+      "q": "数据来源是什么？",
+      "a": "数据来源于[CodeNav](https://www.codenav.cn)的实时价格表。"
+    },
+    {
+      "q": "数据更新频率是多少？",
+      "a": "数据更新频率为每日更新。"
+    }
+  ],
+  "date": "2026-11-07",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
