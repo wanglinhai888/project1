@@ -84,6 +84,12 @@
     "context_window": 1048576
   },
   {
+    "provider": "DeepSeek",
+    "model": "deepseek-v4.1-flash-1017:batch",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Elorian",
     "model": "glimpse",
     "category": "LLM",
@@ -1016,6 +1022,12 @@
   {
     "provider": "Z.ai",
     "model": "glm-5.2",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Z.ai",
+    "model": "glm-5.2:batch",
     "category": "LLM",
     "context_window": 1048576
   },
@@ -2125,9 +2137,21 @@
   },
   {
     "provider": "Morph",
+    "model": "morph-v3-large:batch",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
+    "provider": "Morph",
     "model": "morph-v3-fast",
     "category": "LLM",
     "context_window": 262144
+  },
+  {
+    "provider": "Morph",
+    "model": "morph-v3-fast:batch",
+    "category": "LLM",
+    "context_window": 81920
   },
   {
     "provider": "Mistral",

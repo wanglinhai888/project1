@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格动态，多款模型价格调整，新模型上线，了解最新价格变动。",
+  "keywords": "AI大模型, 价格, 降价, 涨价, 新模型, OpenAI, DeepSeek, Z.ai, Morph",
+  "article": "# AI 大模型价格日报\n\n## 今日核心结论\n今日AI大模型市场动态，多款模型价格调整，包括降价和新模型上线。\n\n## 涨价\n- OpenAI GPT-oss-120b：输入价和输出价均有所上涨。\n\n## 降价\n- DeepSeek deepseek-v4.1-flash-1017：输入价和输出价均有大幅降价。\n- DeepSeek deepseek-v4.1-flash：输入价和输出价均有降价。\n- Z.ai glm-flash-latest：输入价和输出价均有降价。\n- Z.ai glm-5.3-flash：输入价和输出价均有降价。\n- Z.ai glm-5.3:batch：输入价和输出价均有降价。\n- DeepSeek deepseek-v4-pro-0813：输入价和输出价均有降价。\n- DeepSeek deepseek-v4-flash-latest：输入价和输出价均有降价。\n- DeepSeek deepseek-v4-flash-0731：输出价保持不变。\n- Kimi kimi-k3:batch：输入价和输出价均有降价。\n- Alibaba qwen3.6-27b：输入价和输出价均有降价。\n- DeepSeek deepseek-v4-pro：输入价和输出价均有降价。\n- Kimi kimi-k2.5：输入价和输出价均有上涨。\n- Meta-Llama llama-3.2-3b-instruct：输入价和输出价均有降价。\n\n## 新模型\n- DeepSeek deepseek-v4.1-flash-1017:batch：新模型上线。\n- Z.ai glm-5.2:batch：新模型上线。\n- Morph morph-v3-large:batch：新模型上线。\n- Morph morph-v3-fast:batch：新模型上线。\n\n## 行业观察\nAI大模型市场持续活跃，价格调整和新模型上线成为常态，市场竞争日益激烈。\n\n[查看实时价格表](https://www.codenav.cn/prices.html)\n\n[访问官网了解更多](https://www.codenav.cn)\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "DeepSeek deepseek-v4.1-flash-1017、DeepSeek deepseek-v4.1-flash、Z.ai glm-flash-latest、Z.ai glm-5.3-flash、Z.ai glm-5.3:batch、DeepSeek deepseek-v4-pro-0813、DeepSeek deepseek-v4-flash-latest、DeepSeek deepseek-v4-flash-0731、Alibaba qwen3.6-27b、DeepSeek deepseek-v4-pro等模型均有降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "OpenAI GPT-oss-120b模型输入价和输出价均有所上涨。"
+    },
+    {
+      "q": "今日有哪些新模型上线？",
+      "a": "DeepSeek deepseek-v4.1-flash-1017:batch、Z.ai glm-5.2:batch、Morph morph-v3-large:batch、Morph morph-v3-fast:batch等新模型今日上线。"
+    },
+    {
+      "q": "数据来源是什么？",
+      "a": "数据来源于 Codenav 网站，网址为 https://www.codenav.cn。"
+    },
+    {
+      "q": "数据更新频率是多少？",
+      "a": "数据更新频率为每日更新。"
+    }
+  ],
+  "date": "2026-11-08",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
