@@ -102,12 +102,6 @@
     "context_window": 1048576
   },
   {
-    "provider": "Inception",
-    "model": "mercury-3",
-    "category": "LLM",
-    "context_window": 1000000
-  },
-  {
     "provider": "Prism-Ml",
     "model": "ternary-bonsai-2-9b",
     "category": "LLM",
@@ -496,12 +490,6 @@
     "model": "deepseek-v4.1-flash:batch",
     "category": "LLM",
     "context_window": 1048576
-  },
-  {
-    "provider": "Inception",
-    "model": "mercury-2.5",
-    "category": "LLM",
-    "context_window": 260000
   },
   {
     "provider": "Nex-Agi",
@@ -1456,12 +1444,6 @@
     "model": "gpt-5.4:batch",
     "category": "LLM",
     "context_window": 1050000
-  },
-  {
-    "provider": "Inception",
-    "model": "mercury-2",
-    "category": "LLM",
-    "context_window": 128000
   },
   {
     "provider": "Google",
