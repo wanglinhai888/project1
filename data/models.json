@@ -1,5 +1,29 @@
 [
   {
+    "provider": "Nex-Agi",
+    "model": "nex-n2.6",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-fable-5.2",
+    "category": "LLM",
+    "context_window": 1000000
+  },
+  {
+    "provider": "Anthropic",
+    "model": "claude-fable-5.2:batch",
+    "category": "LLM",
+    "context_window": 1000000
+  },
+  {
+    "provider": "Meta",
+    "model": "muse-ember",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Liquid",
     "model": "lfm-3-1.7b",
     "category": "LLM",
@@ -189,7 +213,7 @@
     "provider": "StepFun",
     "model": "step-5-preview",
     "category": "LLM",
-    "context_window": 1048576
+    "context_window": 1000000
   },
   {
     "provider": "Anthropic",
@@ -534,6 +558,12 @@
     "context_window": 1000000
   },
   {
+    "provider": "Alibaba",
+    "model": "qwen3.8-max-0902:batch",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Meta",
     "model": "muse-spark-1.3-contributor",
     "category": "LLM",
@@ -657,7 +687,7 @@
     "provider": "Alibaba",
     "model": "qwen3.8-27b",
     "category": "LLM",
-    "context_window": 1024000
+    "context_window": 1048575
   },
   {
     "provider": "Alibaba",
@@ -1275,7 +1305,7 @@
     "provider": "Xiaomi",
     "model": "mimo-v2.5-pro",
     "category": "LLM",
-    "context_window": 1050000
+    "context_window": 1024000
   },
   {
     "provider": "Xiaomi",
@@ -1365,7 +1395,7 @@
     "provider": "MiniMax",
     "model": "minimax-m2.7",
     "category": "LLM",
-    "context_window": 204800
+    "context_window": 196608
   },
   {
     "provider": "OpenAI",
@@ -1545,7 +1575,7 @@
     "provider": "MiniMax",
     "model": "minimax-m2.5",
     "category": "LLM",
-    "context_window": 204800
+    "context_window": 200000
   },
   {
     "provider": "Z.ai",
@@ -2142,12 +2172,6 @@
     "context_window": 256000
   },
   {
-    "provider": "MiniMax",
-    "model": "minimax-m1",
-    "category": "LLM",
-    "context_window": 1000000
-  },
-  {
     "provider": "Google",
     "model": "gemini-2.5-flash",
     "category": "LLM",
@@ -2620,6 +2644,12 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
+  },
+  {
+    "provider": "DeepSeek",
+    "model": "V4-Pro",
+    "category": "LLM",
+    "context_window": 1000000
   },
   {
     "provider": "火山引擎",
