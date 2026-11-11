@@ -1,0 +1,23 @@
+{
+  "title": "AI 大模型价格日报/变动：新模型上线与价格调整一览",
+  "meta_description": "今日AI大模型价格变动报告，包括新模型上线和价格调整信息，覆盖Baidu、Google、Z.ai等多家厂商。",
+  "keywords": "AI大模型, 价格变动, 日报, Baidu, Google, Z.ai, 涨价, 降价, 新模型",
+  "article": "# AI 大模型价格日报/变动：新模型上线与价格调整一览\n\n## 今日核心结论\n今日AI大模型市场迎来多款新模型上线，同时部分模型价格发生调整。\n\n## 新模型上线\n- [Baidu ernie-5.5-flash-preview](https://openrouter.ai/models/baidu/ernie-5.5-flash-preview)：新模型上线\n- [Baidu ernie-light-dt-1.0-intl](https://openrouter.ai/models/baidu/ernie-light-dt-1.0-intl)：新模型上线\n- [Google gemini-4-carbon](https://ai.google.dev/pricing)：新模型上线\n- [Google gemini-4-carbon:batch](https://ai.google.dev/pricing)：新模型上线\n- [Kt midm-k-3.0-pro](https://openrouter.ai/models/kt/midm-k-3.0-pro)：新模型上线\n- [Motif-Technologies motif-3](https://openrouter.ai/models/motif-technologies/motif-3)：新模型上线\n\n## 价格调整\n- [Z-Ai glm-flash-latest](https://z.ai/)：输入价 $0.03 → $0.04，输出价 $0.08 → $0.08\n- [Z.ai glm-5.3-flash](https://z.ai/)：输入价 $0.15 → $0.04，输出价 $0.50 → $0.08\n- [Z.ai glm-5.3-flash:batch](https://z.ai/)：输入价 $0.03 → $0.04，输出价 $0.06 → $0.06\n- [Z.ai glm-5.2](https://z.ai/)：输入价 $0.01 → $0.01，输出价 $6.80 → $6.80\n- [Z.ai glm-5.2:batch](https://z.ai/)：输入价 $0.57 → $0.53，输出价 $1.17 → $1.07\n- [Moonshotai kimi-latest](https://platform.moonshot.cn/)：输入价 $0.15 → $0.18，输出价 $9.34 → $9.34\n- [DeepSeek deepseek-v4-flash](https://api-docs.deepseek.com/quick_start/pricing)：输入价 $0.09 → $0.09，输出价 $0.18 → $0.18\n- [Z.ai glm-5.1](https://z.ai/)：输入价 $1.40 → $1.33，输出价 $4.40 → $4.18\n- [Mancer weaver](https://openrouter.ai/models/mancer/weaver)：输入价 $0.40 → $0.30，输出价 $0.75 → $0.50\n- [Undi95 remm-slerp-l2-13b](https://huggingface.co/Undi95)：输入价 $0.35 → $0.30，输出价 $0.65 → $0.50\n\n## 行业观察\nAI大模型市场的竞争日益激烈，新模型的不断推出和价格的调整反映了技术的快速发展和市场需求的不断变化。\n\n## 常见问题\n- **今日哪些模型降价**？\n  - 今日Z.ai的glm-5.2:batch、DeepSeek的deepseek-v4-flash、Mancer的weaver以及Undi95的remm-slerp-l2-13b模型降价。\n- **新上线了哪些模型**？\n  - 今日新上线的模型包括Baidu的ernie-5.5-flash-preview、ernie-light-dt-1.0-intl，Google的gemini-4-carbon和gemini-4-carbon:batch，以及Kt的midm-k-3.0-pro和Motif-Technologies的motif-3。\n- **数据来源与更新频率**？\n  - 数据来源于Codenav网站，实时价格表更新频率为每日。\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日Z.ai的glm-5.2:batch、DeepSeek的deepseek-v4-flash、Mancer的weaver以及Undi95的remm-slerp-l2-13b模型降价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型包括Baidu的ernie-5.5-flash-preview、ernie-light-dt-1.0-intl，Google的gemini-4-carbon和gemini-4-carbon:batch，以及Kt的midm-k-3.0-pro和Motif-Technologies的motif-3。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于Codenav网站，实时价格表更新频率为每日。"
+    }
+  ],
+  "date": "2026-11-11",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

@@ -1,5 +1,29 @@
 [
   {
+    "provider": "Baidu",
+    "model": "ernie-5.5-flash-preview",
+    "category": "LLM",
+    "context_window": 1024000
+  },
+  {
+    "provider": "Baidu",
+    "model": "ernie-light-dt-1.0-intl",
+    "category": "LLM",
+    "context_window": 1024000
+  },
+  {
+    "provider": "Google",
+    "model": "gemini-4-carbon",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Google",
+    "model": "gemini-4-carbon:batch",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Nex-Agi",
     "model": "nex-n2.6",
     "category": "LLM",
@@ -36,6 +60,12 @@
     "context_window": 131072
   },
   {
+    "provider": "Kt",
+    "model": "midm-k-3.0-pro",
+    "category": "LLM",
+    "context_window": 261795
+  },
+  {
     "provider": "Google",
     "model": "gemini-omni-1.1-flash",
     "category": "LLM",
@@ -52,6 +82,12 @@
     "model": "hy4",
     "category": "LLM",
     "context_window": 1048576
+  },
+  {
+    "provider": "Motif-Technologies",
+    "model": "motif-3",
+    "category": "LLM",
+    "context_window": 262144
   },
   {
     "provider": "Z.ai",
@@ -2478,12 +2514,6 @@
     "context_window": 32768
   },
   {
-    "provider": "Alibaba",
-    "model": "qwen-2.5-7b-instruct",
-    "category": "LLM",
-    "context_window": 32768
-  },
-  {
     "provider": "Meta-Llama",
     "model": "llama-3.2-1b-instruct",
     "category": "LLM",
@@ -2644,12 +2674,6 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
-  },
-  {
-    "provider": "DeepSeek",
-    "model": "V4-Pro",
-    "category": "LLM",
-    "context_window": 1000000
   },
   {
     "provider": "火山引擎",
