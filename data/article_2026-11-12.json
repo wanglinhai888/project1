@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报/变动：多款模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，多款模型价格调整，新模型上线，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, 新模型, OpenAI, Z.ai, DeepSeek, IBM, Google",
+  "article": "# AI 大模型每日价格变化报告\n\n## 涨价\n- **DeepSeek deepseek-v4.1-flash-1017**: 输入价从 $0.01 上涨至 $0.15，输出价从 $0.50 上涨至 $0.60。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z.ai glm-5.3-flash:batch**: 输入价从 $0.04 上涨至 $0.05，输出价从 $0.06 上涨至 $0.18。[官网](https://z.ai/)\n- **OpenAI gpt-5.6-sol**: 输入价从 $4.00 上涨至 $4.40，输出价从 $20.00 上涨至 $22.00。[官网](https://openai.com/api/pricing/)\n- **Z.ai glm-5.1**: 输入价从 $1.33 上涨至 $1.40，输出价从 $4.18 上涨至 $4.40。[官网](https://z.ai/)\n- **Moonshotai kimi-latest**: 输入价保持 $0.18，输出价从 $9.34 上涨至 $11.01。[官网](https://platform.moonshot.cn/)\n\n## 降价\n- **Deepseek deepseek-flash-latest**: 输入价从 $0.01 上涨至 $0.02，输出价从 $0.50 下降至 $0.40。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4.1-flash**: 输入价从 $0.05 下降至 $0.02，输出价从 $0.57 下降至 $0.40。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Ibm-Granite granite-4.2-8b**: 输入价保持 $0.06，输出价从 $0.25 下降至 $0.15。[官网](https://www.ibm.com/products/watsonx/ai/models)\n- **Z.ai glm-5.3:batch**: 输入价从 $0.45 下降至 $0.35，输出价从 $2.00 下降至 $1.07。[官网](https://z.ai/)\n- **Z.ai glm-5.2:batch**: 输入价从 $0.53 下降至 $0.35，输出价保持 $1.07。[官网](https://z.ai/)\n- **Alibaba qwen3.5-9b**: 输入价从 $0.17 下降至 $0.05，输出价从 $0.25 下降至 $0.08。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **MiniMax minimax-m2.5**: 输入价从 $0.30 下降至 $0.27，输出价从 $1.20 下降至 $1.08。[官网](https://platform.minimax.io/)\n- **Google gemma-3-27b-it**: 输入价保持 $0.08，输出价从 $0.45 下降至 $0.35。[官网](https://ai.google.dev/pricing)\n\n## 新模型\n- **Unbiased pareto-26.10-preview**: 新模型上线。[官网](https://unbiased.ai/)\n- **DeepSeek V4-Pro**: 新模型上线。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 行业观察\nAI大模型市场持续活跃，价格调整和新模型上线成为常态，反映了行业竞争的激烈和技术发展的迅速。",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日Deepseek deepseek-flash-latest、DeepSeek deepseek-v4.1-flash、Ibm-Granite granite-4.2-8b、Z.ai glm-5.3:batch、Z.ai glm-5.2:batch、Alibaba qwen3.5-9b、MiniMax minimax-m2.5、Google gemma-3-27b-it等模型进行了价格下调。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日DeepSeek deepseek-v4.1-flash-1017、Z.ai glm-5.3-flash:batch、OpenAI gpt-5.6-sol、Z.ai glm-5.1、Moonshotai kimi-latest等模型进行了价格上调。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线了Unbiased pareto-26.10-preview和DeepSeek V4-Pro模型。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于Codenav，实时价格表可访问[这里](https://www.codenav.cn/prices.html)。"
+    },
+    {
+      "q": "OpenAI GPT-5的价格有何变化？",
+      "a": "OpenAI GPT-5的输入价从 $4.00 上涨至 $4.40，输出价从 $20.00 上涨至 $22.00。"
+    }
+  ],
+  "date": "2026-11-12",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
