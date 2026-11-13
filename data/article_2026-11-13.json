@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，包括价格调整和新模型上线信息，覆盖Google、Xiaomi、Alibaba等多家厂商。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, Google, Xiaomi, Alibaba, 价格日报",
+  "article": "# AI 大模型每日价格变化报告\n\n## 今日核心结论\n今日AI大模型市场多款模型价格调整，同时有多款新模型上线。\n\n## 涨价\n- **DeepSeek deepseek-v4.1-flash-1017:batch**：输入价 $0.01 → $0.05，输出价 $0.20 → $0.15\n- **Deepseek deepseek-flash-latest**：输入价 $0.02 → $0.04，输出价 $0.40 → $0.50\n- **DeepSeek deepseek-v4.1-flash**：输入价 $0.02 → $0.30，输出价 $0.40 → $1.20\n- **Z.ai glm-5.3**：输入价 $0.07 → $0.08，输出价 $1.40 → $3.60\n- **Z.ai glm-5.3:batch**：输入价 $0.35 → $0.45，输出价 $1.07 → $2.00\n- **Z.ai glm-5.2:batch**：输入价 $0.35 → $0.30，输出价 $1.07 → $0.92\n- **Google gemma-4-26b-a4b-it**：输入价 $0.08 → $0.08，输出价 $0.10 → $0.26\n- **Alibaba qwen3.5-9b**：输入价 $0.05 → $0.08，输出价 $0.08 → $0.12\n- **Alibaba qwen3-14b**：输入价 $0.10 → $0.12，输出价 $0.22 → $0.24\n\n## 降价\n- **Kimi kimi-k3.1-pro**：输入价 $2.00 → $0.24，输出价 $10.00 → $8.41\n- **Xiaomi mimo-v2.5-pro**：输入价 $0.48 → $0.43，输出价 $1.80 → $0.87\n- **Kimi kimi-k2.5**：输入价 $0.53 → $0.50，输出价 $3.33 → $2.50\n\n## 新模型\n- **Google gemini-4-hydrogen**\n- **Google gemini-4-hydrogen:batch**\n- **Thinkingmachines inkling-2-small**\n- **Inclusionai ling-3.0-flash-sante**\n- **Inclusionai ling-3.0-flash-fin**\n\n## 行业观察\nAI大模型市场持续活跃，价格调整和新模型上线成为常态，反映了技术的快速发展和市场竞争的加剧。\n\n[查看实时价格表](https://www.codenav.cn/prices.html)\n\n## 参考资料\n- [站点](https://www.codenav.cn)\n\n## FAQ\n- **Q：今日哪些模型降价**？\n  **A：Kimi kimi-k3.1-pro、Xiaomi mimo-v2.5-pro、Kimi kimi-k2.5等模型降价**。\n- **Q：新上线了哪些模型**？\n  **A：Google gemini-4-hydrogen、Google gemini-4-hydrogen:batch、Thinkingmachines inkling-2-small等模型新上线**。\n- **Q：数据来源与更新频率**？\n  **A：数据来源于Codenav，每日更新**。\n- **Q：AI大模型价格变动的原因是什么**？\n  **A：价格变动可能由技术升级、市场竞争、需求变化等因素引起**。\n- **Q：如何获取更多AI大模型信息**？\n  **A：请访问Codenav网站获取更多信息**。\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "Kimi kimi-k3.1-pro、Xiaomi mimo-v2.5-pro、Kimi kimi-k2.5等模型降价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "Google gemini-4-hydrogen、Google gemini-4-hydrogen:batch、Thinkingmachines inkling-2-small等模型新上线。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于Codenav，每日更新。"
+    },
+    {
+      "q": "AI大模型价格变动的原因是什么？",
+      "a": "价格变动可能由技术升级、市场竞争、需求变化等因素引起。"
+    },
+    {
+      "q": "如何获取更多AI大模型信息？",
+      "a": "请访问Codenav网站获取更多信息。"
+    }
+  ],
+  "date": "2026-11-13",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

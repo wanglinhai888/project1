@@ -1,5 +1,17 @@
 [
   {
+    "provider": "Google",
+    "model": "gemini-4-hydrogen",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Google",
+    "model": "gemini-4-hydrogen:batch",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Baidu",
     "model": "ernie-light-dt-1.0-intl",
     "category": "LLM",
@@ -22,6 +34,12 @@
     "model": "nex-n2.6",
     "category": "LLM",
     "context_window": 262144
+  },
+  {
+    "provider": "Thinkingmachines",
+    "model": "inkling-2-small",
+    "category": "LLM",
+    "context_window": 1048576
   },
   {
     "provider": "Anthropic",
@@ -122,6 +140,12 @@
   {
     "provider": "Kimi",
     "model": "kimi-k3.1-pro",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Kimi",
+    "model": "kimi-k3.1-pro:batch",
     "category": "LLM",
     "context_window": 1048576
   },
@@ -588,6 +612,12 @@
     "context_window": 1050000
   },
   {
+    "provider": "Inclusionai",
+    "model": "ling-3.0-flash-sante",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Alibaba",
     "model": "qwen3.8-max-0902",
     "category": "LLM",
@@ -646,6 +676,12 @@
     "model": "hy4-preview",
     "category": "LLM",
     "context_window": 1048576
+  },
+  {
+    "provider": "Inclusionai",
+    "model": "ling-3.0-flash-fin",
+    "category": "LLM",
+    "context_window": 262144
   },
   {
     "provider": "~Z-Ai",
