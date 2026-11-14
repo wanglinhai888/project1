@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型价格波动，关注最新动态",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格下调，部分模型价格上调，关注最新动态。",
+  "keywords": "AI 大模型, 价格, 降价, 涨价, OpenAI, DeepSeek, IBM, Google, Alibaba, MiniMax",
+  "article": "# AI 大模型每日价格变化报告\n\n## 涨价模型\n- **Kimi kimi-k3.1-pro**: 输入价从 $0.24 上涨至 $2.00，输出价从 $8.41 上涨至 $10.00。[官网](https://platform.moonshot.cn/)\n- **Ibm-Granite granite-4.2-8b**: 输入价保持不变，输出价从 $0.15 上涨至 $0.25。[官网](https://www.ibm.com/products/watsonx/ai/models)\n- **Meta-Llama llama-3.2-3b-instruct**: 输入价保持不变，输出价从 $0.33 上涨至 $0.34。[官网](https://www.llama.com/)\n\n## 降价模型\n- **Ricursiveai ripple-65b-preview**: 输入价从 $0.20 降至 $0.10，输出价从 $0.60 降至 $0.30。[官网](https://openrouter.ai/models/ricursiveai/ripple-65b-preview)\n- **DeepSeek deepseek-v4.1-flash-1017**: 输入价从 $0.15 降至 $0.04，输出价从 $0.60 降至 $0.50。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4.1-flash**: 输入价从 $0.30 降至 $0.05，输出价从 $1.20 降至 $0.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **OpenAI gpt-5.6-sol**: 输入价从 $4.40 降至 $4.00，输出价从 $22.00 降至 $20.00。[官网](https://openai.com/api/pricing/)\n- **DeepSeek deepseek-v4-pro**: 输入价从 $0.96 降至 $0.90，输出价从 $1.91 降至 $1.50。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Google gemma-4-26b-a4b-it**: 输入价从 $0.08 降至 $0.07，输出价从 $0.26 降至 $0.23。[官网](https://ai.google.dev/pricing)\n- **Alibaba qwen3.5-9b**: 输入价从 $0.08 上涨至 $0.16，输出价从 $0.12 上涨至 $0.23。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **MiniMax minimax-m2.5**: 输入价保持不变，输出价从 $1.08 降至 $0.95。[官网](https://platform.minimax.io/)\n- **DeepSeek deepseek-chat**: 输入价从 $0.32 降至 $0.26，输出价从 $0.89 降至 $1.03。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 行业观察\nAI大模型市场持续活跃，价格波动成为常态，用户在选择模型时应关注性价比和模型性能。\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日包括Ricursiveai ripple-65b-preview、DeepSeek deepseek-v4.1-flash-1017、DeepSeek deepseek-v4.1-flash等多个模型降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日Kimi kimi-k3.1-pro、Ibm-Granite granite-4.2-8b、Meta-Llama llama-3.2-3b-instruct等模型涨价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日没有新模型上线，但部分模型价格有所变动。"
+    },
+    {
+      "q": "数据来源与更新频率？",
+      "a": "数据来源于Codenav网站，实时价格表更新。"
+    },
+    {
+      "q": "AI大模型价格变动的原因是什么？",
+      "a": "AI大模型价格变动可能由市场供需、技术更新、竞争策略等多种因素导致。"
+    }
+  ],
+  "date": "2026-11-14",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

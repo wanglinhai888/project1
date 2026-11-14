@@ -612,12 +612,6 @@
     "context_window": 1050000
   },
   {
-    "provider": "Inclusionai",
-    "model": "ling-3.0-flash-sante",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
     "provider": "Alibaba",
     "model": "qwen3.8-max-0902",
     "category": "LLM",
@@ -676,12 +670,6 @@
     "model": "hy4-preview",
     "category": "LLM",
     "context_window": 1048576
-  },
-  {
-    "provider": "Inclusionai",
-    "model": "ling-3.0-flash-fin",
-    "category": "LLM",
-    "context_window": 262144
   },
   {
     "provider": "~Z-Ai",
@@ -759,7 +747,7 @@
     "provider": "Alibaba",
     "model": "qwen3.8-27b",
     "category": "LLM",
-    "context_window": 1048575
+    "context_window": 1024000
   },
   {
     "provider": "Alibaba",
@@ -808,12 +796,6 @@
     "model": "grok-4.6:batch",
     "category": "LLM",
     "context_window": 500000
-  },
-  {
-    "provider": "Liquid",
-    "model": "lfm-2.5-2.6b",
-    "category": "LLM",
-    "context_window": 128000
   },
   {
     "provider": "Nvidia",
@@ -1641,7 +1623,7 @@
     "provider": "MiniMax",
     "model": "minimax-m2.5",
     "category": "LLM",
-    "context_window": 200000
+    "context_window": 198000
   },
   {
     "provider": "Z.ai",
