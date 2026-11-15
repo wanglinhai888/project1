@@ -1092,12 +1092,6 @@
     "context_window": 1048576
   },
   {
-    "provider": "Z.ai",
-    "model": "glm-5.2:batch",
-    "category": "LLM",
-    "context_window": 1048576
-  },
-  {
     "provider": "Kimi",
     "model": "kimi-k2.7-code",
     "category": "LLM",
