@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格调整，新模型上线引关注",
+  "meta_description": "今日AI大模型价格变动汇总，多款模型价格调整，新模型上线，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, 新模型, Alibaba, Kimi, DeepSeek, Nvidia, Ibm-Granite, Z.ai, OpenAI, MiniMax",
+  "article": "# AI 大模型价格日报：多款模型价格调整，新模型上线引关注\n\n## 今日核心结论\n今日AI大模型市场动态活跃，多款模型价格调整，同时有新模型上线，以下是详细情况。\n\n## 涨价\n- **Kimi kimi-k3.1-pro**: 输入价从 $0.24 上涨至 $2.30，输出价从 $8.41 上涨至 $11.50。[官网](https://platform.moonshot.cn/)\n- **Kimi kimi-k3.1-pro:batch**: 输入价从 $0.35 上涨至 $0.70，输出价从 $4.41 上涨至 $6.00。[官网](https://platform.moonshot.cn/)\n- **DeepSeek deepseek-v4.1-flash-1017**: 输入价从 $0.04 上涨至 $0.15，输出价从 $0.50 上涨至 $0.60。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Nvidia nemotron-3.5-super-vl**: 输入价保持 $0.15，输出价从 $0.47 上涨至 $0.50。[官网](https://build.nvidia.com/)\n- **MiniMax minimax-m2.5**: 输入价从 $0.27 上涨至 $0.29，输出价从 $0.95 上涨至 $1.20。[官网](https://platform.minimax.io/)\n- **OpenAI gpt-oss-20b**: 输入价从 $0.03 上涨至 $0.07，输出价从 $0.13 上涨至 $0.30。[官网](https://openai.com/api/pricing/)\n- **Z.ai glm-5.3:batch**: 输入价从 $0.35 上涨至 $0.45，输出价从 $1.07 上涨至 $2.00。[官网](https://z.ai/)\n\n## 降价\n- **Z.ai glm-5.3**: 输入价从 $0.08 降至 $0.07，输出价从 $3.60 降至 $1.40。[官网](https://z.ai/)\n- **Ibm-Granite granite-4.2-8b**: 输入价保持 $0.06，输出价从 $0.25 降至 $0.15。[官网](https://www.ibm.com/products/watsonx/ai/models)\n- **OpenAI gpt-5.6-sol**: 输入价从 $4.40 降至 $4.00，输出价从 $22.00 降至 $20.00。[官网](https://openai.com/api/pricing/)\n- **Alibaba qwen3.5-9b**: 输入价从 $0.11 降至 $0.10，输出价从 $0.16 降至 $0.15。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Alibaba qwen3.5-397b-a17b**: 输入价从 $0.60 降至 $0.45，输出价从 $3.60 降至 $3.00。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Z.ai glm-4.5-air**: 输入价从 $0.20 降至 $0.13，输出价从 $1.10 降至 $0.85。[官网](https://z.ai/)\n- **DeepSeek deepseek-r1-0528**: 输入价从 $0.57 降至 $0.50，输出价从 $2.29 降至 $2.15。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 新模型\n- **Alibaba qwen4-max**: 新模型上线。[官网](https://help.aliyun.com/zh/model-studio/models)\n\n## 行业观察\nAI大模型市场持续活跃，价格调整和新模型上线成为市场关注的焦点，预计未来将有更多创新和变化。\n\n## 参考资料\n- [站点](https://www.codenav.cn)\n- [实时价格表](https://www.codenav.cn/prices.html)\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日Z.ai glm-5.3、Ibm-Granite granite-4.2-8b、OpenAI gpt-5.6-sol、Alibaba qwen3.5-9b、Alibaba qwen3.5-397b-a17b、Z.ai glm-4.5-air、DeepSeek deepseek-r1-0528等多款模型降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日Kimi kimi-k3.1-pro、DeepSeek deepseek-v4.1-flash-1017、Nvidia nemotron-3.5-super-vl、MiniMax minimax-m2.5、OpenAI gpt-oss-20b、Z.ai glm-5.3:batch等多款模型涨价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型为Alibaba qwen4-max。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于[站点](https://www.codenav.cn)，实时更新。"
+    },
+    {
+      "q": "哪些厂商的模型价格调整了？",
+      "a": "今日价格调整的厂商包括Alibaba、Kimi、DeepSeek、Nvidia、Ibm-Granite、Z.ai、OpenAI和MiniMax。"
+    }
+  ],
+  "date": "2026-11-16",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

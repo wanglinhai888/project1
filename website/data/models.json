@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Alibaba",
+    "model": "qwen4-max",
+    "category": "LLM",
+    "context_window": 1000000
+  },
+  {
     "provider": "Google",
     "model": "gemini-4-hydrogen",
     "category": "LLM",
@@ -1644,12 +1650,6 @@
     "context_window": 262144
   },
   {
-    "provider": "StepFun",
-    "model": "step-3.5-flash",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
     "provider": "Kimi",
     "model": "kimi-k2.5",
     "category": "LLM",
@@ -1909,12 +1909,6 @@
   },
   {
     "provider": "Alibaba",
-    "model": "qwen3-vl-30b-a3b-thinking",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "Alibaba",
     "model": "qwen3-vl-30b-a3b-instruct",
     "category": "LLM",
     "context_window": 262144
@@ -2164,12 +2158,6 @@
     "model": "dolphin-mistral-24b-venice-edition",
     "category": "LLM",
     "context_window": 128000
-  },
-  {
-    "provider": "Tencent",
-    "model": "hunyuan-a13b-instruct",
-    "category": "LLM",
-    "context_window": 131072
   },
   {
     "provider": "Morph",
