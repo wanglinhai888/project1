@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Tencent",
+    "model": "hy4-flash",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Alibaba",
     "model": "qwen4-max",
     "category": "LLM",
@@ -807,7 +813,7 @@
     "provider": "Nvidia",
     "model": "nemotron-3.5-lightning",
     "category": "LLM",
-    "context_window": 262144
+    "context_window": 1048576
   },
   {
     "provider": "Sakana",
@@ -1094,6 +1100,12 @@
   {
     "provider": "Z.ai",
     "model": "glm-5.2",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Z.ai",
+    "model": "glm-5.2:batch",
     "category": "LLM",
     "context_window": 1048576
   },
