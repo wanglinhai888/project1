@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型降价，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格下调，新模型上线，了解最新价格动态。",
+  "keywords": "AI大模型, 价格, 降价, 涨价, 新模型, OpenAI, DeepSeek, Z.ai, Alibaba, Google, Mistral",
+  "article": "# AI 大模型价格日报\n\n## 今日核心结论\n今日AI大模型市场部分模型价格下调，同时有新模型上线。\n\n## 涨价模型\n- **Z.ai glm-5.3-flash**: 输入价从 $0.04 上涨至 $0.15，输出价从 $0.08 上涨至 $0.50。[官网](https://z.ai/)\n- **Kimi kimi-k2.7-code**: 输入价从 $0.60 上涨至 $0.70，输出价从 $3.50 上涨至 $3.75。[官网](https://platform.moonshot.cn/)\n- **Mistral mistral-medium-3.1**: 输入价从 $0.40 上涨至 $0.44，输出价从 $2.00 上涨至 $2.20。[官网](https://mistral.ai/products/pricing)\n- **Mistral mistral-medium-3**: 输入价从 $0.40 上涨至 $0.44，输出价从 $2.00 上涨至 $2.20。[官网](https://mistral.ai/products/pricing)\n- **Google gemma-3-27b-it**: 输入价保持 $0.08，输出价从 $0.35 上涨至 $0.45。[官网](https://ai.google.dev/pricing)\n\n## 降价模型\n- **OpenAI gpt-astra-latest**: 输入价从 $10.00 降至 $8.00，输出价从 $50.00 降至 $40.00。[官网](https://openai.com/api/pricing/)\n- **DeepSeek deepseek-v4.1-flash**: 输入价从 $0.14 降至 $0.05，输出价从 $0.42 降至 $0.57。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Alibaba qwen3.8-27b**: 输入价从 $0.15 降至 $0.06，输出价从 $1.88 降至 $2.20。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Google gemma-4-26b-a4b-it**: 输入价从 $0.09 降至 $0.08，输出价从 $0.30 降至 $0.26。[官网](https://ai.google.dev/pricing)\n- **Alibaba qwen3.5-9b**: 输入价从 $0.17 降至 $0.14，输出价从 $0.25 降至 $0.21。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Alibaba qwen3.5-27b**: 输入价从 $0.26 降至 $0.30，输出价从 $2.60 降至 $2.40。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Mistral mistral-small-3.2-24b-instruct**: 输入价从 $0.10 降至 $0.07，输出价从 $0.30 降至 $0.20。[官网](https://mistral.ai/products/pricing)\n- **OpenAI gpt-oss-20b**: 输入价从 $0.03 降至 $0.02，输出价从 $0.13 降至 $0.09。[官网](https://openai.com/api/pricing/)\n\n## 新模型上线\n- **OpenAI gpt-6.2-astra-pro, gpt-6.2-astra-pro:batch, gpt-6.2-astra, gpt-6.2-astra:batch, gpt-6.2-sol-pro, gpt-6.2-sol-pro:batch, gpt-6.2-sol, gpt-6.2-sol:batch**: 新模型上线。[官网](https://openai.com/api/pricing/)\n\n## 行业观察\nAI大模型市场持续活跃，价格调整和新模型上线成为常态，反映了技术的快速发展和市场竞争的加剧。\n\n[查看实时价格表](https://www.codenav.cn/prices.html)\n\n[返回 Codenav 网站](https://www.codenav.cn)\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价模型包括OpenAI的gpt-astra-latest，DeepSeek的deepseek-v4.1-flash，Alibaba的qwen3.8-27b，Google的gemma-4-26b-a4b-it，以及多个Alibaba的模型等。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价模型包括Z.ai的glm-5.3-flash，Kimi的kimi-k2.7-code，Mistral的mistral-medium-3.1和mistral-medium-3，以及Google的gemma-3-27b-it。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型包括OpenAI的gpt-6.2-astra-pro系列等。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于Codenav网站，更新频率为每日。"
+    },
+    {
+      "q": "如何获取更多模型价格信息？",
+      "a": "请访问Codenav网站实时价格表获取更多模型价格信息。"
+    }
+  ],
+  "date": "2026-11-18",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

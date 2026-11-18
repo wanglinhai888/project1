@@ -1,5 +1,53 @@
 [
   {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-astra-pro",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-astra-pro:batch",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-astra",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-astra:batch",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-sol-pro",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-sol-pro:batch",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-sol",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
+    "provider": "OpenAI",
+    "model": "gpt-6.2-sol:batch",
+    "category": "LLM",
+    "context_window": 1050000
+  },
+  {
     "provider": "Tencent",
     "model": "hy4-flash",
     "category": "LLM",
@@ -2668,12 +2716,6 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
-  },
-  {
-    "provider": "DeepSeek",
-    "model": "V4-Pro",
-    "category": "LLM",
-    "context_window": 1000000
   },
   {
     "provider": "火山引擎",
