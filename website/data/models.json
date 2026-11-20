@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Mistral",
+    "model": "pixtral-large-2502",
+    "category": "LLM",
+    "context_window": 128000
+  },
+  {
     "provider": "Google",
     "model": "gemini-4-neon",
     "category": "LLM",
@@ -1252,12 +1258,6 @@
     "model": "qwen3.7-max",
     "category": "LLM",
     "context_window": 1000000
-  },
-  {
-    "provider": "xAI",
-    "model": "grok-build-0.1",
-    "category": "LLM",
-    "context_window": 256000
   },
   {
     "provider": "Google",
@@ -2569,12 +2569,6 @@
   },
   {
     "provider": "Meta-Llama",
-    "model": "llama-3.2-1b-instruct",
-    "category": "LLM",
-    "context_window": 60000
-  },
-  {
-    "provider": "Meta-Llama",
     "model": "llama-3.2-3b-instruct",
     "category": "LLM",
     "context_window": 131072
@@ -2728,12 +2722,6 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
-  },
-  {
-    "provider": "DeepSeek",
-    "model": "V4-Pro",
-    "category": "LLM",
-    "context_window": 1000000
   },
   {
     "provider": "火山引擎",

@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：多款模型价格调整，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，多款模型价格调整，包括涨价、降价和新模型上线，数据来自Codenav。",
+  "keywords": "AI大模型, 价格, 日报, 变动, OpenAI, Meta-Llama, Alibaba, Z.ai, DeepSeek, Particle-Ai",
+  "article": "# AI 大模型价格日报\n\n## 涨价\n- **Particle-Ai particle-1**：输入价从 $0.06 上涨至 $0.07，输出价保持 $0.50。[官网](https://openrouter.ai/models/particle-ai/particle-1)\n- **Alibaba qwen3.5-27b**：输入价从 $0.20 上涨至 $0.26，输出价从 $1.56 上涨至 $2.60。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **Meta-Llama llama-3.2-3b-instruct**：输入价和输出价均保持不变。[官网](https://www.llama.com/)\n\n## 降价\n- **DeepSeek deepseek-v4.1-flash-1017:batch**：输入价和输出价均保持不变。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-pro-latest**：输入价从 $0.11 上涨至 $1.32，输出价从 $4.44 下降至 $3.96。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-latest**：输入价从 $0.06 下降至 $0.05，输出价保持 $0.30。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-0731**：输入价从 $0.06 下降至 $0.05，输出价保持 $0.30。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z.ai glm-5.2**：输入价从 $0.01 上涨至 $0.62，输出价从 $6.80 下降至 $2.42。[官网](https://z.ai/)\n- **Kimi kimi-k2.7-code**：输入价保持 $0.60，输出价从 $3.50 下降至 $3.00。[官网](https://platform.moonshot.cn/)\n- **Moonshotai kimi-latest**：输入价保持 $0.18，输出价保持 $11.01。[官网](https://platform.moonshot.cn/)\n- **OpenAI gpt-oss-120b**：输入价从 $0.15 下降至 $0.09，输出价从 $0.60 下降至 $0.36。[官网](https://openai.com/api/pricing/)\n\n## 新模型上线\n- **Mistral pixtral-large-2502**：新模型上线。[官网](https://mistral.ai/products/pricing)\n\n## 行业观察\n今日AI大模型市场动态活跃，多款模型价格调整，反映了市场竞争的加剧和技术的快速发展。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价的模型包括DeepSeek deepseek-pro-latest、DeepSeek deepseek-v4-flash-latest、DeepSeek deepseek-v4-flash-0731、Z.ai glm-5.2、Kimi kimi-k2.7-code、Moonshotai kimi-latest、OpenAI gpt-oss-120b等。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价的模型包括Particle-Ai particle-1、Alibaba qwen3.5-27b、Meta-Llama llama-3.2-3b-instruct。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型为Mistral pixtral-large-2502。"
+    },
+    {
+      "q": "数据来源是什么？",
+      "a": "数据来源于Codenav。"
+    },
+    {
+      "q": "数据更新频率是多少？",
+      "a": "数据更新频率为每日。"
+    }
+  ],
+  "date": "2026-11-20",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}
