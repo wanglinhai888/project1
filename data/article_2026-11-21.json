@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：新模型上线与价格变动一览",
+  "meta_description": "今日AI大模型价格变动汇总，包括新模型上线、价格涨跌详情，了解最新AI大模型市场动态。",
+  "keywords": "AI大模型, 价格变动, 新模型上线, 价格日报, 降价, 涨价, OpenAI, DeepSeek, MiniMax, Alibaba",
+  "article": "# AI 大模型价格日报：新模型上线与价格变动一览\n\n## 今日核心结论\n今日AI大模型市场动态活跃，既有新模型上线，也有部分模型价格调整。\n\n## 新模型上线\n- [Thinkingmachines inkling-2-mini](https://www.thinkingmachines.ai/)：新模型上线。\n- [Radixark daisyrose-27b](https://openrouter.ai/models/radixark/daisyrose-27b)：新模型上线。\n- [DeepSeek V4-Pro](https://api-docs.deepseek.com/quick_start/pricing)：新模型上线。\n\n## 价格变动\n### 涨价\n- [Inclusionai ling-3.1-flash](https://huggingface.co/inclusionAI)：输入价 $0.04 → $0.06，输出价 $0.14 → $0.18。\n- [MiniMax minimax-m2.7](https://platform.minimax.io/)：输入价 $0.21 → $0.60，输出价 $0.84 → $1.80。\n- [Google gemma-3-27b-it](https://ai.google.dev/pricing)：输出价 $0.16 → $0.45。\n\n### 降价\n- [Nvidia nemotron-3.5-super-vl](https://build.nvidia.com/)：输入价 $0.50 → $0.47。\n- [Deepseek deepseek-pro-latest](https://api-docs.deepseek.com/quick_start/pricing)：输入价 $0.26 → $0.10。\n- [DeepSeek deepseek-v4.1-flash](https://api-docs.deepseek.com/quick_start/pricing)：输入价 $0.30 → $0.05，输出价 $1.20 → $0.20。\n- [DeepSeek deepseek-v4-flash-vision-exp](https://api-docs.deepseek.com/quick_start/pricing)：输入价 $0.44 → $0.22，输出价 $1.32 → $0.65。\n- [Alibaba qwen3.8-27b](https://help.aliyun.com/zh/model-studio/models)：输出价 $2.20 → $1.96。\n- [Deepseek deepseek-v4-flash-latest](https://api-docs.deepseek.com/quick_start/pricing)：输入价 $0.05 → $0.04，输出价 $0.30 → $0.13。\n- [DeepSeek deepseek-v4-flash-0731](https://api-docs.deepseek.com/quick_start/pricing)：输入价 $0.05 → $0.04，输出价 $0.30 → $0.30。\n- [Google gemma-4-26b-a4b-it](https://ai.google.dev/pricing)：输入价 $0.08 → $0.07，输出价 $0.26 → $0.23。\n- [Alibaba qwen3.5-27b](https://help.aliyun.com/zh/model-studio/models)：输入价 $0.26 → $0.20，输出价 $2.60 → $1.56。\n- [MiniMax minimax-m2.5](https://platform.minimax.io/)：输入价 $0.29 → $0.27，输出价 $1.20 → $0.95。\n- [OpenAI gpt-oss-20b](https://openai.com/api/pricing/)：输入价 $0.02 → $0.02，输出价 $0.09 → $0.09。\n- [Alibaba qwen3-coder-30b-a3b-instruct](https://help.aliyun.com/zh/model-studio/models)：输入价 $0.15 → $0.07，输出价 $0.60 → $0.28。\n- [DeepSeek deepseek-chat-v3-0324](https://api-docs.deepseek.com/quick_start/pricing)：输入价 $0.29 → $0.25，输出价 $1.14 → $1.00。\n\n## 行业观察\nAI大模型市场持续活跃，新模型的不断推出和价格的调整反映了市场的竞争和创新活力。\n\n[查看实时价格表](https://www.codenav.cn/prices.html)\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日包括Nvidia nemotron-3.5-super-vl、Deepseek deepseek-pro-latest等多个模型降价。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日包括Inclusionai ling-3.1-flash、MiniMax minimax-m2.7等模型涨价。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线了Thinkingmachines inkling-2-mini、Radixark daisyrose-27b和DeepSeek V4-Pro等模型。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于Codenav，实时更新。"
+    },
+    {
+      "q": "AI大模型价格变动的原因是什么？",
+      "a": "AI大模型价格变动可能由市场供需、技术更新、竞争策略等多种因素影响。"
+    }
+  ],
+  "date": "2026-11-21",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

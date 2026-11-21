@@ -1,5 +1,17 @@
 [
   {
+    "provider": "Thinkingmachines",
+    "model": "inkling-2-mini",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
+    "provider": "Radixark",
+    "model": "daisyrose-27b",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Mistral",
     "model": "pixtral-large-2502",
     "category": "LLM",
@@ -537,13 +549,13 @@
     "provider": "Xiaomi",
     "model": "mimo-v2.6-flash",
     "category": "LLM",
-    "context_window": 1050000
+    "context_window": 1048576
   },
   {
     "provider": "Xiaomi",
     "model": "mimo-v2.6-pro",
     "category": "LLM",
-    "context_window": 1050000
+    "context_window": 1048576
   },
   {
     "provider": "xAI",
@@ -996,12 +1008,6 @@
     "context_window": 1048576
   },
   {
-    "provider": "Meituan",
-    "model": "longcat-2.0",
-    "category": "LLM",
-    "context_window": 1048756
-  },
-  {
     "provider": "Thinkingmachines",
     "model": "inkling",
     "category": "LLM",
@@ -1414,12 +1420,6 @@
     "model": "deepseek-v4-flash",
     "category": "LLM",
     "context_window": 1048576
-  },
-  {
-    "provider": "Tencent",
-    "model": "hy3-preview",
-    "category": "LLM",
-    "context_window": 262144
   },
   {
     "provider": "Xiaomi",
@@ -2722,6 +2722,12 @@
     "model": "gpt-4",
     "category": "LLM",
     "context_window": 8191
+  },
+  {
+    "provider": "DeepSeek",
+    "model": "V4-Pro",
+    "category": "LLM",
+    "context_window": 1000000
   },
   {
     "provider": "火山引擎",
