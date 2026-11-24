@@ -1,0 +1,31 @@
+{
+  "title": "AI 大模型价格日报：部分模型价格波动，关注最新动态",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格下调，部分模型价格上调，关注最新动态。",
+  "keywords": "AI大模型, 价格变动, 涨价, 降价, DeepSeek, InclusionAI, Z.ai, Nvidia, Tencent, Google, Meta",
+  "article": "# AI 大模型价格日报\n\n## 涨价模型\n- **InclusionAI ling-3.1-flash**: 输入价从 $0.06 上涨至 $0.07，输出价从 $0.18 上涨至 $0.23。[官网](https://huggingface.co/inclusionAI)\n- **Z.ai glm-5.3-flash**: 输入价从 $0.04 上涨至 $0.12，输出价从 $0.08 上涨至 $0.38。[官网](https://z.ai/)\n- **DeepSeek deepseek-v4-pro-0813**: 输入价从 $1.32 上涨至 $0.19，输出价从 $3.96 上涨至 $8.00。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Google gemma-4-26b-a4b-it**: 输入价从 $0.07 上涨至 $0.09，输出价从 $0.23 上涨至 $0.30。[官网](https://ai.google.dev/pricing)\n- **Meta-Llama llama-3.1-8b-instruct**: 输入价从 $0.02 上涨至 $0.05，输出价从 $0.04 上涨至 $0.08。[官网](https://www.llama.com/)\n\n## 降价模型\n- **DeepSeek deepseek-v4.1-flash-1017**: 输入价从 $0.15 降至 $0.03，输出价从 $0.60 降至 $0.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-pro-latest**: 输入价从 $0.12 降至 $0.10，输出价保持 $5.00。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Deepseek deepseek-flash-latest**: 输入价从 $0.04 降至 $0.03，输出价从 $0.50 降至 $0.20。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4.1-flash**: 输入价从 $0.05 降至 $0.14，输出价从 $0.20 降至 $0.42。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Z-Ai glm-flash-latest**: 输入价保持 $0.04，输出价保持 $0.08。[官网](https://z.ai/)\n- **Nvidia nemotron-3.5-lightning**: 输入价从 $0.07 降至 $0.05，输出价保持 $0.20。[官网](https://build.nvidia.com/)\n- **Deepseek deepseek-v4-flash-latest**: 输入价从 $0.04 降至 $0.05，输出价从 $0.13 降至 $0.30。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-0731**: 输入价从 $0.06 降至 $0.05，输出价从 $0.38 降至 $0.30。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Tencent hy3**: 输入价从 $0.14 降至 $0.13，输出价从 $0.58 降至 $0.53。[官网](https://cloud.tencent.com/product/hunyuan)\n- **DeepSeek deepseek-v4-pro**: 输入价从 $0.90 降至 $1.28，输出价从 $1.50 降至 $2.56。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n\n## 行业观察\nAI大模型市场今日出现了一些价格波动，部分模型价格上调，部分模型价格下调。这表明市场正在不断调整，以适应市场需求和技术进步。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日DeepSeek、InclusionAI、Z.ai等模型的价格有所下调。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日InclusionAI、Z.ai、DeepSeek等模型的价格有所上调。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日没有新模型上线的信息。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于Codenav，实时价格表更新于[这里](https://www.codenav.cn/prices.html)。"
+    },
+    {
+      "q": "AI大模型价格变动的原因是什么？",
+      "a": "AI大模型价格变动可能由市场需求、技术进步、竞争策略等多种因素导致。"
+    }
+  ],
+  "date": "2026-11-24",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

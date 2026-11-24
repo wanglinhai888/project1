@@ -387,7 +387,7 @@
     "provider": "Inclusionai",
     "model": "ling-3.1-flash",
     "category": "LLM",
-    "context_window": 1000000
+    "context_window": 1048576
   },
   {
     "provider": "Unbiased",
@@ -1011,7 +1011,7 @@
     "provider": "Thinkingmachines",
     "model": "inkling",
     "category": "LLM",
-    "context_window": 524288
+    "context_window": 1048576
   },
   {
     "provider": "Kimi",
@@ -1245,7 +1245,7 @@
     "provider": "StepFun",
     "model": "step-3.7-flash",
     "category": "LLM",
-    "context_window": 262144
+    "context_window": 256000
   },
   {
     "provider": "Anthropic",
@@ -1420,12 +1420,6 @@
     "model": "deepseek-v4-flash",
     "category": "LLM",
     "context_window": 1048576
-  },
-  {
-    "provider": "Xiaomi",
-    "model": "mimo-v2.5-pro",
-    "category": "LLM",
-    "context_window": 262144
   },
   {
     "provider": "Xiaomi",
@@ -1914,12 +1908,6 @@
     "context_window": 400000
   },
   {
-    "provider": "Kimi",
-    "model": "kimi-k2-thinking",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
     "provider": "AWS",
     "model": "nova-premier-v1",
     "category": "LLM",
@@ -2054,12 +2042,6 @@
   {
     "provider": "Alibaba",
     "model": "qwen3-next-80b-a3b-instruct",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
-    "provider": "Kimi",
-    "model": "kimi-k2-0905",
     "category": "LLM",
     "context_window": 262144
   },
@@ -2218,12 +2200,6 @@
     "model": "qwen3-235b-a22b-2507",
     "category": "LLM",
     "context_window": 262144
-  },
-  {
-    "provider": "Kimi",
-    "model": "kimi-k2",
-    "category": "LLM",
-    "context_window": 131072
   },
   {
     "provider": "Cognitivecomputations",
