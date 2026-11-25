@@ -1,5 +1,23 @@
 [
   {
+    "provider": "Upstage",
+    "model": "solar-mini-4-5",
+    "category": "LLM",
+    "context_window": 524288
+  },
+  {
+    "provider": "Upstage",
+    "model": "solar-pro-4-contributor",
+    "category": "LLM",
+    "context_window": 524288
+  },
+  {
+    "provider": "Xiaomi",
+    "model": "mimo-v2.6-flash-mopd",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Thinkingmachines",
     "model": "inkling-2-mini",
     "category": "LLM",
@@ -1422,12 +1440,6 @@
     "context_window": 1048576
   },
   {
-    "provider": "Xiaomi",
-    "model": "mimo-v2.5",
-    "category": "LLM",
-    "context_window": 1000000
-  },
-  {
     "provider": "OpenAI",
     "model": "gpt-5.4-image-2",
     "category": "LLM",
@@ -1689,7 +1701,7 @@
     "provider": "MiniMax",
     "model": "minimax-m2.5",
     "category": "LLM",
-    "context_window": 198000
+    "context_window": 65536
   },
   {
     "provider": "Z.ai",
@@ -2058,12 +2070,6 @@
     "context_window": 163840
   },
   {
-    "provider": "Mistral",
-    "model": "mistral-medium-3.1",
-    "category": "LLM",
-    "context_window": 131072
-  },
-  {
     "provider": "Z.ai",
     "model": "glm-4.5v",
     "category": "LLM",
@@ -2266,12 +2272,6 @@
     "model": "deepseek-r1-0528",
     "category": "LLM",
     "context_window": 163840
-  },
-  {
-    "provider": "Mistral",
-    "model": "mistral-medium-3",
-    "category": "LLM",
-    "context_window": 131072
   },
   {
     "provider": "Meta-Llama",
