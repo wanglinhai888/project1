@@ -318,24 +318,6 @@
     "context_window": 1048576
   },
   {
-    "provider": "Unbiased",
-    "model": "pareto-26.10",
-    "category": "LLM",
-    "context_window": 1048576
-  },
-  {
-    "provider": "~Unbiased",
-    "model": "pareto-latest",
-    "category": "LLM",
-    "context_window": 1048576
-  },
-  {
-    "provider": "Unbiased",
-    "model": "pareto-26.9",
-    "category": "LLM",
-    "context_window": 262144
-  },
-  {
     "provider": "Liquid",
     "model": "lfm-2.5-24b-a2b",
     "category": "LLM",
@@ -404,12 +386,6 @@
   {
     "provider": "Inclusionai",
     "model": "ling-3.1-flash",
-    "category": "LLM",
-    "context_window": 1048576
-  },
-  {
-    "provider": "Unbiased",
-    "model": "pareto-26.10-preview",
     "category": "LLM",
     "context_window": 1048576
   },
@@ -1554,6 +1530,12 @@
     "context_window": 262144
   },
   {
+    "provider": "Mistral",
+    "model": "mistral-small-2603:batch",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
     "provider": "Z.ai",
     "model": "glm-5-turbo",
     "category": "LLM",
@@ -1755,7 +1737,7 @@
     "provider": "Z.ai",
     "model": "glm-4.7-flash",
     "category": "LLM",
-    "context_window": 200000
+    "context_window": 131072
   },
   {
     "provider": "OpenAI",
@@ -1861,6 +1843,12 @@
   },
   {
     "provider": "Mistral",
+    "model": "ministral-8b-2512:batch",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
+    "provider": "Mistral",
     "model": "ministral-3b-2512",
     "category": "LLM",
     "context_window": 131072
@@ -1868,6 +1856,12 @@
   {
     "provider": "Mistral",
     "model": "mistral-large-2512",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
+    "provider": "Mistral",
+    "model": "mistral-large-2512:batch",
     "category": "LLM",
     "context_window": 262144
   },
@@ -2154,6 +2148,12 @@
     "context_window": 256000
   },
   {
+    "provider": "Mistral",
+    "model": "codestral-2508:batch",
+    "category": "LLM",
+    "context_window": 256000
+  },
+  {
     "provider": "Alibaba",
     "model": "qwen3-coder-30b-a3b-instruct",
     "category": "LLM",
@@ -2212,6 +2212,12 @@
     "model": "dolphin-mistral-24b-venice-edition",
     "category": "LLM",
     "context_window": 128000
+  },
+  {
+    "provider": "Tngtech",
+    "model": "deepseek-r1t2-chimera",
+    "category": "LLM",
+    "context_window": 131072
   },
   {
     "provider": "Morph",
