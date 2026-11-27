@@ -1,0 +1,27 @@
+{
+  "title": "AI 大模型价格日报：部分模型降价，新模型上线",
+  "meta_description": "今日AI大模型价格变动汇总，部分模型价格下调，新模型上线，了解最新价格动态。",
+  "keywords": "AI大模型, 价格变动, 降价, 涨价, 新模型, InclusionAI, DeepSeek, Alibaba, Meta, Google",
+  "article": "# AI 大模型价格日报\n\n## 涨价模型\n- **Deepseek deepseek-pro-latest**: 输入价从 $0.11 上涨至 $0.10，输出价从 $4.44 上涨至 $5.00。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-vision-exp**: 输入价从 $0.44 上涨至 $0.22，输出价从 $1.32 上涨至 $0.65。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Alibaba qwen3.8-27b**: 输入价从 $0.04 上涨至 $0.06，输出价从 $1.50 上涨至 $1.96。[官网](https://help.aliyun.com/zh/model-studio/models)\n- **DeepSeek deepseek-v4-pro-0813**: 输入价从 $0.11 上涨至 $0.10，输出价从 $4.44 上涨至 $5.00。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **DeepSeek deepseek-v4-flash-0731**: 输入价从 $0.06 上涨至 $0.05，输出价从 $0.18 上涨至 $0.30。[官网](https://api-docs.deepseek.com/quick_start/pricing)\n- **Kimi kimi-k2.5**: 输入价从 $0.50 上涨至 $0.60，输出价从 $2.50 上涨至 $3.00。[官网](https://platform.moonshot.cn/)\n- **Google gemma-3-4b-it**: 输入价从 $0.04 上涨至 $0.05，输出价从 $0.05 上涨至 $0.10。[官网](https://ai.google.dev/pricing)\n\n## 降价模型\n- **Meta muse-glimmer-30b**: 输入价从 $0.35 下降至 $0.30，输出价从 $1.50 下降至 $1.20。[官网](https://www.llama.com/)\n- **Meta-Llama llama-3.3-70b-instruct**: 输入价从 $0.71 下降至 $0.59，输出价从 $0.71 下降至 $0.79。[官网](https://www.llama.com/)\n\n## 新模型上线\n- **Inclusionai lingsante-3.1-air-vl**: 新模型上线。[官网](https://huggingface.co/inclusionAI)\n- **Kimi kimi-k2-0905**: 新模型上线。[官网](https://platform.moonshot.cn/)\n- **Kimi kimi-k2**: 新模型上线。[官网](https://platform.moonshot.cn/)\n\n## 行业观察\n今日AI大模型市场动态活跃，部分模型价格调整，新模型上线，反映出市场持续发展的态势。\n\n",
+  "faq": [
+    {
+      "q": "今日哪些模型降价？",
+      "a": "今日降价模型包括Meta的muse-glimmer-30b和Meta-Llama的llama-3.3-70b-instruct。"
+    },
+    {
+      "q": "今日哪些模型涨价？",
+      "a": "今日涨价模型包括Deepseek的deepseek-pro-latest、deepseek-v4-flash-vision-exp、deepseek-v4-pro-0813、deepseek-v4-flash-0731、Kimi的kimi-k2.5和Google的gemma-3-4b-it。"
+    },
+    {
+      "q": "新上线了哪些模型？",
+      "a": "今日新上线的模型包括InclusionAI的lingsante-3.1-air-vl、Kimi的kimi-k2-0905和kimi-k2。"
+    },
+    {
+      "q": "数据来源与更新频率是什么？",
+      "a": "数据来源于Codenav，实时价格表可访问[这里](https://www.codenav.cn/prices.html)。"
+    }
+  ],
+  "date": "2026-11-27",
+  "provider": "zhipu",
+  "model": "glm-4-flash"
+}

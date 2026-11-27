@@ -1,5 +1,11 @@
 [
   {
+    "provider": "Inclusionai",
+    "model": "lingsante-3.1-air-vl",
+    "category": "LLM",
+    "context_window": 131072
+  },
+  {
     "provider": "Upstage",
     "model": "solar-mini-4-5",
     "category": "LLM",
@@ -1995,7 +2001,7 @@
     "provider": "Z.ai",
     "model": "glm-4.6",
     "category": "LLM",
-    "context_window": 204800
+    "context_window": 202752
   },
   {
     "provider": "Anthropic",
@@ -2048,6 +2054,12 @@
   {
     "provider": "Alibaba",
     "model": "qwen3-next-80b-a3b-instruct",
+    "category": "LLM",
+    "context_window": 262144
+  },
+  {
+    "provider": "Kimi",
+    "model": "kimi-k2-0905",
     "category": "LLM",
     "context_window": 262144
   },
@@ -2206,6 +2218,12 @@
     "model": "qwen3-235b-a22b-2507",
     "category": "LLM",
     "context_window": 262144
+  },
+  {
+    "provider": "Kimi",
+    "model": "kimi-k2",
+    "category": "LLM",
+    "context_window": 131072
   },
   {
     "provider": "Cognitivecomputations",
