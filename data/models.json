@@ -114,6 +114,12 @@
     "context_window": 1000000
   },
   {
+    "provider": "Inclusionai",
+    "model": "ling-3.2-flash",
+    "category": "LLM",
+    "context_window": 1048576
+  },
+  {
     "provider": "Google",
     "model": "gemini-4-hydrogen",
     "category": "LLM",
@@ -867,7 +873,7 @@
     "provider": "Alibaba",
     "model": "qwen3.8-2.4t-a95b",
     "category": "LLM",
-    "context_window": 1048576
+    "context_window": 1000000
   },
   {
     "provider": "DeepSeek",
@@ -2188,12 +2194,6 @@
     "model": "glm-4.5-air",
     "category": "LLM",
     "context_window": 131072
-  },
-  {
-    "provider": "Alibaba",
-    "model": "qwen3-235b-a22b-thinking-2507",
-    "category": "LLM",
-    "context_window": 128000
   },
   {
     "provider": "Alibaba",
